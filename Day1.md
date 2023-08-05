@@ -7,7 +7,7 @@ we can write JS on the browsers JS console.to open a browsers console open a dev
 
 ## Coding Exercises
 
-### 1.[Compound Assignment With Augmented Multiplication](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication)
+1.### [Compound Assignment With Augmented Multiplication](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication)
 
 #### My Solution
 ```javascript
