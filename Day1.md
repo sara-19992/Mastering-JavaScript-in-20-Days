@@ -71,7 +71,7 @@ modify the HTML elements (add,update,remove)
   //return the node list of div elements
   document.querySelectorAll("div")
   ```
-  Every time refresh the page after making changes, the page returns as it was, in every reload the page, the browser creates a new DOM that is    
+  Every time refresh the page after making changes, the page returns as it was, in every reload of page, the browser creates a new DOM that is    
   generated from the source code of page. 
   
   
