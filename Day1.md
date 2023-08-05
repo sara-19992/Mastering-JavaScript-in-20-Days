@@ -6,6 +6,18 @@ we can write JS on the browsers JS console.to open a browsers console open a dev
 
 ## What is DOM
 Document Object Model is an object contains the structural of web page (HTML elements). 
+### Coding Examples
+
+```javascript
+//return the title of the current page
+document.title
+
+//return the body element
+document.body
+
+//return the collection of elements in the body  
+document.body.children
+```
 
 ## Coding Exercises
 
