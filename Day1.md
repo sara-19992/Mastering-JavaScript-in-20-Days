@@ -22,3 +22,28 @@ b *= 3;
 c *= 10;
 ```
 
+### [Concatenating Strings with the Plus Equals Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator)
+
+#### My Solution
+```javascript
+//Example 2 :  use the += operator
+let myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";
+
+//Print on console
+console.log(myStr);
+```
+### [Use Bracket Notation to Find the Nth-to-Last Character in a String](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-to-last-character-in-a-string)
+
+
+#### My Solution
+```javascript
+//Example 3 :  find the second-to-last character
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
+
+console.log(secondToLastLetterOfLastName);
+```
