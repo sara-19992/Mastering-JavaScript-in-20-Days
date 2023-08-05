@@ -1,7 +1,6 @@
-# What JS
-is the programming languages of the web it can be use to modifiy the website and interact with it
-monublating aweb bages run on server and browser side 
+# What is JS
+JavaScript is a web programming language that can be used to modify and interact with web pages.JS run on the server and browser side.
 
-we can write JS on Browsers js consol 
-to open a devloper browser tool right click and choose inspecet command then open consol tab 
-after entering some code and click enter the js will run and try to evaluate the code example 1 + 1 and then press enter return 2 on the consol 
+# Where to write JS
+we can write JS on the browsers JS console.to open a browsers console open a developer browser tool by right click > inspect then open console tab. 
+after entering some code on console and press on the enter button the JS will run the code and try to evaluate it.eg if we write 1 + 1 and then press enter return 2 on the console. 
