@@ -4,8 +4,8 @@ JavaScript is a web programming language that can be used to modify and interact
 ## Where to write JS
 we can write JS on the browsers JS console.to open a browsers console open a developer browsers tool by right click > inspect then open console tab. after entering some code on console and press on the enter button the JS will run the code and try to evaluate it.eg if we write 1+1 and then press enter return 2 on the console. 
 
-## Document Object Model (DOM)
-Document object model is an object contains the structural of web page (HTML elements). 
+## What is DOM
+Document Object Model is an object contains the structural of web page (HTML elements). 
 
 ## Coding Exercises
 
