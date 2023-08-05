@@ -2,7 +2,10 @@
 JavaScript is a web programming language that can be used to modify and interact with web pages.JS run on the server and browser side.
 
 ## Where to write JS
-we can write JS on the browsers JS console.to open a browsers console open a developer browsers tool by right click > inspect then open console tab. after entering some code on console and press on the enter button the JS will run the code and try to evaluate it. 
+we can write JS on the browsers JS console.to open a browsers console open a developer browsers tool by right click > inspect then open console tab. 
+
+after entering some code on console and press on the enter button the JS will run the code and try to evaluate it. 
+
 ### Coding Examples
 
 ```javascript
