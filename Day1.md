@@ -18,7 +18,13 @@ document.body
 //return the collection of elements in the body  
 document.body.children
 ```
-
+## Finding Elements in a Web Page
+ type of selectors to finding elements
+  1. ID
+  2. Name
+  3. Class Name
+  4. Tag Name
+       
 ## Coding Exercises
 
 ### 1.[Compound Assignment With Augmented Multiplication](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication)
