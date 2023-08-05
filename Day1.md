@@ -32,9 +32,9 @@ document.body.children
 ## Finding Elements in a Web Page
  type of selectors to finding elements
   1. Name
-  2.Tag Name
+  2. Tag Name
   3. ID (use # symbol)
-  5. Class Name (use . symbol) 
+  4. Class Name (use . symbol) 
 
  ### Coding Examples
 
