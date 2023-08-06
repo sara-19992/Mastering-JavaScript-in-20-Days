@@ -24,9 +24,9 @@ typeof "hey JS"
 typeof 54
 ```
 
- ### null vs undefined
+ ### Null vs Undefined
  
- ### string
+ ### String
  string is sequence of characters can write in :
  - double quotation 
  - single quotation 
@@ -108,4 +108,6 @@ expression ask JS for a value but statement tells JS to do something
 
 //a statement to log on the console
 console.log("hey JS");
+
+
 ```
