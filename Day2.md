@@ -23,5 +23,10 @@ typeof "hey JS"
 typeof 54
 ```
  ### null & undefined
+ ### string
+ string is sequence of characters can write in :
+ - double quotation (")
+ - single quotation (')
+ - back ticks (`)
 
  
