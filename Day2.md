@@ -22,7 +22,8 @@ typeof "hey JS"
 //return a number 
 typeof 54
 ```
- ### null & undefined
+ ### null vs undefined
+ 
  ### string
  string is sequence of characters can write in :
  - double quotation 
@@ -54,7 +55,7 @@ typeof 54
   1. Arithmetic operators (+,-, *, /)
   2. Comparison operator (>,<,==,!=,===,!==)
      
- ### strict equal & loosey goosey equel 
+ ### Strict equal vs Loosey goosey equal 
  strict equal (triple equal) === compare a same valuse and same type 
  loosey goosey equal (double equal) == convert to same type and just compare a same value 
  
@@ -66,4 +67,34 @@ typeof 54
 
 //return a false
 3 === "3"
+```
+### Declaring & Assigning Variables
+when declaration a variable and assign it to value, JS create this variable and pointed the variable to these value 
+keywords to declare Variables:
+ - var
+ - let
+ - const
+let and const keywords added in ES6
+the const keyword can just assigned to initial value in declaration once time but the let and var can be reassigned
+
+ ### Coding Examples
+
+```javascript
+//declare a variable then assign it 
+let firstName;
+firstName="Sarah";
+
+//declare a variable and assign it 
+let lastName="Sarah";
+```
+### Statements vs Expressions
+expression ask JS for a value but statement tells JS to do something 
+ ### Coding Examples
+
+```javascript
+//expression 
+10 + 7
+
+//a statement to log on the console
+console.log("hey JS");
 ```
