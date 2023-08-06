@@ -45,5 +45,24 @@ typeof 54
 //startsWith return a boolean data if the string start with a given string
 //return false
 "hey JS".startsWith("hel")
+
+//operator + use to concatenate a strings
+//return "hey JS"
+ "hey " + "JS"
 ```
+  ### operators
+  1. Arithmetic operators (+,-, *, /)
+  2. Comparison operator (>,<,==,!=,===,!==)
+ #### strict equal & loosey goosey equel 
+ strict equal (triple equal) === compare a same valuse and same type 
+ loosey goosey equal (double equal) == convert to same type and just compare a same value 
  
+  ### Coding Examples
+
+```javascript
+//return a true
+1 == "1"
+
+//return a false
+3 === "3"
+```
