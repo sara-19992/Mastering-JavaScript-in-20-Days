@@ -108,6 +108,20 @@ expression ask JS for a value but statement tells JS to do something
 
 //a statement to log on the console
 console.log("hey JS");
+```
 
+## Coding Exercises
 
+### 4.[Word Blanks](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/word-blanks)
+
+#### My Solution
+```javascript
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+// Only change code below this line
+const wordBlanks = myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb ; // Change this line
+// Only change code above this line
 ```
