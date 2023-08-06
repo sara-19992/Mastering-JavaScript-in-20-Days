@@ -1,7 +1,8 @@
 # Values & Data Types
 Value is units of information can be in different data type.
 
-
+	---
+ 
 ### JS has two type of data
 1. Primitive data types
     - string
