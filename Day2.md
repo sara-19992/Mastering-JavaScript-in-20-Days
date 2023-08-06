@@ -192,17 +192,48 @@ const lastName = "Lovelace";
 const thirdLetterOfLastName = lastName[2]; // Change this line
 ```
 
-### 11.[]()
+### 11.[Store Multiple Values in one Variable using JavaScript Arrays](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/store-multiple-values-in-one-variable-using-javascript-arrays)
+
+#### My Solution
+```javascript
+// Only change code below this line
+const myArray = ["peanut butter", 25, "bread"];
+```
+
+### 12.[Nest one Array within Another Array](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/nest-one-array-within-another-array)
+
+#### My Solution
+```javascript
+// Only change code below this line
+const myArray = [["Sarah",25], ["Maram",20], ["Nour",21]];
+```
+
+### 13.[]()
 
 #### My Solution
 ```javascript
 
 ```
 
-### 12.[]()
+### 14.[]()
 
 #### My Solution
 ```javascript
 
 ```
+
+### 15.[]()
+
+#### My Solution
+```javascript
+
+```
+
+### 16.[]()
+
+#### My Solution
+```javascript
+
+```
+
 
