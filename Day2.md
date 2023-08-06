@@ -5,9 +5,9 @@ Value is units of information can be in different data type.
 1. Primitive data types
 2. Objects
 
-# Primitive data types
-- string
-- number 
-- boolean
-- null
-- undefined
+   Primitive data types
+  - string
+  - number 
+  - boolean
+  - null
+  - undefined
