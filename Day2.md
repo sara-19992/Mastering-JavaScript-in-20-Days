@@ -222,7 +222,7 @@ console.log(a == b);
 // log true to the console double equal compare the values (0 equal 0) and ignore the type 
 
 console.log(b === c);
-// log false to the console triple equal compare the values and type, 0 is equal false as a value but the type string not equal a boolean type
+// log false to the console triple equal compare the values and type, 0 is equal false as a value but the type string does not equal a boolean type
 
 console.log(!!d);
 // log true to the console variable d is a not empty string consider as true then !(!true) is true 
@@ -247,3 +247,32 @@ let result = 5 + 2 * 3 - 1;
 // the result equal 10 
 ```
 
+### 4. QUESTION #4
+
+#### My Solution
+```javascript
+let x = 10;
+let y = '10';
+
+console.log(x == y);
+// log true to the console double equal compare the values (10 equal '10') and ignore the type (convert to the same type)
+
+console.log(x === y);
+// log false to the console triple equal compare the values and type, 10 is equal '10' as a value but the type string does not equal a type number 
+```
+### 5. QUESTION #5
+
+#### My Solution
+```javascript
+let num = "15";
+let isPositive = true;
+let result = (num > 10 && isPositive) || num < 0;
+console.log(result);
+
+// 15 > 10 evaluate to true
+// (true && true) is true
+// 10 < 0 evaluate to false
+// (true || false) is true
+// resule assign to true
+// log true to the console 
+```
