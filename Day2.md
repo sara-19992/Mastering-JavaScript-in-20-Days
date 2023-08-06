@@ -1,4 +1,4 @@
-## Values & Data Types
+# Values & Data Types
 Value is units of information can be in different data type.
 
 ### JS has two type of data
@@ -53,7 +53,7 @@ typeof 54
 ```
 
 
-  ## operators
+  ## Operators
   1. Arithmetic operators (+,-, *, /)
   2. Comparison operator (>,<,==,!=,===,!==)
      
@@ -70,6 +70,7 @@ typeof 54
 //return a false
 3 === "3"
 ```
+
 ## Declaring & Assigning Variables
 when declaration a variable and assign it to value, JS create this variable and pointed the variable to these value 
 keywords to declare Variables:
