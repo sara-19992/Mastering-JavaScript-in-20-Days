@@ -8,7 +8,20 @@ Value is units of information can be in different data type.
     - boolean
     - null
     - undefined
-3. Objects
+      
+2. Objects
 
-  Primitive data types
+ ### Coding Examples
+
+```javascript
+//typeof return the type of data as a string
+
+//return a string
+typeof "hey JS"
+
+//return a number 
+typeof 54
+```
+ ### null & undefined
+
  
