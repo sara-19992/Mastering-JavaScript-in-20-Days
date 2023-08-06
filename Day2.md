@@ -51,6 +51,8 @@ typeof 54
 //return "hey JS"
  "hey " + "JS"
 ```
+
+
   ## operators
   1. Arithmetic operators (+,-, *, /)
   2. Comparison operator (>,<,==,!=,===,!==)
