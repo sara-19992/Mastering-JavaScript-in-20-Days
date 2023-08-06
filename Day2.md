@@ -25,6 +25,8 @@ typeof 54
 ```
 
  ### Null vs Undefined
+ null is assigned value to variable means empty (non-exist).
+ undefined used when variable has not been assigned to value.
  
  ### String
  string is sequence of characters can write in :
@@ -232,7 +234,12 @@ console.log(!!d);
 
 #### My Solution
 ```javascript
-let result = 5 + 2 * 3 - 1;
+console.log(4 + 5 * "7");
+
+// in arthmatic operator e.g. *,/,- JS convert string to number
+// 5 * 7 = 35  mul has the highest priority over add
+// 4 + 35 = 39 add operator
+// log 39 on the console
 ```
 
 ### 3. QUESTION #3
@@ -241,7 +248,7 @@ let result = 5 + 2 * 3 - 1;
 ```javascript
 let result = 5 + 2 * 3 - 1;
 
-// 1. 2 * 3 = 6  mult the highest priority over add/sub
+// 1. 2 * 3 = 6  mult has the highest priority over add/sub
 // 2. 6 + 5 = 11 add and sub has same priority but the add operator come first in expression 
 // 3. 11 - 1 = 10 sub operator
 // the result equal 10 
@@ -271,7 +278,7 @@ console.log(result);
 
 // 15 > 10 evaluate to true
 // (true && true) is true
-// 10 < 0 evaluate to false
+// 15 < 0 evaluate to false
 // (true || false) is true
 // resule assign to true
 // log true to the console 
