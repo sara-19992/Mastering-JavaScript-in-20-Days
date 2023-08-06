@@ -51,7 +51,7 @@ typeof 54
 //return "hey JS"
  "hey " + "JS"
 ```
-  ### operators
+  ## operators
   1. Arithmetic operators (+,-, *, /)
   2. Comparison operator (>,<,==,!=,===,!==)
      
@@ -68,7 +68,7 @@ typeof 54
 //return a false
 3 === "3"
 ```
-### Declaring & Assigning Variables
+## Declaring & Assigning Variables
 when declaration a variable and assign it to value, JS create this variable and pointed the variable to these value 
 keywords to declare Variables:
  - var
