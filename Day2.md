@@ -208,38 +208,24 @@ const myArray = ["peanut butter", 25, "bread"];
 const myArray = [["Sarah",25], ["Maram",20], ["Nour",21]];
 ```
 
-### 13.[]()
+## QUESTION
+### 1. QUESTION #1
 
 #### My Solution
 ```javascript
+let a = 0;
+let b = "0";
+let c = false;
+let d = "false";
 
+console.log(a == b);
+// log true to the console double equal compare the values (0 equal 0) and ignore the type 
+
+console.log(b === c);
+// log false to the console triple equal compare the values and type, 0 is equal false as a value but the type string not equal a boolean type
+
+console.log(!!d);
+// log true to the console variable d is a not empty string consider as true then !(!true) is true 
 ```
 
-### 14.[]()
-
-#### My Solution
-```javascript
-
-```
-
-### 15.[]()
-
-#### My Solution
-```javascript
-
-```
-
-### 16.[]()
-
-#### My Solution
-```javascript
-
-```
-
-### 17.[]()
-
-#### My Solution
-```javascript
-
-```
 
