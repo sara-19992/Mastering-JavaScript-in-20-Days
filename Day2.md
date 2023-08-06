@@ -24,9 +24,12 @@ typeof "hey JS"
 typeof 54
 ```
 
+
  ### Null vs Undefined
  null is assigned value to variable means empty (non-exist).
+ 
  undefined used when variable has not been assigned to value.
+
  
  ### String
  string is sequence of characters can write in :
@@ -38,23 +41,25 @@ typeof 54
  ### Coding Examples
 
 ```javascript
-//indexOf return the index of the first char or substring given it and f does not find return -1
-//return a 4
-"hey JS".indexOf("J")
-//return a -1
-"hey JS".indexOf("H")
+ //indexOf return the index of the first char or substring given it and f does not find return -1
 
-//includes return a boolean data if the string contains a given string
-//return true
-"hey JS".includes("ey")
+ "hey JS".indexOf("J")
+ //return a 4
 
-//startsWith return a boolean data if the string start with a given string
-//return false
-"hey JS".startsWith("hel")
+ "hey JS".indexOf("H")
+ //return a -1
 
-//operator + use to concatenate a strings
-//return "hey JS"
+ //includes return a boolean data if the string contains a given string
+ "hey JS".includes("ey")
+ //return true
+
+ //startsWith return a boolean data if the string start with a given string
+ "hey JS".startsWith("hel")
+ //return false
+
+ //operator + use to concatenate a strings
  "hey " + "JS"
+ //return "hey JS"
 ```
 
 
@@ -71,15 +76,16 @@ typeof 54
   ### Coding Examples
 
 ```javascript
-//return a true
 1 == "1"
+//return a true
 
-//return a false
 3 === "3"
+//return a false
 ```
 
 ## Declaring & Assigning Variables
-when declaration a variable and assign it to value, JS create this variable and pointed the variable to these value 
+when declaration a variable and assign it to value, JS create this variable and pointed the variable to these value.
+
 keywords to declare Variables:
  - var
  - let
@@ -100,6 +106,7 @@ firstName="Sarah";
 //declare a variable and assign it 
 let lastName="Sarah";
 ```
+
 ### Statements vs Expressions
 expression ask JS for a value but statement tells JS to do something 
 ### Coding Examples
@@ -224,7 +231,7 @@ console.log(a == b);
 // log true to the console double equal compare the values (0 equal 0) and ignore the type 
 
 console.log(b === c);
-// log false to the console triple equal compare the values and type, 0 is equal false as a value but the type string does not equal a boolean type
+// log false to the console triple equal compare the values and type, 0 is equal false as a value but the type string does not equal a type boolean 
 
 console.log(!!d);
 // log true to the console variable d is a not empty string consider as true then !(!true) is true 
@@ -280,6 +287,6 @@ console.log(result);
 // (true && true) is true
 // 15 < 0 evaluate to false
 // (true || false) is true
-// resule assign to true
+// result assign to true
 // log true to the console 
 ```
