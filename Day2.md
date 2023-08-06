@@ -125,3 +125,80 @@ const myAdverb = "quickly";
 const wordBlanks = myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb ; // Change this line
 // Only change code above this line
 ```
+
+### 5.[Constructing Strings with Variables](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/constructing-strings-with-variables)
+
+#### My Solution
+```javascript
+// Only change code below this line
+const myName = "Sarah";
+const myStr = "My name is " + myName + "and I am well!";
+```
+
+### 6.[Appending Variables to Strings](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/appending-variables-to-strings)
+
+#### My Solution
+```javascript
+// Change code below this line
+const someAdjective = "good";
+let myStr = "Learning to code is ";
+myStr += someAdjective;
+```
+
+### 7.[Find the Length of a String](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/find-the-length-of-a-string)
+
+#### My Solution
+```javascript
+// Setup
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+// Only change code below this line
+lastNameLength = lastName.length;
+```
+
+### 8.[Use Bracket Notation to Find the First Character in a String](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-first-character-in-a-string)
+
+#### My Solution
+```javascript
+// Setup
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+
+// Only change code below this line
+firstLetterOfLastName = lastName[0]; // Change this line
+```
+
+### 9.[Understand String Immutability](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understand-string-immutability)
+
+#### My Solution
+```javascript
+// Setup
+let myStr = "Jello World";
+
+// Only change code below this line
+myStr = "Hello World"; // Change this line
+// Only change code above this line
+```
+
+### 10.[]()
+
+#### My Solution
+```javascript
+
+```
+
+### 11.[]()
+
+#### My Solution
+```javascript
+
+```
+
+### 12.[]()
+
+#### My Solution
+```javascript
+
+```
+
