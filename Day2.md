@@ -5,7 +5,7 @@ Value is units of information can be in different data type.
 1. Primitive data types
 2. Objects
 
-Primitive data types
+# Primitive data types
 - string
 - number 
 - boolean
