@@ -208,7 +208,7 @@ const myArray = ["peanut butter", 25, "bread"];
 const myArray = [["Sarah",25], ["Maram",20], ["Nour",21]];
 ```
 
-## QUESTION
+## QUESTIONS
 ### 1. QUESTION #1
 
 #### My Solution
@@ -228,4 +228,22 @@ console.log(!!d);
 // log true to the console variable d is a not empty string consider as true then !(!true) is true 
 ```
 
+### 2. QUESTION #2
+
+#### My Solution
+```javascript
+let result = 5 + 2 * 3 - 1;
+```
+
+### 3. QUESTION #3
+
+#### My Solution
+```javascript
+let result = 5 + 2 * 3 - 1;
+
+// 1. 2 * 3 = 6  mult the highest priority over add/sub
+// 2. 6 + 5 = 11 add and sub has same priority but the add operator come first in expression 
+// 3. 11 - 1 = 10 sub operator
+// the result equal 10 
+```
 
