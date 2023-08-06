@@ -75,8 +75,9 @@ keywords to declare Variables:
  - let
  - const
    
-let and const keywords added in ES6
-the const keyword can just assigned to initial value in declaration once time but the let and var can be reassigned
+let and const keywords added in ES6.
+
+the const keyword can just assigned to initial value in declaration once time but the let and var can be reassigned.
 
  ### Coding Examples
 
