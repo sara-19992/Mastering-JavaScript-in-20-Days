@@ -181,11 +181,15 @@ myStr = "Hello World"; // Change this line
 // Only change code above this line
 ```
 
-### 10.[]()
+### 10.[Use Bracket Notation to Find the Nth Character in a String](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-bracket-notation-to-find-the-nth-character-in-a-string)
 
 #### My Solution
 ```javascript
+// Setup
+const lastName = "Lovelace";
 
+// Only change code below this line
+const thirdLetterOfLastName = lastName[2]; // Change this line
 ```
 
 ### 11.[]()
