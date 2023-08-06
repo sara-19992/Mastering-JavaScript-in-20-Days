@@ -53,7 +53,8 @@ typeof 54
   ### operators
   1. Arithmetic operators (+,-, *, /)
   2. Comparison operator (>,<,==,!=,===,!==)
- #### strict equal & loosey goosey equel 
+     
+ ### strict equal & loosey goosey equel 
  strict equal (triple equal) === compare a same valuse and same type 
  loosey goosey equal (double equal) == convert to same type and just compare a same value 
  
