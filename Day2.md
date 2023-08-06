@@ -1,7 +1,7 @@
-# Values & Data Types
+## Values & Data Types
 Value is units of information can be in different data type.
 
-## JS has two type of data
+### JS has two type of data
 1. Primitive data types
     - string
     - number
@@ -91,7 +91,7 @@ let lastName="Sarah";
 ```
 ### Statements vs Expressions
 expression ask JS for a value but statement tells JS to do something 
- ### Coding Examples
+### Coding Examples
 
 ```javascript
 //expression 
