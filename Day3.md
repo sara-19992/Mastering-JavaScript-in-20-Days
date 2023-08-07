@@ -128,7 +128,7 @@ JS can wrote in html file in script tag (script element)
 
 ## Coding Exercises
 
-### .[Copy Array Items Using slice()](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/copy-array-items-using-slice)
+### 13.[Copy Array Items Using slice()](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/copy-array-items-using-slice)
 
 #### My Solution
 ```javascript
@@ -140,4 +140,16 @@ function forecast(arr) {
 
 // Only change code above this line
 console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));
+```
+### 14.[Combine Arrays with the Spread Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/combine-arrays-with-the-spread-operator)
+
+#### My Solution
+```javascript
+function spreadOut() {
+  let fragment = ['to', 'code'];
+  let sentence = ['learning', ...fragment , 'is', 'fun']; // Change this line
+  return sentence;
+}
+
+console.log(spreadOut());
 ```
