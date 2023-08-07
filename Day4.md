@@ -140,11 +140,26 @@
 ```javascript
 
 ```
-### 19.[]()
+### 19.[Understanding Undefined Value returned from a Function](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-undefined-value-returned-from-a-function)
 
 #### My Solution
 ```javascript
+// Setup
+let sum = 0;
 
+function addThree() {
+  sum = sum + 3;
+}
+
+// Only change code below this line
+function addFive(){
+  sum += 5;
+}
+
+// Only change code above this line
+
+addThree();
+addFive();
 ```
 ### 19.[Assignment with a Returned Value](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/assignment-with-a-returned-value)
 
