@@ -153,3 +153,61 @@ function spreadOut() {
 
 console.log(spreadOut());
 ```
+### 15.[Profile Lookup](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/profile-lookup)
+
+#### My Solution
+```javascript
+// Setup
+const contacts = [
+  {
+    firstName: "Akira",
+    lastName: "Laine",
+    number: "0543236543",
+    likes: ["Pizza", "Coding", "Brownie Points"],
+  },
+  {
+    firstName: "Harry",
+    lastName: "Potter",
+    number: "0994372684",
+    likes: ["Hogwarts", "Magic", "Hagrid"],
+  },
+  {
+    firstName: "Sherlock",
+    lastName: "Holmes",
+    number: "0487345643",
+    likes: ["Intriguing Cases", "Violin"],
+  },
+  {
+    firstName: "Kristian",
+    lastName: "Vos",
+    number: "unknown",
+    likes: ["JavaScript", "Gaming", "Foxes"],
+  },
+];
+
+function lookUpProfile(name, prop) {
+  // Only change code below this line 
+  for(let i=0;i<contacts.length;i++){
+    if(contacts[i].firstName === name){     
+     if(contacts[i][prop] === undefined) return "No such property"
+     else return contacts[i][prop];
+    }
+  }
+  return "No such contact";
+  
+  // Only change code above this line
+}
+```
+
+### 16.[Write Reusable JavaScript with Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions)
+
+#### My Solution
+```javascript
+//create a function
+function reusableFunction (){
+  console.log("Hi World");
+}
+
+//call the function
+reusableFunction();
+```
