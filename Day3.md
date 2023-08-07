@@ -25,6 +25,7 @@ console.log(arr[0]);
   - concat (create a new array and concatenate the two array together)
   - includes (if array contains a given item)
 
+ ### Coding Examples
 ```javascript
 //declare array
 const numbers = [1,2,3,7];
@@ -49,6 +50,28 @@ console.log(names.join(" , "));
 //log "aseel , nour , alaa"
 
 ```    
+
+### immutable vs mutable
+immutable cant be change (always stay the same)
+mutable cne be change
+
+string vs array 
+in array can change the item, in string can't change the items as array but can reassign the value of it 
+### Coding Examples
+
+```javascript
+
+const names = ["Ahmade","aseel","alaa"];
+names[0] = "wael";
+conole.log(names[0]);
+//log a new value "wael"
+
+let str = "duaa fd";
+str[0] = "a";
+
+console.log(arr[0]);
+//log "Ahmade" to the console
+```
 
     
     
