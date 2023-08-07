@@ -27,7 +27,14 @@ console.log(arr[0]);
 
 ```javascript
 //declare array
-const numbers = [1,2,3];
+const numbers = [1,2,3,7];
+
+let num=numbers.pop()
+console.log(num)
+//log 7
+
+console.log(numbers)
+//log [1,2,3]
 
 numbers.push(4);
 console.log(numbers);
