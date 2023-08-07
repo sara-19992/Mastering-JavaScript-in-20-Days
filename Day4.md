@@ -67,6 +67,145 @@
 ```javascript
 
 ```
+
+### 19.[]()
+
+#### My Solution
+```javascript
+
+```
+### 19.[]()
+
+#### My Solution
+```javascript
+
+```
+### 19.[]()
+
+#### My Solution
+```javascript
+
+```
+### 19.[]()
+
+#### My Solution
+```javascript
+
+```
+### 19.[]()
+
+#### My Solution
+```javascript
+
+```
+### 19.[]()
+
+#### My Solution
+```javascript
+
+```
+### 19.[]()
+
+#### My Solution
+```javascript
+
+```
+### 19.[]()
+
+#### My Solution
+```javascript
+
+```
+### 19.[]()
+
+#### My Solution
+```javascript
+
+```
+### 19.[]()
+
+#### My Solution
+```javascript
+
+```
+### 19.[]()
+
+#### My Solution
+```javascript
+
+```
+### 19.[]()
+
+#### My Solution
+```javascript
+
+```
+### 19.[]()
+
+#### My Solution
+```javascript
+
+```
+### 19.[]()
+
+#### My Solution
+```javascript
+
+```
+### 19.[]()
+
+#### My Solution
+```javascript
+
+```
+### 19.[]()
+
+#### My Solution
+```javascript
+
+```
+### 19.[]()
+
+#### My Solution
+```javascript
+
+```
+### 19.[]()
+
+#### My Solution
+```javascript
+
+```
+### 19.[]()
+
+#### My Solution
+```javascript
+
+```
+### 19.[]()
+
+#### My Solution
+```javascript
+
+```
+### 19.[]()
+
+#### My Solution
+```javascript
+
+```
+### 19.[]()
+
+#### My Solution
+```javascript
+
+```
+### 19.[]()
+
+#### My Solution
+```javascript
+
+```
 ### 19.[Comparison with the Greater Than Or Equal To Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-greater-than-or-equal-to-operator)
 
 #### My Solution
