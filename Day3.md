@@ -53,15 +53,14 @@ console.log(names.join(" , "));
 
 ### immutable vs mutable
 there are two type of data:
-  - immutable cant be change (always stay the same)
-  - mutable cne be change
+  1. immutable cant be change (always stay the same)
+  2. mutable cne be change
 
-let is a mutable can change it (reassign).
-
-const is immutable (declare and assign in the same time and can't change it).
-
-string vs array 
-in array can change the item, in string can't change the items as array but can reassign the value of it 
+- let and var is a mutable can change it (reassign)
+- const is immutable (declare and assign in the same time and can't change it)
+- array is a mutable can change the item
+- string is immutable can't change the items as array but can reassign the value of it
+  
 ### Coding Examples
 
 ```javascript
