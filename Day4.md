@@ -122,22 +122,61 @@
 ```javascript
 
 ```
-### 19.[]()
+### 19.[Global Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-scope-and-functions)
 
 #### My Solution
 ```javascript
+// Declare the myGlobal variable below this line
+const myGlobal = 10;
 
+function fun1() {
+  // Assign 5 to oopsGlobal here
+  oopsGlobal = 5;
+}
+
+// Only change code above this line
+
+function fun2() {
+  let output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
 ```
-### 19.[]()
+### 19.[Local Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/local-scope-and-functions)
 
 #### My Solution
 ```javascript
+function myLocalScope() {
+  // Only change code below this line
+  const myVar = "50";
+  console.log('inside myLocalScope', myVar);
+}
+myLocalScope();
 
+// Run and check the console
+// myVar is not defined outside of myLocalScope
+console.log('outside myLocalScope', myVar);
 ```
-### 19.[]()
+### 19.[Global vs. Local Scope in Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-vs--local-scope-in-functions)
 
 #### My Solution
 ```javascript
+// Setup
+const outerWear = "T-Shirt";
+
+function myOutfit() {
+  // Only change code below this line
+  const outerWear = "sweater";
+  // Only change code above this line
+  return outerWear;
+}
+
+myOutfit();
 
 ```
 ### 19.[Understanding Undefined Value returned from a Function](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-undefined-value-returned-from-a-function)
