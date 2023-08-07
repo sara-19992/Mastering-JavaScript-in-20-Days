@@ -67,9 +67,7 @@ for data type
 if declare a const array we can't reassign it but we can change the items in array because array is mutable  (const array itself can't be change but the item can be changed )
   
 ### Coding Examples
-
 ```javascript
-
 const names = ["Ahmade","aseel","alaa"];
 names[0] = "wael";
 console.log(names[0]);
@@ -79,8 +77,8 @@ let str = "duaa fd";
 str[0] = "a";
 console.log(str[0]);
 //log "d" because string is immutable  
-
 ```
+
 ## Objects
 object indicate by curly brackets has a properties and values, can reassign the property to new value and can assign new property to the object.
 property in object can be action (functions, methode)
@@ -94,9 +92,7 @@ to accesses value and add new property use:
 in array JS naming items with index number but in object naming items by string (property name) so in object can't accesses value by number
 
 ### Coding Examples
-
 ```javascript
-
 const person = {name:"alaa"};
 
 console.log(person.name);
@@ -109,15 +105,17 @@ console.log(person);
 this keyword use to refer back to the object
 
 object can within object (nested object, array in object, object in array, ...)
-```javascript
 
+### Coding Examples
+
+```javascript
 //objects in a array
 const persons =[{name:"alaa" ,age:45},{name:"nour" ,age:20}]
 
 console.log(persons[1]);
 //log {name:"nour" ,age:20}
-
 ```
+
 ## Built-in Object
 object that defined in JS language
  - DOM
