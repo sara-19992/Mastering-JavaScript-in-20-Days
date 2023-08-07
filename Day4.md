@@ -146,23 +146,52 @@
 ```javascript
 
 ```
-### 19.[]()
+### 19.[Assignment with a Returned Value](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/assignment-with-a-returned-value)
 
 #### My Solution
 ```javascript
+// Setup
+let processed = 0;
 
+function processArg(num) {
+  return (num + 3) / 5;
+}
+
+// Only change code below this line
+processed = processArg(7);
 ```
-### 19.[]()
+### 19.[Stand in Line](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/stand-in-line)
 
 #### My Solution
 ```javascript
+function nextInLine(arr, item) {
+  // Only change code below this line
+  arr.push(item);
+  item = arr.shift();
 
+  return item;
+  // Only change code above this line
+}
+
+// Setup
+let testArr = [1, 2, 3, 4, 5];
+
+// Display code
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
 ```
-### 19.[]()
+### 19.[Understanding Boolean Values](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-boolean-values)
 
 #### My Solution
 ```javascript
+function welcomeToBooleans() {
+  // Only change code below this line
 
+  return true; // Change this line
+
+  // Only change code above this line
+}
 ```
 ### 19.[Use Conditional Logic with If Statements](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-conditional-logic-with-if-statements)
 
