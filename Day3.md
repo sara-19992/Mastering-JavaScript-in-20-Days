@@ -52,8 +52,12 @@ console.log(names.join(" , "));
 ```    
 
 ### immutable vs mutable
-immutable cant be change (always stay the same)
-mutable cne be change
+there are two type of data:
+  - immutable cant be change (always stay the same)
+  - mutable cne be change
+
+let is a mutable can change it (reassign)
+const is immutable (declare and assign in the same time and can't change it)
 
 string vs array 
 in array can change the item, in string can't change the items as array but can reassign the value of it 
@@ -68,9 +72,9 @@ conole.log(names[0]);
 
 let str = "duaa fd";
 str[0] = "a";
+console.log(str[0]);
+//log "d" because string is immutable  
 
-console.log(arr[0]);
-//log "Ahmade" to the console
 ```
 
     
