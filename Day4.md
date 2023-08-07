@@ -164,17 +164,35 @@
 ```javascript
 
 ```
-### 19.[]()
+### 19.[Use Conditional Logic with If Statements](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-conditional-logic-with-if-statements)
 
 #### My Solution
 ```javascript
+function trueOrFalse(wasThatTrue) {
+  // Only change code below this line
+  if(wasThatTrue) {
+    return "Yes, that was true";
+  }
+  return "No, that was false";
+  
 
+  // Only change code above this line
+
+}
 ```
-### 19.[]()
+### 19.[Comparison with the Equality Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
 
 #### My Solution
 ```javascript
+// Setup
+function testEqual(val) {
+  if (val == 12) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
 
+testEqual(10);
 ```
 ### 19.[Comparison with the Strict Equality Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-strict-equality-operator)
 
