@@ -56,10 +56,15 @@ there are two type of data:
   1. immutable cant be change (always stay the same)
   2. mutable cne be change
 
+for variable
 - let and var is a mutable can change it (reassign)
 - const is immutable (declare and assign in the same time and can't change it)
-- array is a mutable can change the item
+
+for data type  
+- array is a mutable can change the items
 - string is immutable can't change the items as array but can reassign the value of it
+
+if declare a const array we can't reassign it but we can change the items in array because array is mutable  
   
 ### Coding Examples
 
