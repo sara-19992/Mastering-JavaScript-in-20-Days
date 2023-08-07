@@ -211,3 +211,40 @@ function reusableFunction (){
 //call the function
 reusableFunction();
 ```
+
+### 17.[Understanding Undefined Value returned from a Function](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-undefined-value-returned-from-a-function)
+
+#### My Solution
+```javascript
+// Setup
+let sum = 0;
+
+function addThree() {
+  sum = sum + 3;
+}
+
+// Only change code below this line
+function addFive(){
+  sum += 5;
+}
+
+// Only change code above this line
+
+addThree();
+addFive();
+```
+
+
+### 18.[Return a Value from a Function with Return](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/return-a-value-from-a-function-with-return)
+
+#### My Solution
+```javascript
+//create function
+function timesFive(num){
+  return num *= 5;
+}
+
+console.log(timesFive(4));
+//log 20
+```
+
