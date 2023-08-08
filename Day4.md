@@ -1,14 +1,11 @@
 ### 19.[Access Array Data with Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/access-array-data-with-indexes)
-
 #### My Solution
 ```javascript
 const myArray = [50, 60, 70];
 console.log(myArray[0]);
 const myData  = myArray[0];
 ```
-
 ### 20.[Modify Array Data With Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/modify-array-data-with-indexes)
-
 #### My Solution
 ```javascript
 // Setup
@@ -17,9 +14,7 @@ const myArray = [18, 64, 99];
 // Only change code below this line
 myArray[0] = 45;
 ```
-
 ### 21.[Access Multi-Dimensional Arrays With Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/access-multi-dimensional-arrays-with-indexes)
-
 #### My Solution
 ```javascript
 const myArray = [
@@ -32,7 +27,6 @@ const myArray = [
 const myData = myArray[2][1];
 ```
 ### 22.[Manipulate Arrays With push Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-push)
-
 #### My Solution
 ```javascript
 // Setup
@@ -42,7 +36,6 @@ const myArray = [["John", 23], ["cat", 2]];
 myArray.push(["dog",3]);
 ```
 ### 23.[Manipulate Arrays With pop Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-pop)
-
 #### My Solution
 ```javascript
 // Setup
@@ -52,7 +45,6 @@ const myArray = [["John", 23], ["cat", 2]];
 const removedFromMyArray = myArray.pop();
 ```
 ### 24.[Manipulate Arrays With shift Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-shift)
-
 #### My Solution
 ```javascript
 // Setup
@@ -62,7 +54,6 @@ const myArray = [["John", 23], ["dog", 3]];
 const removedFromMyArray = myArray.shift();
 ```
 ### 25.[Manipulate Arrays With unshift Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-unshift)
-
 #### My Solution
 ```javascript
 // Setup
@@ -73,7 +64,6 @@ myArray.shift();
 myArray.unshift(["Paul", 35]);
 ```
 ### 26.[Shopping List](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/shopping-list)
-
 #### My Solution
 ```javascript
 const myList = [["chips",5],["milk",10],["pasta",1],["ice cream",4],["chocolate",2]];
