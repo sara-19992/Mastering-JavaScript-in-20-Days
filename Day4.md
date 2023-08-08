@@ -1,67 +1,13 @@
-### 19.[]()
+### 19.[Access Array Data with Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/access-array-data-with-indexes)
 
 #### My Solution
 ```javascript
-
+const myArray = [50, 60, 70];
+console.log(myArray[0]);
+const myData  = myArray[0];
 ```
 
-### 19.[]()
-
-#### My Solution
-```javascript
-
-```
-
-### 19.[]()
-
-#### My Solution
-```javascript
-
-```
-
-### 19.[]()
-
-#### My Solution
-```javascript
-
-```
-
-### 19.[]()
-
-#### My Solution
-```javascript
-
-```
-
-### 19.[]()
-
-#### My Solution
-```javascript
-
-```
-
-### 19.[]()
-
-#### My Solution
-```javascript
-
-```
-
-### 19.[]()
-
-#### My Solution
-```javascript
-
-```
-
-### 19.[]()
-
-#### My Solution
-```javascript
-
-```
-
-### 19.[Modify Array Data With Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/modify-array-data-with-indexes)
+### 20.[Modify Array Data With Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/modify-array-data-with-indexes)
 
 #### My Solution
 ```javascript
@@ -72,7 +18,7 @@ const myArray = [18, 64, 99];
 myArray[0] = 45;
 ```
 
-### 19.[Access Multi-Dimensional Arrays With Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/access-multi-dimensional-arrays-with-indexes)
+### 21.[Access Multi-Dimensional Arrays With Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/access-multi-dimensional-arrays-with-indexes)
 
 #### My Solution
 ```javascript
