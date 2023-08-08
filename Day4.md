@@ -126,7 +126,7 @@ addEventListener function listen for events take two parameters :
  2. handler function calls when event happened
   
 ## Coding Exercises
-### 30.[Global Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-scope-and-functions)
+### 19.[Global Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-scope-and-functions)
 #### My Solution
 ```javascript
 // Declare the myGlobal variable below this line
@@ -150,7 +150,7 @@ function fun2() {
   console.log(output);
 }
 ```
-### 31.[Local Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/local-scope-and-functions)
+### 20.[Local Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/local-scope-and-functions)
 #### My Solution
 ```javascript
 function myLocalScope() {
@@ -164,7 +164,7 @@ myLocalScope();
 // myVar is not defined outside of myLocalScope
 console.log('outside myLocalScope', myVar);
 ```
-### 32.[Global vs. Local Scope in Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-vs--local-scope-in-functions)
+### 21.[Global vs. Local Scope in Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-vs--local-scope-in-functions)
 #### My Solution
 ```javascript
 // Setup
@@ -179,7 +179,7 @@ function myOutfit() {
 
 myOutfit();
 ```
-### 35.[Stand in Line](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/stand-in-line)
+### 22.[Stand in Line](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/stand-in-line)
 #### My Solution
 ```javascript
 function nextInLine(arr, item) {
@@ -199,14 +199,14 @@ console.log("Before: " + JSON.stringify(testArr));
 console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
 ```
-### 19.[Access Array Data with Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/access-array-data-with-indexes)
+### 23.[Access Array Data with Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/access-array-data-with-indexes)
 #### My Solution
 ```javascript
 const myArray = [50, 60, 70];
 console.log(myArray[0]);
 const myData  = myArray[0];
 ```
-### 20.[Modify Array Data With Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/modify-array-data-with-indexes)
+### 24.[Modify Array Data With Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/modify-array-data-with-indexes)
 #### My Solution
 ```javascript
 // Setup
@@ -215,7 +215,7 @@ const myArray = [18, 64, 99];
 // Only change code below this line
 myArray[0] = 45;
 ```
-### 21.[Access Multi-Dimensional Arrays With Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/access-multi-dimensional-arrays-with-indexes)
+### 25.[Access Multi-Dimensional Arrays With Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/access-multi-dimensional-arrays-with-indexes)
 #### My Solution
 ```javascript
 const myArray = [
@@ -227,7 +227,7 @@ const myArray = [
 
 const myData = myArray[2][1];
 ```
-### 22.[Manipulate Arrays With push Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-push)
+### 26.[Manipulate Arrays With push Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-push)
 #### My Solution
 ```javascript
 // Setup
@@ -236,7 +236,7 @@ const myArray = [["John", 23], ["cat", 2]];
 // Only change code below this line
 myArray.push(["dog",3]);
 ```
-### 23.[Manipulate Arrays With pop Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-pop)
+### 27.[Manipulate Arrays With pop Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-pop)
 #### My Solution
 ```javascript
 // Setup
@@ -245,7 +245,7 @@ const myArray = [["John", 23], ["cat", 2]];
 // Only change code below this line
 const removedFromMyArray = myArray.pop();
 ```
-### 24.[Manipulate Arrays With shift Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-shift)
+### 28.[Manipulate Arrays With shift Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-shift)
 #### My Solution
 ```javascript
 // Setup
@@ -254,7 +254,7 @@ const myArray = [["John", 23], ["dog", 3]];
 // Only change code below this line
 const removedFromMyArray = myArray.shift();
 ```
-### 25.[Manipulate Arrays With unshift Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-unshift)
+### 29.[Manipulate Arrays With unshift Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-unshift)
 #### My Solution
 ```javascript
 // Setup
@@ -264,12 +264,12 @@ myArray.shift();
 // Only change code below this line
 myArray.unshift(["Paul", 35]);
 ```
-### 26.[Shopping List](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/shopping-list)
+### 30.[Shopping List](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/shopping-list)
 #### My Solution
 ```javascript
 const myList = [["chips",5],["milk",10],["pasta",1],["ice cream",4],["chocolate",2]];
 ```
-### 27.[Write Reusable JavaScript with Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions)
+### 31.[Write Reusable JavaScript with Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions)
 #### My Solution
 ```javascript
 //create a function
@@ -280,7 +280,7 @@ function reusableFunction (){
 //call the function
 reusableFunction();
 ```
-### 28.[Passing Values to Functions with Arguments](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/passing-values-to-functions-with-arguments)
+### 32.[Passing Values to Functions with Arguments](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/passing-values-to-functions-with-arguments)
 #### My Solution
 ```javascript
 function functionWithArgs(num1,num2){
@@ -289,7 +289,7 @@ function functionWithArgs(num1,num2){
 
 functionWithArgs(7,5);
 ```
-### 29.[Return a Value from a Function with Return](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/return-a-value-from-a-function-with-return)
+### 33.[Return a Value from a Function with Return](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/return-a-value-from-a-function-with-return)
 #### My Solution
 ```javascript
 //create function
@@ -300,10 +300,7 @@ function timesFive(num){
 console.log(timesFive(4));
 //log 20
 ```
-
-
-
-### 33.[Understanding Undefined Value returned from a Function](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-undefined-value-returned-from-a-function)
+### 34.[Understanding Undefined Value returned from a Function](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-undefined-value-returned-from-a-function)
 #### My Solution
 ```javascript
 // Setup
@@ -323,7 +320,7 @@ function addFive(){
 addThree();
 addFive();
 ```
-### 34.[Assignment with a Returned Value](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/assignment-with-a-returned-value)
+### 35.[Assignment with a Returned Value](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/assignment-with-a-returned-value)
 #### My Solution
 ```javascript
 // Setup
@@ -563,19 +560,4 @@ function testElseIf(val) {
 }
 
 testElseIf(7);
-```
-### 50.[]()
-#### My Solution
-```javascript
-
-```
-### 50.[]()
-#### My Solution
-```javascript
-
-```
-### 50.[]()
-#### My Solution
-```javascript
-
 ```
