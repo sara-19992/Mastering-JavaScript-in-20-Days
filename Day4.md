@@ -9,7 +9,7 @@ function logHi(){
   console.log("hey JS");
 }
 ```
-Parameters & Arguments 
+## Parameters & Arguments 
 arguments is values that  passed to the function
 parameters is a variable in a function  definition
 some function don't need any value to work (no parameters)
