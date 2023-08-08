@@ -9,7 +9,7 @@ function logHi(){
   console.log("hey JS");
 }
 ```
-## Parameters & Arguments 
+### Parameters & Arguments 
 arguments is values that  passed to the function but parameters is a variable in a function  definition
 some function don't need any value to work (no parameters)
 
@@ -33,7 +33,7 @@ console.log(add(3,5,6));
 //log undefined
 
 ```
-## Functions return 
+### Functions return 
 output of function that getting back by using a return keyword 
 some function don't use return keyword 
 each functions return implicit value undefined expects function use a return keyword
@@ -58,7 +58,7 @@ console.log(num );
 //log undefined)
 
 ```
-declare functions 
+### Declare functions 
 - normal named function (function keyword) 
 - unnamed function (assign function to variable )
 - arrow function => unnamed function is quick way to write small code function just returned a value without any complicated.if take one parameter parentheses are optional for multiple parameters the parentheses required.if need to complete code and doing something use { } curly braces
@@ -78,7 +78,7 @@ const sub = function (num1 ,num2){
 const multi = (num1 ,num2) => num1 * num2;
 
 ```
-Scope
+## Scope
 JS care where and when declare variable
  1. Global scope widest scope
  2. Function scope each function has new own scope
@@ -117,7 +117,7 @@ console.log(str2);
 //log nour
 ```
 
-Events 
+## Events 
 make page interactive,there a different kind of events (click,dbClick,mouseout)
 event Object has some detailed about event handled
 
