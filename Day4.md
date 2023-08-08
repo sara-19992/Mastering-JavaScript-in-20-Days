@@ -86,17 +86,26 @@
 ```javascript
 
 ```
-### 19.[]()
+### 19.[Manipulate Arrays With shift Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-shift)
 
 #### My Solution
 ```javascript
+// Setup
+const myArray = [["John", 23], ["dog", 3]];
 
+// Only change code below this line
+const removedFromMyArray = myArray.shift();
 ```
-### 19.[]()
+### 19.[Manipulate Arrays With unshift Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-unshift)
 
 #### My Solution
 ```javascript
+// Setup
+const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
 
+// Only change code below this line
+myArray.unshift(["Paul", 35]);
 ```
 ### 19.[Shopping List](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/shopping-list)
 
