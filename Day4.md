@@ -1,3 +1,133 @@
+## Functions
+- values are things
+- variables pointed to things 
+- functions doing things 
+ ### Coding Examples
+```javascript
+//declare function
+function logHi(){
+  console.log("hey JS");
+}
+```
+Parameters & Arguments 
+arguments is values that  passed to the function
+parameters is a variable in a function  definition
+some function don't need any value to work (no parameters)
+
+JS don't mind called function with missing or extra arguments (set to undefined)
+ ### Coding Examples
+```javascript
+//add function
+function add(num1 ,num2){
+  return num1 + num2 ;
+}
+
+const sum = add(3,5);
+console.log(sum);
+//log 8
+
+
+console.log(add(3));
+//log NaN (number + undefined)
+
+console.log(add(3,5,6));
+//log undefined
+
+```
+Functions return 
+output of function that getting back by using a return keyword 
+some function don't use return keyword 
+each functions return implicit value undefined expects function use a return keyword
+
+unreachable code is code after return statement
+ ### Coding Examples
+```javascript
+
+function multi(num1 ,num2){
+  const num = num1 * num2;
+  return num;
+  //unreachable code below this line
+  console.log(num);
+}
+
+function sub(num1 ,num2){
+  console.log(num1 - num2);
+}
+
+const num = sub(3,5);
+console.log(num );
+//log undefined)
+
+```
+declare functions 
+- normal named function (function keyword) 
+- unnamed function (assign function to variable )
+- arrow function => unnamed function is quick way to write small code function just returned a value without any complicated.if take one parameter parentheses are optional for multiple parameters the parentheses required.if need to complete code and doing something use { } curly braces
+```javascript
+//named function
+function sum(num1 ,num2){
+  const num = num1 + num2;
+  return num;
+}
+
+//assign function to variable
+const sub = function (num1 ,num2){
+  console.log(num1 - num2);
+}
+
+//arrow function
+const multi = (num1 ,num2) => num1 * num2;
+
+```
+Scope
+JS care where and when declare variable
+ 1. Global scope widest scope
+ 2. Function scope each function has new own scope
+ 3. Block scope using our curly braces
+
+the outside scope can't see the inner scops, but the inner scope can see the outside scope
+global scope can't see variables in function scope 
+
+let vs var
+let and var variable in inner scope can assign outer scope variable but var keyword has different scoping role than let,
+if let keyword create a variable in inner scope with same named a global scope variable,let create a new variable different from variable in global scope
+but var keyword not create a new variable it change the value in the global scope variable.
+const like let but can't reaasign it 
+
+### Coding Examples
+```javascript
+declare functions 
+- normal named function (function keyword) 
+- unnamed function (assign function to variable )
+- arrow function => unnamed function is quick way to write small code function just returned a value without any complicated.if take one parameter parentheses are optional for multiple parameters the parentheses required.if need to complete code and doing something use { } curly braces
+```javascript
+//a global scope variable
+let str1 = "hey JS";
+var str2 = "ahmade";
+
+{
+//a block scope variable
+  let str1 = "text";
+  var str2 = "nour";
+}
+
+console.log(str1);
+//log hey JS
+
+console.log(str2);
+//log nour
+```
+
+Events 
+make page interactive,there a different kind of events (click,dbClick,mouseout)
+event Object has some detailed about event handled
+
+addEventListener function listen for events take two parameters :
+ 1. name of event to listen to it
+ 2. handler function calls when event happened
+ 
+ 
+
 ### 19.[Access Array Data with Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/access-array-data-with-indexes)
 #### My Solution
 ```javascript
