@@ -10,8 +10,8 @@ function logHi(){
 }
 ```
 ## Parameters & Arguments 
-- arguments is values that  passed to the function
-- parameters is a variable in a function  definition
+ arguments : is values that  passed to the function
+ parameters : is a variable in a function  definition
 some function don't need any value to work (no parameters)
 
 JS don't mind called function with missing or extra arguments (set to undefined)
