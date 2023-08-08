@@ -11,9 +11,9 @@ function logHi(){
 ```
 ### Parameters & Arguments 
 arguments is values that  passed to the function but parameters is a variable in a function  definition
-some function don't need any value to work (no parameters)
+some function don't need any value to work (no parameters).
 
-JS don't mind called function with missing or extra arguments (set to undefined)
+JS don't mind called function with missing or extra arguments (set to undefined).
  ### Coding Examples
 ```javascript
 //add function
@@ -76,7 +76,7 @@ const sub = function (num1 ,num2){
 //arrow function
 const multi = (num1 ,num2) => num1 * num2;
 ```
-arrow function if take one parameter parentheses are optional for multiple parameters the parentheses required.if need to complete code and doing something use { } curly braces
+arrow function if take one parameter parentheses are optional for multiple parameters the parentheses required.if need to complete code and doing something use { } curly braces.
 
 ## Scope
 JS care where and when declare variable
@@ -85,13 +85,13 @@ JS care where and when declare variable
  3. Block scope using our curly braces
 
 the outside scope can't see the inner scops, but the inner scope can see the outside scope
-global scope can't see variables in function scope 
+global scope can't see variables in function scope. 
 
 ### let vs var
 let and var variable in inner scope can assign outer scope variable but var has different scoping role than let,
 if let keyword create a variable in inner scope with same named a global scope variable,let create a new variable different from variable in global scope. but var not create a new variable it change the value in the global scope variable (reassign it).
 
-const like let but can't reaasign it 
+const like let but can't reaasign it. 
 
 ### Coding Examples
 ```javascript
@@ -124,8 +124,8 @@ event Object has some detailed about event handled
 addEventListener function listen for events take two parameters :
  1. name of event to listen to it
  2. handler function calls when event happened
- 
- 
+  
+## Coding Exercises
 
 ### 19.[Access Array Data with Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/access-array-data-with-indexes)
 #### My Solution
