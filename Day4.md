@@ -34,8 +34,7 @@ console.log(add(3,5,6));
 
 ```
 ### Functions return 
-output of function that getting back by using a return keyword 
-some function don't use return keyword 
+the output of function that getting back by using a return keyword and some function don't use return keyword 
 each functions return implicit value undefined expects function use a return keyword
 
 unreachable code is code after return statement
@@ -59,9 +58,9 @@ console.log(num );
 
 ```
 ### Declare functions 
-- normal named function (function keyword) 
-- unnamed function (assign function to variable )
-- arrow function => unnamed function is quick way to write small code function just returned a value without any complicated.if take one parameter parentheses are optional for multiple parameters the parentheses required.if need to complete code and doing something use { } curly braces
+1. normal named function (function keyword) 
+2. unnamed function (assign function to variable )
+3. arrow function => unnamed function is quick way to write small code function just returned a value without any complicated.if take one parameter parentheses are optional for multiple parameters the parentheses required.if need to complete code and doing something use { } curly braces
 ```javascript
 //named function
 function sum(num1 ,num2){
