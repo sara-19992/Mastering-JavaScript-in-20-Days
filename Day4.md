@@ -33,7 +33,7 @@ console.log(add(3,5,6));
 //log undefined
 
 ```
-Functions return 
+## Functions return 
 output of function that getting back by using a return keyword 
 some function don't use return keyword 
 each functions return implicit value undefined expects function use a return keyword
