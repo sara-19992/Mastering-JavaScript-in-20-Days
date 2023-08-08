@@ -61,8 +61,6 @@ console.log(num );
 1. normal named function (function keyword) 
 2. unnamed function (assign function to variable )
 3. arrow function => unnamed function is quick way to write small code function just returned a value without any complicated
-
-arrow function if take one parameter parentheses are optional for multiple parameters the parentheses required.if need to complete code and doing something use { } curly braces
 ```javascript
 //named function
 function sum(num1 ,num2){
@@ -77,8 +75,9 @@ const sub = function (num1 ,num2){
 
 //arrow function
 const multi = (num1 ,num2) => num1 * num2;
-
 ```
+arrow function if take one parameter parentheses are optional for multiple parameters the parentheses required.if need to complete code and doing something use { } curly braces
+
 ## Scope
 JS care where and when declare variable
  1. Global scope widest scope
@@ -91,6 +90,7 @@ global scope can't see variables in function scope
 ### let vs var
 let and var variable in inner scope can assign outer scope variable but var has different scoping role than let,
 if let keyword create a variable in inner scope with same named a global scope variable,let create a new variable different from variable in global scope. but var not create a new variable it change the value in the global scope variable (reassign it).
+
 const like let but can't reaasign it 
 
 ### Coding Examples
