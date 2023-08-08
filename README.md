@@ -19,7 +19,7 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
  - [Basic JavaScript Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/divide-one-decimal-by-another-with-javascript) 50
 
 
-## Daily Learning Process 💻🤔🧠
+## Daily Learning Process 💻🤔
 1. Each day, you will watch 90 minutes of the assigned courses listed above.
 2. Solve all the JavaScript coding challenges that will be provided by the GSG team.
 3. Summarize your daily learning and document your challenge solutions on a separate readme page.
