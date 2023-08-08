@@ -61,30 +61,49 @@
 
 ```
 
-### 19.[]()
+### 19.[Modify Array Data With Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/modify-array-data-with-indexes)
 
 #### My Solution
 ```javascript
+// Setup
+const myArray = [18, 64, 99];
 
+// Only change code below this line
+myArray[0] = 45;
 ```
 
-### 19.[]()
+### 19.[Access Multi-Dimensional Arrays With Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/access-multi-dimensional-arrays-with-indexes)
 
 #### My Solution
 ```javascript
+const myArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+];
 
+const myData = myArray[2][1];
 ```
-### 19.[]()
+### 19.[Manipulate Arrays With push Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-push)
 
 #### My Solution
 ```javascript
+// Setup
+const myArray = [["John", 23], ["cat", 2]];
 
+// Only change code below this line
+myArray.push(["dog",3]);
 ```
-### 19.[]()
+### 19.[Manipulate Arrays With pop Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-pop)
 
 #### My Solution
 ```javascript
+// Setup
+const myArray = [["John", 23], ["cat", 2]];
 
+// Only change code below this line
+const removedFromMyArray = myArray.pop();
 ```
 ### 19.[Manipulate Arrays With shift Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-shift)
 
