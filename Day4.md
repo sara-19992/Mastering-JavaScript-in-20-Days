@@ -126,7 +126,79 @@ addEventListener function listen for events take two parameters :
  2. handler function calls when event happened
   
 ## Coding Exercises
+### 30.[Global Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-scope-and-functions)
+#### My Solution
+```javascript
+// Declare the myGlobal variable below this line
+const myGlobal = 10;
 
+function fun1() {
+  // Assign 5 to oopsGlobal here
+  oopsGlobal = 5;
+}
+
+// Only change code above this line
+
+function fun2() {
+  let output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
+```
+### 31.[Local Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/local-scope-and-functions)
+#### My Solution
+```javascript
+function myLocalScope() {
+  // Only change code below this line
+  const myVar = "50";
+  console.log('inside myLocalScope', myVar);
+}
+myLocalScope();
+
+// Run and check the console
+// myVar is not defined outside of myLocalScope
+console.log('outside myLocalScope', myVar);
+```
+### 32.[Global vs. Local Scope in Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-vs--local-scope-in-functions)
+#### My Solution
+```javascript
+// Setup
+const outerWear = "T-Shirt";
+
+function myOutfit() {
+  // Only change code below this line
+  const outerWear = "sweater";
+  // Only change code above this line
+  return outerWear;
+}
+
+myOutfit();
+```
+### 35.[Stand in Line](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/stand-in-line)
+#### My Solution
+```javascript
+function nextInLine(arr, item) {
+  // Only change code below this line
+  arr.push(item);
+  item = arr.shift();
+
+  return item;
+  // Only change code above this line
+}
+
+// Setup
+let testArr = [1, 2, 3, 4, 5];
+
+// Display code
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
+```
 ### 19.[Access Array Data with Indexes](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/access-array-data-with-indexes)
 #### My Solution
 ```javascript
@@ -228,60 +300,9 @@ function timesFive(num){
 console.log(timesFive(4));
 //log 20
 ```
-### 30.[Global Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-scope-and-functions)
-#### My Solution
-```javascript
-// Declare the myGlobal variable below this line
-const myGlobal = 10;
 
-function fun1() {
-  // Assign 5 to oopsGlobal here
-  oopsGlobal = 5;
-}
 
-// Only change code above this line
 
-function fun2() {
-  let output = "";
-  if (typeof myGlobal != "undefined") {
-    output += "myGlobal: " + myGlobal;
-  }
-  if (typeof oopsGlobal != "undefined") {
-    output += " oopsGlobal: " + oopsGlobal;
-  }
-  console.log(output);
-}
-```
-### 31.[Local Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/local-scope-and-functions)
-#### My Solution
-```javascript
-function myLocalScope() {
-  // Only change code below this line
-  const myVar = "50";
-  console.log('inside myLocalScope', myVar);
-}
-myLocalScope();
-
-// Run and check the console
-// myVar is not defined outside of myLocalScope
-console.log('outside myLocalScope', myVar);
-```
-### 32.[Global vs. Local Scope in Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-vs--local-scope-in-functions)
-#### My Solution
-```javascript
-// Setup
-const outerWear = "T-Shirt";
-
-function myOutfit() {
-  // Only change code below this line
-  const outerWear = "sweater";
-  // Only change code above this line
-  return outerWear;
-}
-
-myOutfit();
-
-```
 ### 33.[Understanding Undefined Value returned from a Function](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-undefined-value-returned-from-a-function)
 #### My Solution
 ```javascript
@@ -315,26 +336,7 @@ function processArg(num) {
 // Only change code below this line
 processed = processArg(7);
 ```
-### 35.[Stand in Line](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/stand-in-line)
-#### My Solution
-```javascript
-function nextInLine(arr, item) {
-  // Only change code below this line
-  arr.push(item);
-  item = arr.shift();
 
-  return item;
-  // Only change code above this line
-}
-
-// Setup
-let testArr = [1, 2, 3, 4, 5];
-
-// Display code
-console.log("Before: " + JSON.stringify(testArr));
-console.log(nextInLine(testArr, 6));
-console.log("After: " + JSON.stringify(testArr));
-```
 ### 36.[Understanding Boolean Values](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-boolean-values)
 #### My Solution
 ```javascript
