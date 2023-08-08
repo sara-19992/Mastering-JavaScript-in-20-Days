@@ -98,29 +98,45 @@
 ```javascript
 
 ```
-### 19.[]()
+### 19.[Shopping List](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/shopping-list)
 
 #### My Solution
 ```javascript
-
+const myList = [["chips",5],["milk",10],["pasta",1],["ice cream",4],["chocolate",2]];
 ```
-### 19.[]()
+### 19.[Write Reusable JavaScript with Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions)
 
 #### My Solution
 ```javascript
+//create a function
+function reusableFunction (){
+  console.log("Hi World");
+}
 
+//call the function
+reusableFunction();
 ```
-### 19.[]()
+### 19.[Passing Values to Functions with Arguments](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/passing-values-to-functions-with-arguments)
 
 #### My Solution
 ```javascript
+function functionWithArgs(num1,num2){
+ console.log(num1 + num2);
+}
 
+functionWithArgs(7,5);
 ```
-### 19.[]()
+### 19.[Return a Value from a Function with Return](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/return-a-value-from-a-function-with-return)
 
 #### My Solution
 ```javascript
+//create function
+function timesFive(num){
+  return num *= 5;
+}
 
+console.log(timesFive(4));
+//log 20
 ```
 ### 19.[Global Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-scope-and-functions)
 
