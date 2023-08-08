@@ -31,7 +31,7 @@ const myArray = [
 
 const myData = myArray[2][1];
 ```
-### 19.[Manipulate Arrays With push Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-push)
+### 22.[Manipulate Arrays With push Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-push)
 
 #### My Solution
 ```javascript
@@ -41,7 +41,7 @@ const myArray = [["John", 23], ["cat", 2]];
 // Only change code below this line
 myArray.push(["dog",3]);
 ```
-### 19.[Manipulate Arrays With pop Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-pop)
+### 23.[Manipulate Arrays With pop Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-pop)
 
 #### My Solution
 ```javascript
@@ -51,7 +51,7 @@ const myArray = [["John", 23], ["cat", 2]];
 // Only change code below this line
 const removedFromMyArray = myArray.pop();
 ```
-### 19.[Manipulate Arrays With shift Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-shift)
+### 24.[Manipulate Arrays With shift Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-shift)
 
 #### My Solution
 ```javascript
@@ -61,7 +61,7 @@ const myArray = [["John", 23], ["dog", 3]];
 // Only change code below this line
 const removedFromMyArray = myArray.shift();
 ```
-### 19.[Manipulate Arrays With unshift Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-unshift)
+### 25.[Manipulate Arrays With unshift Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulate-arrays-with-unshift)
 
 #### My Solution
 ```javascript
@@ -72,7 +72,7 @@ myArray.shift();
 // Only change code below this line
 myArray.unshift(["Paul", 35]);
 ```
-### 19.[Shopping List](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/shopping-list)
+### 26.[Shopping List](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/shopping-list)
 
 #### My Solution
 ```javascript
