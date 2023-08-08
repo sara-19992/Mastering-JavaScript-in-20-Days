@@ -68,8 +68,7 @@ myArray.unshift(["Paul", 35]);
 ```javascript
 const myList = [["chips",5],["milk",10],["pasta",1],["ice cream",4],["chocolate",2]];
 ```
-### 19.[Write Reusable JavaScript with Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions)
-
+### 27.[Write Reusable JavaScript with Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions)
 #### My Solution
 ```javascript
 //create a function
@@ -80,8 +79,7 @@ function reusableFunction (){
 //call the function
 reusableFunction();
 ```
-### 19.[Passing Values to Functions with Arguments](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/passing-values-to-functions-with-arguments)
-
+### 28.[Passing Values to Functions with Arguments](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/passing-values-to-functions-with-arguments)
 #### My Solution
 ```javascript
 function functionWithArgs(num1,num2){
@@ -90,8 +88,7 @@ function functionWithArgs(num1,num2){
 
 functionWithArgs(7,5);
 ```
-### 19.[Return a Value from a Function with Return](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/return-a-value-from-a-function-with-return)
-
+### 29.[Return a Value from a Function with Return](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/return-a-value-from-a-function-with-return)
 #### My Solution
 ```javascript
 //create function
@@ -102,8 +99,7 @@ function timesFive(num){
 console.log(timesFive(4));
 //log 20
 ```
-### 19.[Global Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-scope-and-functions)
-
+### 30.[Global Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-scope-and-functions)
 #### My Solution
 ```javascript
 // Declare the myGlobal variable below this line
@@ -127,8 +123,7 @@ function fun2() {
   console.log(output);
 }
 ```
-### 19.[Local Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/local-scope-and-functions)
-
+### 31.[Local Scope and Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/local-scope-and-functions)
 #### My Solution
 ```javascript
 function myLocalScope() {
@@ -142,8 +137,7 @@ myLocalScope();
 // myVar is not defined outside of myLocalScope
 console.log('outside myLocalScope', myVar);
 ```
-### 19.[Global vs. Local Scope in Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-vs--local-scope-in-functions)
-
+### 32.[Global vs. Local Scope in Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/global-vs--local-scope-in-functions)
 #### My Solution
 ```javascript
 // Setup
@@ -159,8 +153,7 @@ function myOutfit() {
 myOutfit();
 
 ```
-### 19.[Understanding Undefined Value returned from a Function](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-undefined-value-returned-from-a-function)
-
+### 33.[Understanding Undefined Value returned from a Function](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-undefined-value-returned-from-a-function)
 #### My Solution
 ```javascript
 // Setup
@@ -180,8 +173,7 @@ function addFive(){
 addThree();
 addFive();
 ```
-### 19.[Assignment with a Returned Value](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/assignment-with-a-returned-value)
-
+### 34.[Assignment with a Returned Value](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/assignment-with-a-returned-value)
 #### My Solution
 ```javascript
 // Setup
@@ -194,8 +186,7 @@ function processArg(num) {
 // Only change code below this line
 processed = processArg(7);
 ```
-### 19.[Stand in Line](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/stand-in-line)
-
+### 35.[Stand in Line](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/stand-in-line)
 #### My Solution
 ```javascript
 function nextInLine(arr, item) {
@@ -215,8 +206,7 @@ console.log("Before: " + JSON.stringify(testArr));
 console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
 ```
-### 19.[Understanding Boolean Values](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-boolean-values)
-
+### 36.[Understanding Boolean Values](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/understanding-boolean-values)
 #### My Solution
 ```javascript
 function welcomeToBooleans() {
@@ -227,8 +217,7 @@ function welcomeToBooleans() {
   // Only change code above this line
 }
 ```
-### 19.[Use Conditional Logic with If Statements](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-conditional-logic-with-if-statements)
-
+### 37.[Use Conditional Logic with If Statements](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-conditional-logic-with-if-statements)
 #### My Solution
 ```javascript
 function trueOrFalse(wasThatTrue) {
@@ -243,8 +232,7 @@ function trueOrFalse(wasThatTrue) {
 
 }
 ```
-### 19.[Comparison with the Equality Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
-
+### 38.[Comparison with the Equality Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-equality-operator)
 #### My Solution
 ```javascript
 // Setup
@@ -257,8 +245,7 @@ function testEqual(val) {
 
 testEqual(10);
 ```
-### 19.[Comparison with the Strict Equality Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-strict-equality-operator)
-
+### 39.[Comparison with the Strict Equality Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-strict-equality-operator)
 #### My Solution
 ```javascript
 // Setup
@@ -271,8 +258,7 @@ function testStrict(val) {
 
 testStrict(10);
 ```
-### 19.[Practice comparing different values](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/practice-comparing-different-values)
-
+### 40.[Practice comparing different values](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/practice-comparing-different-values)
 #### My Solution
 ```javascript
 // Setup
@@ -285,8 +271,7 @@ function compareEquality(a, b) {
 
 compareEquality(10, "10");
 ```
-### 19.[Comparison with the Inequality Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-inequality-operator)
-
+### 41.[Comparison with the Inequality Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-inequality-operator)
 #### My Solution
 ```javascript
 // Setup
@@ -299,8 +284,7 @@ function testNotEqual(val) {
 
 testNotEqual(10);
 ```
-### 19.[Comparison with the Strict Inequality Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-strict-inequality-operator)
-
+### 42.[Comparison with the Strict Inequality Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-strict-inequality-operator)
 #### My Solution
 ```javascript
 // Setup
@@ -313,8 +297,7 @@ function testStrictNotEqual(val) {
 
 testStrictNotEqual(10);
 ```
-### 19.[Comparison with the Greater Than Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-greater-than-operator)
-
+### 43.[Comparison with the Greater Than Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-greater-than-operator)
 #### My Solution
 ```javascript
 function testGreaterThan(val) {
@@ -331,8 +314,7 @@ function testGreaterThan(val) {
 
 testGreaterThan(10);
 ```
-### 19.[Comparison with the Greater Than Or Equal To Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-greater-than-or-equal-to-operator)
-
+### 44.[Comparison with the Greater Than Or Equal To Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-greater-than-or-equal-to-operator)
 #### My Solution
 ```javascript
 function testGreaterOrEqual(val) {
@@ -349,8 +331,7 @@ function testGreaterOrEqual(val) {
 
 testGreaterOrEqual(10);
 ```
-### 19.[Comparison with the Less Than Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-less-than-operator)
-
+### 45.[Comparison with the Less Than Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-less-than-operator)
 #### My Solution
 ```javascript
 function testLessThan(val) {
@@ -367,8 +348,7 @@ function testLessThan(val) {
 
 testLessThan(10);
 ```
-### 19.[Comparison with the Less Than Or Equal To Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-less-than-or-equal-to-operator)
-
+### 46.[Comparison with the Less Than Or Equal To Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparison-with-the-less-than-or-equal-to-operator)
 #### My Solution
 ```javascript
 function testLessOrEqual(val) {
@@ -385,8 +365,7 @@ function testLessOrEqual(val) {
 
 testLessOrEqual(10);
 ```
-### 19.[Comparisons with the Logical And Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparisons-with-the-logical-and-operator)
-
+### 47.[Comparisons with the Logical And Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparisons-with-the-logical-and-operator)
 #### My Solution
 ```javascript
 function testLogicalAnd(val) {
@@ -402,8 +381,7 @@ function testLogicalAnd(val) {
 
 testLogicalAnd(10);
 ```
-### 19.[Comparisons with the Logical Or Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparisons-with-the-logical-or-operator)
-
+### 48.[Comparisons with the Logical Or Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comparisons-with-the-logical-or-operator)
 #### My Solution
 ```javascript
 function testLogicalOr(val) {
