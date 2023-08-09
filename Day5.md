@@ -861,22 +861,41 @@ function updateRecords(records, id, prop, value) {
 
 updateRecords(recordCollection, 2548, "artist", "")
 ```
-### 77.[]()
+### 77.[Iterate with JavaScript While Loops](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-while-loops)
 #### My Solution
 ```javascript
+// Setup
+const myArray = [];
+
+// Only change code below this line
+while(myArray.length <= 5){
+  myArray.push(5 - myArray.length);  
+}
 
 ```
-### 78.[]()
+### 78.[Iterate with JavaScript For Loops](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-for-loops)
 #### My Solution
 ```javascript
+// Setup
+const myArray = [];
 
+// Only change code below this line
+for(let i = 0; i < 5; i++){
+  myArray.push(i+1);
+}
 ```
-### 79.[]()
+### 79.[Iterate Odd Numbers With a For Loop](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/iterate-odd-numbers-with-a-for-loop)
 #### My Solution
 ```javascript
+// Setup
+const myArray = [];
 
+// Only change code below this line
+for(let i = 1; i < 10 ; i += 2){
+  myArray.push(i);
+}
 ```
-### 80.[]()
+### 80.[Count Backwards With a For Loop]()
 #### My Solution
 ```javascript
 
