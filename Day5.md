@@ -937,10 +937,18 @@ function multiplyAll(arr) {
 
 multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
 ```
-### 83.[Iterate with JavaScript Do...While Loops]()
+### 83.[Iterate with JavaScript Do...While Loops](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/iterate-with-javascript-do---while-loops)
 #### My Solution
 ```javascript
+// Setup
+const myArray = [];
+let i = 10;
 
+// Only change code below this line
+do{
+  myArray.push(i);
+  i++;
+}while (i < 5)
 ```
 ### 84.[]()
 #### My Solution
