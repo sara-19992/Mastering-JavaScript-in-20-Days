@@ -10,7 +10,7 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
 - **Objective:** Improve JavaScript proficiency through daily learning and practice 🧑🏃💪
 
 
-## Courses #####📚
+## Courses **📚**
  - [JavaScript: From First Steps to Professional](https://frontendmasters.com/courses/javascript-first-steps/)
  - [JavaScript: The Hard Parts, v2](https://frontendmasters.com/courses/javascript-hard-parts-v2/)
  - [Deep JavaScript Foundations, v3](https://frontendmasters.com/courses/deep-javascript-v3/)
