@@ -73,4 +73,9 @@ spread the items around can use :
 2. pass array items as arguments
    
 ### Random
-use to return a random number between 0 and 1. use floor() function to return integer number from random methode after multiply it by the range of random number we need.
+use to return a random number between. the random function return a number between 0 and 1 to convert returned value to integer multiply the returned value by the range of number we need then use floor() function to return a close integer number equal or less than number.
+
+## Asynchronous vs Synchronous
+
+synchronous meanning execute the code one by one,each line of code waits for previous line to get executed then it gets executed.
+asynchronous JS can't do multiple tasks at the same time and when give JS a task that take time JS not stop and wait this task add this task to list and keep runing other tasks and run this task some time later 
