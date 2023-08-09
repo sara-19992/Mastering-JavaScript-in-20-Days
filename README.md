@@ -10,7 +10,7 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
 - **Objective:** Improve JavaScript proficiency through daily learning and practice 🧑🏃💪
 
 
-## Courses 💻👨‍🏫 
+## Courses 
  - [JavaScript: From First Steps to Professional](https://frontendmasters.com/courses/javascript-first-steps/)
  - [JavaScript: The Hard Parts, v2](https://frontendmasters.com/courses/javascript-hard-parts-v2/)
  - [Deep JavaScript Foundations, v3](https://frontendmasters.com/courses/deep-javascript-v3/)
@@ -19,7 +19,7 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
  - [Basic JavaScript Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/divide-one-decimal-by-another-with-javascript) 50
 
 
-## Daily Learning Process 
+## Daily Learning Process 💻👩‍💻🕙
 1. Each day, you will watch 90 minutes of the assigned courses listed above.
 2. Solve all the JavaScript coding challenges that will be provided by the GSG team.
 3. Summarize your daily learning and document your challenge solutions on a separate readme page.
@@ -27,7 +27,7 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
 
 
 
-## Guidelines 
+## Guidelines 📢
 - Commit to a consistent schedule and allocate sufficient time each day to complete the learning activities.
 - Take notes, document your progress, and maintain a personal learning log throughout the challenge.
 - Experiment, explore, and don't be afraid to make mistakes. Learning comes from both successes and failures.
