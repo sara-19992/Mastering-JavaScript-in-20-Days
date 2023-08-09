@@ -404,10 +404,27 @@ const filteredList = mapList.filter(film => Number(film.rating) >= 8)
 
 console.log(filteredList);
 ```
-### 54.[]()
+### 54.[Golf Code](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/golf-code)
 #### My Solution
 ```javascript
+const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
 
+function golfScore(par, strokes) {
+  // Only change code below this line
+  let str = "";
+  if(strokes === 1)str = "Hole-in-one!";
+  else if (strokes <= par - 2)str = "Eagle";
+  else if (strokes === par - 1)str = "Birdie";
+  else if (strokes === par)str = "Par";
+  else if (strokes === par + 1)str = "Bogey";
+  else if (strokes === par + 2)str = "Double Bogey";
+  else if (strokes >= par + 3)str = "Go Home!";
+  
+  return str;
+  // Only change code above this line
+}
+
+golfScore(5, 4);
 ```
 ### 55.[]()
 #### My Solution
