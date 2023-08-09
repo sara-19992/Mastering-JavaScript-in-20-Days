@@ -426,8 +426,82 @@ function golfScore(par, strokes) {
 
 golfScore(5, 4);
 ```
-### 55.[]()
+### 55.[Logical Order in If Else Statements](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/logical-order-in-if-else-statements)
+#### My Solution
+```javascript
+function orderMyLogic(val) {
+  if (val < 5) {
+    return "Less than 5";
+  } else if (val < 10) {
+    return "Less than 10";
+  } else {
+    return "Greater than or equal to 10";
+  }
+}
+
+orderMyLogic(4);
+```
+### 56.[Chaining If Else Statements](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/chaining-if-else-statements)
+#### My Solution
+```javascript
+function testSize(num) {
+  // Only change code below this line
+  let str = ""; 
+  if(num < 5)str = "Tiny";
+  else if(num < 10)str = "Small";
+  else if(num < 15)str = "Medium";
+  else if(num < 20)str = "Large";
+  else if(num >= 20)str = "Huge";      
+  return str;
+  // Only change code above this line
+}
+
+testSize(7);
+```
+### 57.[Selecting from Many Options with Switch Statements](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/selecting-from-many-options-with-switch-statements)
+#### My Solution
+```javascript
+function caseInSwitch(val) {
+  let answer = "";
+  // Only change code below this line
+   switch(val){
+     case 1: 
+       answer = "alpha";
+       break;
+     case 2: 
+       answer = "beta";
+       break;
+     case 3:
+       answer = "gamma";
+       break;
+     case 4: 
+       answer = "delta";
+       break;
+   }
+  // Only change code above this line
+  return answer;
+}
+
+caseInSwitch(1);
+```
+### 58.[]()
 #### My Solution
 ```javascript
 
 ```
+### 59.[]()
+#### My Solution
+```javascript
+
+```
+### 60.[]()
+#### My Solution
+```javascript
+
+```
+### 61.[]()
+#### My Solution
+```javascript
+
+```
+
