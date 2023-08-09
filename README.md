@@ -10,7 +10,7 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
 - **Objective:** Improve JavaScript proficiency through daily learning and practice 🧑🏃💪
 
 
-## Courses 📚💻👨‍🏫
+## Courses 📚
  - [JavaScript: From First Steps to Professional](https://frontendmasters.com/courses/javascript-first-steps/)
  - [JavaScript: The Hard Parts, v2](https://frontendmasters.com/courses/javascript-hard-parts-v2/)
  - [Deep JavaScript Foundations, v3](https://frontendmasters.com/courses/deep-javascript-v3/)
@@ -19,7 +19,7 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
  - [Basic JavaScript Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/divide-one-decimal-by-another-with-javascript) 50
 
 
-## Daily Learning Process 💻🤔
+## Daily Learning Process 🤔💻👨‍🏫
 1. Each day, you will watch 90 minutes of the assigned courses listed above.
 2. Solve all the JavaScript coding challenges that will be provided by the GSG team.
 3. Summarize your daily learning and document your challenge solutions on a separate readme page.
@@ -39,3 +39,4 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
 -  [**Day 2 🔥**](https://github.com/sara-19992/Mastering-JavaScript-in-20-Days/blob/main/Day2.md)
 -  [**Day 3 🔥**](https://github.com/sara-19992/Mastering-JavaScript-in-20-Days/blob/main/Day3.md)
 -  [**Day 4 🔥**](https://github.com/sara-19992/Mastering-JavaScript-in-20-Days/blob/main/Day4.md)
+-  [**Day 5 🔥**](https://github.com/sara-19992/Mastering-JavaScript-in-20-Days/blob/main/Day5.md)
