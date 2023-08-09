@@ -568,37 +568,70 @@ function chainToSwitch(val) {
 
 chainToSwitch(7);
 ```
-### 61.[]()
+### 61.[Returning Boolean Values from Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/returning-boolean-values-from-functions)
+#### My Solution
+```javascript
+function isLess(a, b) {
+  // Only change code below this line
+  return a < b;
+  // Only change code above this line
+}
+
+isLess(10, 15);
+```
+### 62.[Return Early Pattern for Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/return-early-pattern-for-functions)
+#### My Solution
+```javascript
+// Setup
+function abTest(a, b) {
+  // Only change code below this line
+ if(a < 0 ||  b < 0)return; 
+  
+
+  // Only change code above this line
+
+  return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+}
+
+abTest(2,2);
+```
+### 63.[Counting Cards](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/counting-cards)
+#### My Solution
+```javascript
+let count = 0;
+
+function cc(card) {
+  // Only change code below this line
+  const a1 = [2, 3, 4, 5, 6];
+  const a2 = [7, 8, 9];
+  const a3 = [10, 'J', 'Q', 'K', 'A'];
+
+  if(a1.includes(card))count += 1;
+  else if (a2.includes(card))count += 0;
+  else if (a3.includes(card))count += -1;
+
+  return count > 0 ?`${count} Bet`:`${count} Hold`;
+  // Only change code above this line
+}
+
+cc(2); cc(3); cc(7); cc('K'); cc('A');
+```
+### 64.[]()
 #### My Solution
 ```javascript
 
 ```
-### 61.[]()
+### 65.[]()
 #### My Solution
 ```javascript
 
 ```
-### 61.[]()
+### 66.[]()
 #### My Solution
 ```javascript
 
 ```
-### 61.[]()
-#### My Solution
-```javascript
-
-```
-### 61.[]()
-#### My Solution
-```javascript
-
-```
-### 61.[]()
-#### My Solution
-```javascript
-
-```
-### 61.[]()
+### 67.[]()
 #### My Solution
 ```javascript
 
