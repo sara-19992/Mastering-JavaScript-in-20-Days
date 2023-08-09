@@ -1112,13 +1112,24 @@ console.log(myConcat([1, 2], [3, 4, 5]));
 const increment = (number, value = 1) => number + value;
 // Only change code above this linea
 ```
-### 99.[]()
+### 99.[Use the Rest Parameter with Function Parameters](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/use-the-rest-parameter-with-function-parameters)
 #### My Solution
 ```javascript
-const magic = () => new Date();
+const sum = (...args) => {
+  let total = 0;
+  for (let i = 0; i < args.length; i++) {
+    total += args[i];
+  }
+  return total;
+}
 ```
-### 100.[]()
+### 100.[Use the Spread Operator to Evaluate Arrays In-Place](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/use-the-spread-operator-to-evaluate-arrays-in-place)
 #### My Solution
 ```javascript
-const magic = () => new Date();
+const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
+let arr2;
+
+arr2 = [...arr1];  // Change this line
+
+console.log(arr2);
 ```
