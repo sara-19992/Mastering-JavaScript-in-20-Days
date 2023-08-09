@@ -28,5 +28,8 @@ JS determine if value of variables true or false
   - Null array is true (object is the true value)
   - Number if zero is false
   - Null and undefined are false
+
+### Logical & Ternary Operators
+
     
 
