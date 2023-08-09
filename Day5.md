@@ -950,25 +950,45 @@ do{
   i++;
 }while (i < 5)
 ```
-### 84.[]()
+### 84.[Replace Loops using Recursion](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/replace-loops-using-recursion)
 #### My Solution
 ```javascript
-
+function sum(arr, n) {
+  // Only change code below this line
+  if(n === 0){
+    return 0;
+  }
+  else {
+    return sum(arr, n - 1) + arr[n - 1];
+  }
+  // Only change code above this line
+}
 ```
-### 85.[]()
+### 85.[Generate Random Fractions with JavaScript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/generate-random-fractions-with-javascript)
 #### My Solution
 ```javascript
+function randomFraction() {
 
+  // Only change code below this line
+
+  return Math.random();
+
+  // Only change code above this line
+}
 ```
-### 86.[]()
+### 86.[Generate Random Whole Numbers with JavaScript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/generate-random-whole-numbers-with-javascript)
 #### My Solution
 ```javascript
-
+function randomWholeNum() {
+  return Math.floor(Math.random() * 10);
+}
 ```
-### 87.[]()
+### 87.[Generate Random Whole Numbers within a Range](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/generate-random-whole-numbers-within-a-range)
 #### My Solution
 ```javascript
-
+function randomRange(myMin, myMax) {
+  return Math.floor(Math.random()*(myMax - myMin + 1) + myMin);
+}
 ```
 ### 88.[]()
 #### My Solution
