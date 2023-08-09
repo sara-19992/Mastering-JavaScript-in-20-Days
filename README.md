@@ -16,7 +16,7 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
  - [Deep JavaScript Foundations, v3](https://frontendmasters.com/courses/deep-javascript-v3/)
 
 ## Coding Challenges 💪
- - [Basic JavaScript Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/divide-one-decimal-by-another-with-javascript) 50
+ - [Basic JavaScript Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/divide-one-decimal-by-another-with-javascript) 92
 
 
 ## Daily Learning Process 💻👩‍💻🕙
