@@ -36,7 +36,7 @@ JS determine if value of variables true or false
 ### Coding Examples
 ```javascript
 function between(x){
-  if(x > 5 &&  < 10
+  if(x > 5 && x < 10){
     console.log(x, "between 5 & 10");
   }else{
     console.log(x, "not between 5 & 10");
@@ -51,6 +51,26 @@ between(8);
 const s = 6 > 2 ? "number 1 grater" : "number 2 grater";
 console.log(s);
 //log number 1 grater
-
 ```
+### Loops
+execute same code of multiple times 
+1. for loop
+2. for of loop (loop in each item in collection)
+3. while loop until condition is trueloop until condition is true
+   
+array and string are iteratbles (can iterat over them)
 
+## Map & Filter
+methods use to process items in the array
+- map create new array with do something on each item in array
+- filter create new array with items which return true (filter out the item)
+
+backticks allow to add variable in string by us ${}
+
+### Spread (...) 
+spread the items around can use :
+1. concatenate arrays
+2. pass array items as arguments
+   
+### Random
+use to return a random number between 0 and 1. use floor() function to return integer number from random methode after multiply it by the range of random number we need.
