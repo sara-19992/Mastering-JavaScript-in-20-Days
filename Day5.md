@@ -990,9 +990,40 @@ function randomRange(myMin, myMax) {
   return Math.floor(Math.random()*(myMax - myMin + 1) + myMin);
 }
 ```
-### 88.[]()
+### 88.[Use the parseInt Function](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-the-parseint-function)
+#### My Solution
+```javascript
+function convertToInteger(str) {
+ return parseInt(str);
+}
+
+convertToInteger("56");
+```
+### 89.[Use the parseInt Function with a Radix](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-the-parseint-function-with-a-radix)
+#### My Solution
+```javascript
+function convertToInteger(str) {
+  return parseInt(str,2);
+}
+
+convertToInteger("10011");
+```
+### 90.[Use the Conditional (Ternary) Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-the-conditional-ternary-operator)
+#### My Solution
+```javascript
+function checkEqual(a, b) {
+ return a === b ? 'Equal' : 'Not Equal';
+}
+
+checkEqual(1, 2);
+```
+### 91.[]()
 #### My Solution
 ```javascript
 
 ```
+### 92.[]()
+#### My Solution
+```javascript
 
+```
