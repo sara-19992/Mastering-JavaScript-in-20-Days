@@ -616,22 +616,90 @@ function cc(card) {
 
 cc(2); cc(3); cc(7); cc('K'); cc('A');
 ```
-### 64.[]()
+### 64.[Build JavaScript Objects](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/build-javascript-objects)
+#### My Solution
+```javascript
+const myDog = {
+  // Only change code below this line
+  name: 'df',
+  legs: 4,
+  tails: 20,
+  friends: ['d','a','b'] 
+  // Only change code above this line
+};
+```
+### 65.[Accessing Object Properties with Dot Notation](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/accessing-object-properties-with-dot-notation)
+#### My Solution
+```javascript
+// Setup
+const testObj = {
+  "hat": "ballcap",
+  "shirt": "jersey",
+  "shoes": "cleats"
+};
+
+// Only change code below this line
+const hatValue = testObj.hat;      // Change this line
+const shirtValue = testObj.shirt;    // Change this line
+```
+### 66.[Accessing Object Properties with Bracket Notation](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/accessing-object-properties-with-bracket-notation)
+#### My Solution
+```javascript
+// Setup
+const testObj = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+  "the drink": "water"
+};
+
+// Only change code below this line
+const entreeValue = testObj["an entree"];   // Change this line
+const drinkValue = testObj["the drink"];    // Change this line
+```
+### 67.[Accessing Object Properties with Variables](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/accessing-object-properties-with-variables)
+#### My Solution
+```javascript
+// Setup
+const testObj = {
+  12: "Namath",
+  16: "Montana",
+  19: "Unitas"
+};
+
+// Only change code below this line
+const playerNumber = 42;  // Change this line
+const player = testObj[playerNumber];   // Change this line
+```
+### 68.[Updating Object Properties](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/updating-object-properties)
+#### My Solution
+```javascript
+// Setup
+const myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+// Only change code below this line
+myDog.name = "Happy Coder";
+```
+### 69.[]()
 #### My Solution
 ```javascript
 
 ```
-### 65.[]()
+### 70.[]()
 #### My Solution
 ```javascript
 
 ```
-### 66.[]()
+### 71.[]()
 #### My Solution
 ```javascript
 
 ```
-### 67.[]()
+### 72.[]()
 #### My Solution
 ```javascript
 
