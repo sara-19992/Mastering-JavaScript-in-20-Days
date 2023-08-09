@@ -17,10 +17,10 @@ function compare(x ,y){
 //comma in console log add spaces (multiple things)
 
 compare(5,3);
-//log 5 grater than 3
+//5 grater than 3
 
 compare(2,3);
-//log 2 less than 3
+//2 less than 3
 ```
 JS determine if value of variables true or false
   - Non-empty string is true value & empty string false
@@ -43,14 +43,14 @@ function between(x){
   }
 }
 between(12);
-//log 12 not between 5 & 10
+//12 not between 5 & 10
 
 between(8);
-//log 8 between 5 & 10
+//8 between 5 & 10
 
 const s = 6 > 2 ? "number 1 grater" : "number 2 grater";
 console.log(s);
-//log number 1 grater
+//number 1 grater
 ```
 ### Loops
 execute same code of multiple times 
@@ -78,4 +78,20 @@ use to return a random number between. the random function return a number betwe
 ## Asynchronous vs Synchronous
 
 synchronous meanning execute the code one by one,each line of code waits for previous line to get executed then it gets executed.
-asynchronous JS can't do multiple tasks at the same time and when give JS a task that take time JS not stop and wait this task add this task to list and keep runing other tasks and run this task some time later 
+asynchronous JS can't do multiple tasks at the same time and when give JS a task that take time JS not stop and wait this task add this task to list and keep runing other tasks and run this task some time later.
+
+setTimeout execute code after a certain milliseconds
+
+### Coding Examples
+```javascript
+
+console.log("nour");
+
+setTimeout(() => console.log("sarah"),1000)
+
+console.log("alaa");
+
+//nour
+//alaa
+//sarah
+```
