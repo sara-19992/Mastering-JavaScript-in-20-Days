@@ -33,13 +33,16 @@ JS determine if value of variables true or false
 - && and true if both values true 
 - || or only one value true to be true 
 - ternary operator condition ? ifTrue : ifFalse
+  
+backticks allow to add variable in string by us ${}
+  
 ### Coding Examples
 ```javascript
 function between(x){
   if(x > 5 && x < 10){
-    console.log(x, "between 5 & 10");
+    console.log(`${x} between 5 & 10`);
   }else{
-    console.log(x, "not between 5 & 10");
+    console.log(`${x} not between 5 & 10`);
   }
 }
 between(12);
@@ -65,13 +68,30 @@ methods use to process items in the array
 - map create new array with do something on each item in array
 - filter create new array with items which return true (filter out the item)
 
-backticks allow to add variable in string by us ${}
+### Coding Examples
+```javascript
+const num = [1, 2, 4, 5, 7, 8];
 
+const numMulti = num.map(n => n *= 4);
+console.log(numMulti);
+//[4, 8, 16, 20, 28, 32]
+
+const numFilter = num.filter(n => n >= 5 );
+console.log(numFilter);
+//[5, 7, 8]
+``` 
 ### Spread (...) 
-spread the items around can use :
+spread the items around can use to
 1. concatenate arrays
 2. pass array items as arguments
-   
+### Coding Examples
+```javascript
+const a1 = ["nour", "ola", "ahmade"];
+const a2 = ["zein", ...a1, "weal"];
+
+console.log(a2);
+//["zein", "nour", "ola", "ahmade", "weal"]
+```   
 ### Random
 use to return a random number between. the random function return a number between 0 and 1 to convert returned value to integer multiply the returned value by the range of number we need then use floor() function to return a close integer number equal or less than number.
 ### Coding Examples
