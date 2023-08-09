@@ -895,9 +895,15 @@ for(let i = 1; i < 10 ; i += 2){
   myArray.push(i);
 }
 ```
-### 80.[Count Backwards With a For Loop]()
+### 80.[Count Backwards With a For Loop](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/count-backwards-with-a-for-loop)
 #### My Solution
 ```javascript
+// Setup
+const myArray = [];
 
+// Only change code below this line
+for(let i = 9; i > 0; i -= 2){
+  myArray.push(i);
+}
 ```
 
