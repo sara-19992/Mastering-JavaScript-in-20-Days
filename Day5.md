@@ -139,3 +139,13 @@ console.log("alaa");
 //alaa
 //sarah
 ```
+## Coding Exercises
+### 51.[Use Multiple Conditional (Ternary) Operators](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-multiple-conditional-ternary-operators)
+#### My Solution
+```javascript
+function checkSign(num) {
+return num === 0 ? "zero" : num > 0 ? "positive" : "negative";
+}
+
+checkSign(10);
+```
