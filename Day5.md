@@ -30,9 +30,9 @@ JS determine if value of variables true or false
   - Null and undefined are false
 
 ### Logical & Ternary Operators
-- (!) opposite boolean value
-- (&&) and true if both values true
-- (||) or only one value true to be true
-- (? :)ternary operator condition ? valueITrue : valueIfFalse; 
+- opposite boolean value (!)
+- and true if both values true (&&) 
+- or only one value true to be true (||) 
+- ternary operator condition ? ifTrue : ifFalse
     
 
