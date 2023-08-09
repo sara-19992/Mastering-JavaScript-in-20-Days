@@ -17,6 +17,7 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
 
 ## Coding Challenges 💪
  - [Basic JavaScript Challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/divide-one-decimal-by-another-with-javascript) 92
+ - [ES6](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/compare-scopes-of-the-var-and-let-keywords)
 
 
 ## Daily Learning Process 💻👩‍💻🕙
