@@ -736,17 +736,78 @@ function phoneticLookup(val) {
 
 phoneticLookup("charlie");
 ```
-### 72.[]()
+### 72.[Testing Objects for Properties](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/testing-objects-for-properties)
 #### My Solution
 ```javascript
+function checkObj(obj, checkProp) {
+  // Only change code below this line
 
+  return obj[checkProp] ? obj[checkProp] : "Not Found";
+  // Only change code above this line
+}
 ```
-### 73.[]()
+### 73.[Manipulating Complex Objects](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/manipulating-complex-objects)
 #### My Solution
 ```javascript
+const myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  }
+];
+
+const album = {
+   "artist": "nour",
+    "title": "flower",
+    "release_year": 1999,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+  };
+
+myMusic.push(album);
 
 ```
 ### 74.[]()
+#### My Solution
+```javascript
+
+```
+### 75.[]()
+#### My Solution
+```javascript
+
+```
+### 76.[]()
+#### My Solution
+```javascript
+
+```
+### 77.[]()
+#### My Solution
+```javascript
+
+```
+### 78.[]()
+#### My Solution
+```javascript
+
+```
+### 79.[]()
+#### My Solution
+```javascript
+
+```
+### 80.[]()
 #### My Solution
 ```javascript
 
