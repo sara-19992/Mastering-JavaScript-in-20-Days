@@ -684,22 +684,69 @@ const myDog = {
 // Only change code below this line
 myDog.name = "Happy Coder";
 ```
-### 69.[]()
+### 69.[Add New Properties to a JavaScript Object](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/add-new-properties-to-a-javascript-object)
 #### My Solution
 ```javascript
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+myDog.bark = "woof";
+```
+### 70.[Delete Properties from a JavaScript Object](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/delete-properties-from-a-javascript-object)
+#### My Solution
+```javascript
+// Setup
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"],
+  "bark": "woof"
+};
+
+delete myDog.tails;
+// Only change code below this line
 
 ```
-### 70.[]()
+### 71.[Using Objects for Lookups](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/using-objects-for-lookups)
 #### My Solution
 ```javascript
+// Setup
+function phoneticLookup(val) {
+  let result = "";
 
-```
-### 71.[]()
-#### My Solution
-```javascript
+  // Only change code below this line
+  let lookup = {
+    "alpha": "Adams",
+    "bravo": "Boston",
+    "charlie": "Chicago",
+    "delta": "Denver",
+    "echo": "Easy",
+    "foxtrot": "Frank"
+  }
+  
+  result = lookup[val];
+  // Only change code above this line
+  return result;
+}
 
+phoneticLookup("charlie");
 ```
 ### 72.[]()
+#### My Solution
+```javascript
+
+```
+### 73.[]()
+#### My Solution
+```javascript
+
+```
+### 74.[]()
 #### My Solution
 ```javascript
 
