@@ -1031,8 +1031,40 @@ console.log(countdown(10));
 
 // Only change code above this line
 ```
-### 92.[]()
+### 92.[Use Recursion to Create a Range of Numbers](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/use-recursion-to-create-a-range-of-numbers)
+#### My Solution
+```javascript
+function rangeOfNumbers(startNum, endNum) {
+  if(startNum === endNum) return [startNum];
+  if(startNum === endNum) return;
+  else {
+    const arr = rangeOfNumbers(startNum,endNum - 1);
+    arr.push(endNum);
+    return arr;
+  }
+};
+
+console.log(rangeOfNumbers(5,8));
+```
+### 93.[]()
 #### My Solution
 ```javascript
 
 ```
+### 94.[]()
+#### My Solution
+```javascript
+
+```
+### 95.[]()
+#### My Solution
+```javascript
+
+```
+### 96.[]()
+#### My Solution
+```javascript
+
+```
+
+
