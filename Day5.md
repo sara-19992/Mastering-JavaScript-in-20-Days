@@ -62,7 +62,18 @@ execute same code of multiple times
 3. while loop until condition is trueloop until condition is true
    
 array and string are iteratbles (can iterat over them)
-
+### Coding Examples
+```javascript
+for(let char of "hey JS"){
+  console.log(char);
+}
+//h
+//e
+//y
+//
+//J
+//S
+```
 ## Map & Filter
 methods use to process items in the array
 - map create new array with do something on each item in array
