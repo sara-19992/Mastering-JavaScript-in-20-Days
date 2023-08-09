@@ -1059,20 +1059,66 @@ function checkScope() {
   return i;
 }
 ```
-### 94.[]()
+### 94.[Mutate an Array Declared with const](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/mutate-an-array-declared-with-const)
 #### My Solution
 ```javascript
+const s = [5, 7, 2];
+function editInPlace() {
+  // Only change code below this line
 
+  // Using s = [2, 5, 7] would be invalid
+  s.unshift(s.pop());
+  // Only change code above this line
+}
+editInPlace();
 ```
-### 95.[]()
+### 95.[Prevent Object Mutation](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/prevent-object-mutation)
 #### My Solution
 ```javascript
+function freezeObj() {
+  const MATH_CONSTANTS = {
+    PI: 3.14
+  };
+  // Only change code below this line
 
+  Object.freeze(MATH_CONSTANTS);
+  // Only change code above this line
+  try {
+    MATH_CONSTANTS.PI = 99;
+  } catch(ex) {
+    console.log(ex);
+  }
+  return MATH_CONSTANTS.PI;
+}
+const PI = freezeObj();
 ```
-### 96.[]()
+### 96.[Use Arrow Functions to Write Concise Anonymous Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/use-arrow-functions-to-write-concise-anonymous-functions)
 #### My Solution
 ```javascript
-
+const magic = () => new Date();
 ```
+### 97.[Write Arrow Functions with Parameters](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/write-arrow-functions-with-parameters)
+#### My Solution
+```javascript
+const myConcat = (arr1, arr2) => arr1.concat(arr2);
+console.log(myConcat([1, 2], [3, 4, 5]));
+```
+### 98.[Set Default Parameters for Your Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/set-default-parameters-for-your-functions)
+#### My Solution
+```javascript
+//in ES6 add default parameter kicks in when the argument is not specified (it is undefined)
 
-
+// Only change code below this line
+const increment = (number, value = 1) => number + value;
+// Only change code above this linea
+```
+### 99.[]()
+#### My Solution
+```javascript
+const magic = () => new Date();
+```
+### 100.[]()
+#### My Solution
+```javascript
+const magic = () => new Date();
+```
