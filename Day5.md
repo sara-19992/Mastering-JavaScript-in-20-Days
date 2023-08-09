@@ -74,6 +74,19 @@ spread the items around can use :
    
 ### Random
 use to return a random number between. the random function return a number between 0 and 1 to convert returned value to integer multiply the returned value by the range of number we need then use floor() function to return a close integer number equal or less than number.
+### Coding Examples
+```javascript
+function getRandom(range){
+  return Math.floor((Math.random() * range))
+}
+
+const x = getRandom(20);
+const y = getRandom(20);
+const z = getRandom(20);
+
+//log number in range 0 - 19
+console.log(x, y, z);
+```
 
 ## Asynchronous vs Synchronous
 
