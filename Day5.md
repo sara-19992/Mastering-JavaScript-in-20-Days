@@ -777,20 +777,89 @@ const album = {
 myMusic.push(album);
 
 ```
-### 74.[]()
+### 74.[Accessing Nested Objects](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-objects)
 #### My Solution
 ```javascript
+const myStorage = {
+  "car": {
+    "inside": {
+      "glove box": "maps",
+      "passenger seat": "crumbs"
+     },
+    "outside": {
+      "trunk": "jack"
+    }
+  }
+};
 
+const gloveBoxContents = myStorage.car.inside["glove box"];
 ```
-### 75.[]()
+### 75.[Accessing Nested Arrays](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/accessing-nested-arrays)
 #### My Solution
 ```javascript
+const myPlants = [
+  {
+    type: "flowers",
+    list: [
+      "rose",
+      "tulip",
+      "dandelion"
+    ]
+  },
+  {
+    type: "trees",
+    list: [
+      "fir",
+      "pine",
+      "birch"
+    ]
+  }
+];
 
+const secondTree = myPlants[1].list[1];
 ```
-### 76.[]()
+### 76.[Record Collection](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/record-collection)
 #### My Solution
 ```javascript
+// Setup
+const recordCollection = {
+  2548: {
+    albumTitle: 'Slippery When Wet',
+    artist: 'Bon Jovi',
+    tracks: ['Let It Rock', 'You Give Love a Bad Name']
+  },
+  2468: {
+    albumTitle: '1999',
+    artist: 'Prince',
+    tracks: ['1999', 'Little Red Corvette']
+  },
+  1245: {
+    artist: 'Robert Palmer',
+    tracks: []
+  },
+  5439: {
+    albumTitle: 'ABBA Gold'
+  }
+};
 
+// Only change code below this line
+function updateRecords(records, id, prop, value) {
+  if(!value){
+    delete records[id][prop];
+  }else {
+    if(prop !== 'tracks')records[id][prop] = value;
+    else {
+        if(records[id][prop])records[id][prop].push(value);
+        else{
+         records[id][prop] = [value];
+        }
+      }
+      
+    }
+  return records;
+}
+
+updateRecords(recordCollection, 2548, "artist", "")
 ```
 ### 77.[]()
 #### My Solution
