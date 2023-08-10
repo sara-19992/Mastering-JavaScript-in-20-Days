@@ -337,6 +337,47 @@ thermos.temperature = 26;
 console.log(thermos.temp);
 temp = thermos.temperature; // 26 in Celsius
 ```
+### 112.[Create a Module Script](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/create-a-module-script)
+#### My Solution
+```javascript
+<html>
+  <body>
+    <!-- Only change code below this line -->
+<script type="module" src="index.js"></script>
+    <!-- Only change code above this line -->
+  </body>
+</html>
+```
+### 113.[]()
+#### My Solution
+```javascript
+
+```
+### 114.[]()
+#### My Solution
+```javascript
+
+```
+### 115.[]()
+#### My Solution
+```javascript
+
+```
+### 116.[]()
+#### My Solution
+```javascript
+
+```
+### 117.[]()
+#### My Solution
+```javascript
+
+```
+### 118.[]()
+#### My Solution
+```javascript
+
+```
 ### 112.[]()
 #### My Solution
 ```javascript
