@@ -78,7 +78,8 @@ use try catch to handle error and what want we do (add default thing, do somethi
   - catch that error object which happened
     
 ## Coding Task 
-### [Rick & Morty Character List](https://drive.google.com/drive/folders/1h5EJKbDkaIZzxFVEJBMlu5UczkE3g5gz?usp=sharing)    
+### [Rick & Morty Character List](https://drive.google.com/drive/folders/1h5EJKbDkaIZzxFVEJBMlu5UczkE3g5gz?usp=sharing) 
+#### My Solution
 ```javascript
 display();
 
@@ -170,5 +171,19 @@ function displayNotFound() {
 }
 ```
 ## Coding Exercises
+### 101.[]()
+#### My Solution
+```javascript
+function orderMyLogic(val) {
+  if (val < 5) {
+    return "Less than 5";
+  } else if (val < 10) {
+    return "Less than 10";
+  } else {
+    return "Greater than or equal to 10";
+  }
+}
 
+orderMyLogic(4);
+```
     
