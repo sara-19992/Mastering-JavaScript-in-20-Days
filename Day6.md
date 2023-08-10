@@ -20,11 +20,7 @@ step fetch data:
   3. receive a response object.
   4. use json() to parse body of response object.
   5.  use await with json (return another promise).
-      
-### Coding Examples
-```javascript
-
-```
+     
 ## Destructuring Objects & Arrays
    to break down an object and extract values from object and assign it to multiple variables.
 
