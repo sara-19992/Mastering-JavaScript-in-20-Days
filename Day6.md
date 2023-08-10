@@ -223,10 +223,19 @@ let a = 8, b = 6;
 // Only change code below this line
 [a,b] = [b,a];
 ```
-### 105.[]()
+### 105.[Destructuring via rest elements](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/use-destructuring-assignment-with-the-rest-parameter-to-reassign-array-elements)
 #### My Solution
 ```javascript
+function removeFirstTwo(list) {
+  // Only change code below this line
+  const [, , ...shorterList] = list; // Change this line
+  // Only change code above this line
+  console.log(shorterList);
+  return shorterList;
+}
 
+const source = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const sourceWithoutFirstTwo = removeFirstTwo(source);
 ```
 ### 106.[]()
 #### My Solution
