@@ -274,10 +274,14 @@ function makeList(arr) {
 
 const failuresList = makeList(result.failure);
 ```
-### 108.[]()
+### 108.[Write Concise Object Literal Declarations Using Object Property Shorthand](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/write-concise-object-literal-declarations-using-object-property-shorthand)
 #### My Solution
 ```javascript
-
+const createPerson = (name, age, gender) => {
+  // Only change code below this line
+  return {name,age,gender};
+  // Only change code above this line
+};
 ```
 ### 109.[]()
 #### My Solution
