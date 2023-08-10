@@ -29,6 +29,7 @@ step fetch data:
    - use property name.
    - omit property name that don't need.
    - order not matter.
+     
    array
    - use [ ].
    - use comma to skip value.
