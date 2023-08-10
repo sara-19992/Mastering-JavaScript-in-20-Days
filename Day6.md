@@ -10,10 +10,10 @@ fetch() take time to get data because its return a promise
 promises states
   1. pending: still waiting, I promise to get value
   2. fulfilled: get the value
-  3. reject: can't get the value 
-
-    
+  3. reject: can't get the value
      
+await keyword stop JS and wait to finish asynchronous operation 
+      
 ### Coding Examples
 ```javascript
 
