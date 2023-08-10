@@ -297,7 +297,22 @@ const bicycle = {
 bicycle.setGear(3);
 console.log(bicycle.gear);
 ```
-### 110.[]()
+### 110.[Use class Syntax to Define a Constructor Function](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/use-class-syntax-to-define-a-constructor-function)
+#### My Solution
+```javascript
+// Only change code below this line
+class Vegetable {
+  constructor(vegetable){
+   this.name = vegetable;
+  }
+
+}
+// Only change code above this line
+
+const carrot = new Vegetable('carrot');
+console.log(carrot.name); // Should display 'carrot'
+```
+### 111.[]()
 #### My Solution
 ```javascript
 
