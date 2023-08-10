@@ -18,18 +18,24 @@ let output = "Get this to show once in the freeCodeCamp console and not at all i
 
 console.log(output);
 console.clear();
-
-
 ```
-### 124.[]()
+### 124.[Use typeof to Check the Type of a Variable](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/debugging/use-typeof-to-check-the-type-of-a-variable)
 #### My Solution
 ```javascript
-
+let seven = 7;
+let three = "3";
+console.log(seven + three);
+// Only change code below this line
+console.log(typeof(seven));
+console.log(typeof(three));
 ```
-### 125.[]()
+### 125.[Catch Misspelled Variable and Function Names](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/debugging/catch-misspelled-variable-and-function-names)
 #### My Solution
 ```javascript
-
+let receivables = 10;
+let payables = 8;
+let netWorkingCapital = receivables - payables;
+console.log(`Net working capital is: ${netWorkingCapital}`);
 ```
 ### 126.[]()
 #### My Solution
