@@ -253,10 +253,26 @@ const stats = {
 const half = ({max, min}) => (max + min) / 2.0; 
 // Only change code above this line
 ```
-### 107.[]()
+### 107.[Create Strings using Template Literals](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/create-strings-using-template-literals)
 #### My Solution
 ```javascript
+const result = {
+  success: ["max-length", "no-amd", "prefer-arrow-functions"],
+  failure: ["no-var", "var-on-top", "linebreak"],
+  skipped: ["no-extra-semi", "no-dup-keys"]
+};
+function makeList(arr) {
+  // Only change code below this line
+  const failureItems = [];
+  for(let item of arr){
+    const str = `<li class="text-warning">${item}</li>`
+    failureItems.push(str);
+  }
+  // Only change code above this line
+  return failureItems;
+}
 
+const failuresList = makeList(result.failure);
 ```
 ### 108.[]()
 #### My Solution
