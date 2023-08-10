@@ -348,15 +348,27 @@ temp = thermos.temperature; // 26 in Celsius
   </body>
 </html>
 ```
-### 113.[]()
+### 113.[Use export to Share a Code Block](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/use-export-to-share-a-code-block)
 #### My Solution
 ```javascript
+const uppercaseString = (string) => {
+  return string.toUpperCase();
+}
 
+const lowercaseString = (string) => {
+  return string.toLowerCase()
+}
+
+export {uppercaseString, lowercaseString};
 ```
-### 114.[]()
+### 114.[Reuse JavaScript Code Using import](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/reuse-javascript-code-using-import)
 #### My Solution
 ```javascript
+import {uppercaseString, lowercaseString} from './string_functions.js'; 
+// Only change code above this line
 
+uppercaseString("hello");
+lowercaseString("WORLD!");
 ```
 ### 115.[]()
 #### My Solution
