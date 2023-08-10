@@ -394,16 +394,6 @@ import subtract from './math_functions.js';
 
 subtract(7,4);
 ```
-### 118.[]()
-#### My Solution
-```javascript
-
-```
-### 112.[]()
-#### My Solution
-```javascript
-
-```
 
     
     
