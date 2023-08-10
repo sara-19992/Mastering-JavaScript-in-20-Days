@@ -40,7 +40,22 @@ step fetch data:
      
 split() split string on delimiting char
 trim() remove spaces from start and end of str 
+### Coding Examples
+```javascript
+const names = ["nour", "alaa", "duaa"];
+const [,name1, name2] = names;
+console.log(name1, name2);
+//alaa duaa
 
+const player = {
+name: "ahmade",
+age: 45,
+tall: 180
+}
+const {age, name} = player;
+console.log(age, name);
+//45 'ahmade'
+```
 ## Async   
 in async functons can use await 
 
