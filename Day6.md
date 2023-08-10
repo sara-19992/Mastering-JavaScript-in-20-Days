@@ -169,4 +169,6 @@ function displayNotFound() {
     .appendChild(createHeading("404 Not Found"));
 }
 ```
+## Coding Exercises
+
     
