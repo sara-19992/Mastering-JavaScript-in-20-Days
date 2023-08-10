@@ -36,4 +36,6 @@ step fetch data:
    array
    - use [ ]
    - use comma to skip value 
-   - order is matter  
+   - order is matter
+     
+split() split string on delimiting char
