@@ -76,7 +76,7 @@ use try catch to handle error and what want we do (add default thing, do somethi
   - try something might get error
   - catch that error object which happened
 
-## Rick & Morty Character List    
+## [Rick & Morty Character List]()    
 ```javascript
 display();
 
