@@ -312,10 +312,37 @@ class Vegetable {
 const carrot = new Vegetable('carrot');
 console.log(carrot.name); // Should display 'carrot'
 ```
-### 111.[]()
+### 111.[Use getters and setters to Control Access to an Object](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/use-getters-and-setters-to-control-access-to-an-object)
+#### My Solution
+```javascript
+// Only change code below this line
+class Thermostat{
+  constructor(temp){
+    this.temp = 5/9 * (temp - 32);
+  }
+  //getter 
+  get temperature(){
+    return this.temp;
+  } 
+  //setter
+  set temperature(temp){
+    this.temp = temp;
+  } 
+}
+// Only change code above this line
+
+const thermos = new Thermostat(76); // Setting in Fahrenheit scale
+let temp = thermos.temperature; // 24.44 in Celsius
+thermos.temperature = 26;
+console.log(thermos.temp);
+temp = thermos.temperature; // 26 in Celsius
+```
+### 112.[]()
 #### My Solution
 ```javascript
 
 ```
+
+    
     
     
