@@ -171,19 +171,44 @@ function displayNotFound() {
 }
 ```
 ## Coding Exercises
-### 101.[]()
+### 101.[Use Destructuring Assignment to Extract Values from Objects](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/use-destructuring-assignment-to-extract-values-from-objects)
 #### My Solution
 ```javascript
-function orderMyLogic(val) {
-  if (val < 5) {
-    return "Less than 5";
-  } else if (val < 10) {
-    return "Less than 10";
-  } else {
-    return "Greater than or equal to 10";
-  }
-}
+const HIGH_TEMPERATURES = {
+  yesterday: 75,
+  today: 77,
+  tomorrow: 80
+};
 
-orderMyLogic(4);
+// Only change code below this line
+
+const {today, tomorrow} = HIGH_TEMPERATURES;
+
+// Only change code above this line
+```
+### 102.[]()
+#### My Solution
+```javascript
+
+```
+### 103.[]()
+#### My Solution
+```javascript
+
+```
+### 104.[]()
+#### My Solution
+```javascript
+
+```
+### 105.[]()
+#### My Solution
+```javascript
+
+```
+### 106.[]()
+#### My Solution
+```javascript
+
 ```
     
