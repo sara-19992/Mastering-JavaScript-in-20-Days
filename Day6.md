@@ -49,6 +49,12 @@ Document.createElement() create element
 appendChile append child to element
 
 ## Modules 
+  - modules mean split a big code to multiple files to make it easier to work with these files.
+  - modules create own scope.
+  - import to import variable from another module and use it.
+  - export to export variable from modules scope to outside. 
+
+can't use await outside function in a script
 ### Debugging 
 find bugs and fix it
   1. console.log (warn(), error()).
