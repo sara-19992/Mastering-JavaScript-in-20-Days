@@ -201,15 +201,27 @@ const {today: highToday,tomorrow:highTomorrow} = HIGH_TEMPERATURES;
 
 // Only change code above this line
 ```
-### 103.[]()
+### 103.[Use Destructuring Assignment to Assign Variables from Nested Objects](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/use-destructuring-assignment-to-assign-variables-from-nested-objects)
 #### My Solution
 ```javascript
+const LOCAL_FORECAST = {
+  yesterday: { low: 61, high: 75 },
+  today: { low: 64, high: 77 },
+  tomorrow: { low: 68, high: 80 }
+};
 
+// Only change code below this line
+  
+const {today:{low: lowToday,high: highToday}} = LOCAL_FORECAST;
+
+// Only change code above this line
 ```
-### 104.[]()
+### 104.[Use Destructuring Assignment to Assign Variables from Arrays](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/use-destructuring-assignment-to-assign-variables-from-arrays)
 #### My Solution
 ```javascript
-
+let a = 8, b = 6;
+// Only change code below this line
+[a,b] = [b,a];
 ```
 ### 105.[]()
 #### My Solution
