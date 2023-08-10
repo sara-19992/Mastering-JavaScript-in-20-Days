@@ -164,8 +164,7 @@ function displayCharList(characterList) {
 function displayNotFound() {
   document
     .querySelector("#characterList")
-    .appendChild(createHead("404 Not Found"));
+    .appendChild(createHeading("404 Not Found"));
 }
-
 ```
     
