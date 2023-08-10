@@ -39,3 +39,11 @@ step fetch data:
    - order is matter
      
 split() split string on delimiting char
+trim() remove spaces from start and end of str 
+
+## Async   
+in async functons can use await 
+
+render mean display it on the page
+Document.createElement() create element
+appendChile append child to element
