@@ -75,7 +75,8 @@ find bugs and fix it
 use try catch to handle error and what want we do (add default thing, do something else) 
   - try something might get error
   - catch that error object which happened
-
+    
+## Coding Exercises
 ## [Rick & Morty Character List](https://drive.google.com/drive/folders/1h5EJKbDkaIZzxFVEJBMlu5UczkE3g5gz?usp=sharing)    
 ```javascript
 display();
