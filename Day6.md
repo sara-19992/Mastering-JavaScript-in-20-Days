@@ -386,10 +386,13 @@ export default function subtract(x, y) {
   return x - y;
 }
 ```
-### 117.[]()
+### 117.[Import a Default Export](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/import-a-default-export)
 #### My Solution
 ```javascript
+import subtract from './math_functions.js';  
+// Only change code above this line
 
+subtract(7,4);
 ```
 ### 118.[]()
 #### My Solution
