@@ -75,3 +75,97 @@ find bugs and fix it
 use try catch to handle error and what want we do (add default thing, do something else) 
   - try something might get error
   - catch that error object which happened
+
+## Rick & Morty Character List    
+```javascript
+display();
+
+//get list of data
+async function fetchList() {
+  const response = await fetch("https://rickandmortyapi.com/api/character");
+  const body = await response.json();
+  const { results } = body;
+  return results;
+}
+
+async function getCharList() {
+  const characterList = await fetchList();
+  return characterList;
+}
+
+//filter the list with 'Alive' status
+//cut the list to 50 elements
+function editList(list) {
+  console.log(list);
+  const filterList = list.filter((c) => c.status == "Alive");
+  const cutList = filterList.slice(0, 50);
+  return cutList;
+}
+
+//create a Image element
+const createImage = (src) => {
+  const img = document.createElement("img");
+  img.setAttribute("src", src);
+  return img;
+};
+
+//create a heading element
+const createHeading = (text) => {
+  const par = document.createElement("h2");
+  par.textContent = text;
+  return par;
+};
+
+//create a p element
+const createPar = (text) => {
+  const par = document.createElement("p");
+  par.textContent = text;
+  return par;
+};
+
+//create a li element
+const createLi = (img, head, p1, p2, p3) => {
+  const li = document.createElement("li");
+  li.appendChild(head);
+  li.appendChild(img);
+  li.appendChild(p1);
+  li.appendChild(p2);
+  li.appendChild(p3);
+  return li;
+};
+
+async function display() {
+  try {
+    const list = await getCharList();
+    const edit = editList(list);
+    displayCharList(edit);
+  } catch (er) {
+    displayNotFound();
+    console.log(er);
+  }
+}
+
+//display the character as list
+function displayCharList(characterList) {
+  const list = document.querySelector("#characterList");
+
+  for (let char of characterList) {
+    const img = createImage(char.image);
+    const head = createHeading(char.name);
+    const p1 = createPar(`Locatian: ${char.location.name}`);
+    const p2 = createPar(`Species: ${char.species}`);
+    const p3 = createPar(`Gener: ${char.gender}`);
+    const li = createLi(img, head, p1, p2, p3);
+
+    list.appendChild(li);
+  }
+}
+
+function displayNotFound() {
+  document
+    .querySelector("#characterList")
+    .appendChild(createHead("404 Not Found"));
+}
+
+```
+    
