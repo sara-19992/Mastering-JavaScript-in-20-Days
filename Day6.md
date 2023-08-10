@@ -25,3 +25,15 @@ step fetch data:
 ```javascript
 
 ```
+## Destructuring Objects & Arrays
+   to break down an object and extract values from object and assign it to multiple variables.
+
+   object
+   - use { }
+   - use property name
+   - omit property name that don't need
+   - order not matter
+   array
+   - use [ ]
+   - use comma to skip value 
+   - order is matter  
