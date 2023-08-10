@@ -25,14 +25,14 @@ step fetch data:
    to break down an object and extract values from object and assign it to multiple variables.
 
    object
-     - use { }
-     - use property name
-     - omit property name that don't need
-     - order not matter
+     - use { }.
+     - use property name.
+     - omit property name that don't need.
+     - order not matter.
    array
-     - use [ ]
-     - use comma to skip value 
-     - order is matter
+     - use [ ].
+     - use comma to skip value. 
+     - order is matter.
      
 split() split string on delimiting char
 trim() remove spaces from start and end of str 
