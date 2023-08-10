@@ -379,10 +379,12 @@ import * as stringFunctions from './string_functions.js';
 stringFunctions.uppercaseString("hello");
 stringFunctions.lowercaseString("WORLD!");
 ```
-### 116.[]()
+### 116.[Create an Export Fallback with export default](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/create-an-export-fallback-with-export-default)
 #### My Solution
 ```javascript
-
+export default function subtract(x, y) {
+  return x - y;
+}
 ```
 ### 117.[]()
 #### My Solution
