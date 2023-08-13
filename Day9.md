@@ -91,7 +91,20 @@ console.log(countUp()); // log 4
 ### 150.[Question 2](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%202/tasks.md)
 #### My Solution
 ```javascript
+function calculateAverage(nums){
+ 
+  
+  return function(){
+    let sum = 0;
+    for(let num of nums){
+      sum += num;
+    }
+    return sum / nums.length;
+  }
+}
 
+const avg = calculateAverage([5, 5, 5, 4]);
+console.log(avg()); // log 4.75
 ```
 ### 151.[Question 3](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%202/tasks.md)
 #### My Solution
