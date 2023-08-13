@@ -198,4 +198,45 @@ rollCaller() // => should log 'Victoria'
 rollCaller() // => should log 'Juan'
 rollCaller() // => should log 'Ruth'
 rollCaller() // => should log 'Everyone accounted for'
-```  
+```
+### 141.[Challenge 8](http://csbin.io/closures)
+#### My Solution
+```javascript
+// CHALLENGE 8
+function saveOutput(func, magicWord) {
+  const magic = magicWord;
+  const saveObject = {};
+  
+  return function (arg){   
+     return arg === magic ? saveObject : saveObject[arg] = func(arg);
+  }
+
+}
+
+// /*** Uncomment these to check your work! ***/
+const multiplyBy2 = function(num) { return num * 2; };
+const multBy2AndLog = saveOutput(multiplyBy2, 'boo');
+console.log(multBy2AndLog(2)); // => should log 4
+console.log(multBy2AndLog(9)); // => should log 18
+console.log(multBy2AndLog('boo')); // => should log { 2: 4, 9: 18 }
+```
+### 142.[Challenge 9](http://csbin.io/closures)
+#### My Solution
+```javascript
+
+```
+### 143.[Challenge 10](http://csbin.io/closures)
+#### My Solution
+```javascript
+
+```
+### 144.[Challenge 11](http://csbin.io/closures)
+#### My Solution
+```javascript
+
+```
+### 145.[Challenge 12](http://csbin.io/closures)
+#### My Solution
+```javascript
+
+```
