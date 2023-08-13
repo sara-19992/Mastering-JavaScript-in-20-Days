@@ -30,6 +30,6 @@ if can't find variable in function local memory go to outer function and search 
 
 ### CLousre
 closure (backpack) pring the data with the function goes, pull the data around the function and push it
-where my function saved.  
+where my function saved (call function outside of the function call).  
 
   
