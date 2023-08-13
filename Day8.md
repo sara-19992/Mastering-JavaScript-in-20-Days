@@ -223,7 +223,24 @@ console.log(multBy2AndLog('boo')); // => should log { 2: 4, 9: 18 }
 ### 142.[Challenge 9](http://csbin.io/closures)
 #### My Solution
 ```javascript
+// CHALLENGE 9
+function cycleIterator(array) {
+  let index = 0;
+  
+  return function(){
+    if(index === array.length)index = 0;
+    return array[index++];
+  }
 
+}
+
+// /*** Uncomment these to check your work! ***/
+const threeDayWeekend = ['Fri', 'Sat', 'Sun'];
+const getDay = cycleIterator(threeDayWeekend);
+console.log(getDay()); // => should log 'Fri'
+console.log(getDay()); // => should log 'Sat'
+console.log(getDay()); // => should log 'Sun'
+console.log(getDay()); // => should log 'Fri'
 ```
 ### 143.[Challenge 10](http://csbin.io/closures)
 #### My Solution
