@@ -70,4 +70,36 @@ function sumRange(n1, n2){
 }
 
 console.log(sumRange(4,7)); //log 22
+```
+### 149.[Question 1](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%202/tasks.md)
+#### My Solution
+```javascript
+function createCounte(){
+  let count = 0;
+  
+  return function increment(){
+    return ++count;
+  }
+}
+
+const countUp = createCounte();
+console.log(countUp()); // log 1
+console.log(countUp()); // log 2
+console.log(countUp()); // log 3
+console.log(countUp()); // log 4
+```
+### 150.[Question 2](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%202/tasks.md)
+#### My Solution
+```javascript
+
+```
+### 151.[Question 3](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%202/tasks.md)
+#### My Solution
+```javascript
+
+```
+### 152.[Question 4](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%202/tasks.md)
+#### My Solution
+```javascript
+
 ```  
