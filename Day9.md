@@ -32,13 +32,42 @@ const squareList = arr => {
 const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);
 console.log(squaredIntegers);
 ```
-### 146.[Apply Functional Programming to Convert Strings to URL Slugs]()
+### 146.[Apply Functional Programming to Convert Strings to URL Slugs](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/apply-functional-programming-to-convert-strings-to-url-slugs)
 #### My Solution
 ```javascript
+// Only change code below this line
+function urlSlug(title) {
 
-```  
-### 147.[]()
+ const str = title.toLowerCase().trim().split(' ').filter(x => x!=='').map(x => x.trim()).join('-');
+
+ return str; 
+
+}
+// Only change code above this line
+urlSlug(" Winter Is  Coming");
+```
+
+### 147.[Functions and Callbacks]()
 #### My Solution
 ```javascript
+function mapAsync(arr, func){
+	
+  return async function(){
+    return await arr.map( x => func(x)); 
+	} 
 
+}
+
+const arrayMap = mapAsync(['nour','alaa','weal'], (str) =>  str.toUpperCase());
+console.log(arrayMap());
+```
+### 148.[]()
+#### My Solution
+```javascript
+function sumRange(n1, n2){
+  if(n2 === n1)return n1;
+  return n2 + sumRange(n1, n2 - 1);
+}
+
+console.log(sumRange(4,7)); //log 22
 ```  
