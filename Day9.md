@@ -16,4 +16,5 @@ if we a setTimeOut function in code nothing to do in JS go to web browser featur
 1. put the function completion on web browser features in a callback queue.
 2. do Event Loop means keep checking if the global call stack is empty (no function running), if queue is not empty,delete function from queue and push it to stack.
 3. all regular code executed first, after that start execute what deque from callback queue.
+4. 
    
