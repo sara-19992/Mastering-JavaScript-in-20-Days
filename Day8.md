@@ -24,6 +24,19 @@ JS tracking a function running by call stack (global stack), push the run functi
 ### Heigher Order Function
 - higher order function means function take in a function.
 - callback function means the function we insert it.
+  ### Coding Examples
+```javascript
+//higher order function 
+function printInput(){
+
+//callback function
+  function print(input){
+    console.log(input);
+  }
+
+return print;
+}
+```
 
 ### Nested function scope
 if can't find variable in function local memory go to outer function and search on it.
