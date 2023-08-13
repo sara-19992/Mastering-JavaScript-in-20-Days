@@ -123,5 +123,15 @@ console.log(powerof2(7)); // log 128
 ### 152.[Question 4](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%202/tasks.md)
 #### My Solution
 ```javascript
+function compose (...args){
+  let index = args.length - 1;
+  
+  return function comp(input){    
+    if(index === 0)return args[index](input);
+    return comp(args[index--](input));
+  }
+}
 
+const c = compose((x) => x + 10, (x) => x - 5, (x) => x * 5);
+console.log(c(4)) // log 25 
 ```  
