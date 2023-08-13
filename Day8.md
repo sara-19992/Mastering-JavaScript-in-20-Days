@@ -165,4 +165,28 @@ const afterCalled = after(3, called);
 afterCalled(); // => nothing is printed
 afterCalled(); // => nothing is printed
 afterCalled(); // => 'hello' is printed
+```
+### 139.[Challenge 6](http://csbin.io/closures)
+#### My Solution
+```javascript
+// CHALLENGE 6
+function delay(func, wait) {
+  
+  return setTimeout(func,wait);
+
+}
+
+const delay5 = delay(() => console.log('hello'), 2000);
+```
+### 140.[Challenge 7](http://csbin.io/closures)
+#### My Solution
+```javascript
+// CHALLENGE 6
+function delay(func, wait) {
+  
+  return setTimeout(func,wait);
+
+}
+
+const delay5 = delay(() => console.log('hello'), 2000);
 ```  
