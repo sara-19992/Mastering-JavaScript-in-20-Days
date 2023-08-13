@@ -268,7 +268,24 @@ console.log(subFrom20(5,2,3)) // => should log 10
 ### 144.[Challenge 11](http://csbin.io/closures)
 #### My Solution
 ```javascript
+// CHALLENGE 11
+function dateStamp(func) {
+  
+  return function (...args){
+    const obj = [];
+    obj['date'] = new Date().toLocaleDateString();
+    for(let arg of args){
+      obj.push({'date': new Date().toLocaleDateString(), 'output': func(arg)})
+    }
+    return obj;
+  }
 
+}
+
+// /*** Uncomment these to check your work! ***/
+const stampedMultBy2 = dateStamp(n => n * 2);
+console.log(stampedMultBy2(4)); // => should log { date: (today's date), output: 8 }
+console.log(stampedMultBy2(6,5)); // => should log [{ date: (today's date), output: 12 },{ date: (today's date), output: 10 }]
 ```
 ### 145.[Challenge 12](http://csbin.io/closures)
 #### My Solution
