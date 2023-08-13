@@ -69,4 +69,35 @@ const printSample = createFunctionPrinter('sample');
 printSample(); // => should console.log('sample');
 const printHello = createFunctionPrinter('hello');
 printHello(); // => should console.log('hello');
+```
+### 136.[Challenge 3](http://csbin.io/closures)
+#### My Solution
+```javascript
+// CHALLENGE 3
+function addByX(X) {
+  
+  const addBy = X;
+  
+  function add (x){
+    console.log(addBy + x);
+    return addBy + x ;
+  }
+  
+  return add;
+
+}
+
+/*** Uncomment these to check your work! ***/
+const addByTwo = addByX(2);
+addByTwo(1); // => should return 3
+addByTwo(2); // => should return 4
+addByTwo(3); // => should return 5
+
+const addByThree = addByX(3);
+addByThree(1); // => should return 4
+addByThree(2); // => should return 5
+
+const addByFour = addByX(4);
+addByFour(4); // => should return 8
+addByFour(5); // => should return 9
 ```  
