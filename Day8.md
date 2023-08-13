@@ -32,7 +32,8 @@ if can't find variable in function local memory go to outer function and search 
 closure (backpack) pring the data with the function goes, pull the data around the function and push it
 where my function saved (call function outside of the function call).  
 
-## Coding Exersize
+## Closures, Scope, and Execution Context Exercises
+
 ### 134.[Challenge 1](http://csbin.io/closures)
 #### My Solution
 ```javascript
@@ -48,4 +49,24 @@ function createFunction() {
 // /*** Uncomment these to check your work! ***/
 const function1 = createFunction();
 function1(); // => should console.log('hello');
+```
+### 135.[Challenge 2](http://csbin.io/closures)
+#### My Solution
+```javascript
+// CHALLENGE 2
+function createFunctionPrinter(input) {
+  
+  function print(){
+    console.log(input);
+  }
+  
+  return print;
+
+}
+
+// /*** Uncomment these to check your work! ***/
+const printSample = createFunctionPrinter('sample');
+printSample(); // => should console.log('sample');
+const printHello = createFunctionPrinter('hello');
+printHello(); // => should console.log('hello');
 ```  
