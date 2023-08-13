@@ -47,7 +47,7 @@ function urlSlug(title) {
 urlSlug(" Winter Is  Coming");
 ```
 
-### 147.[Functions and Callbacks]()
+### 147.[Functions and Callbacks](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%201/tasks.md)
 #### My Solution
 ```javascript
 function mapAsync(arr, func){
@@ -61,7 +61,7 @@ function mapAsync(arr, func){
 const arrayMap = mapAsync(['nour','alaa','weal'], (str) =>  str.toUpperCase());
 console.log(arrayMap());
 ```
-### 148.[]()
+### 148.[ Call Stack and Recursion](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%201/tasks.md)
 #### My Solution
 ```javascript
 function sumRange(n1, n2){
