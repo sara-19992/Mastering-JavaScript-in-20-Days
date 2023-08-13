@@ -144,4 +144,25 @@ const onceFunc = once(addByTwo);
 console.log(onceFunc(4));  // => should log 6
 console.log(onceFunc(10));  // => should log 6
 console.log(onceFunc(9001));  // => should log 6
+```
+### 138.[Challenge 5](http://csbin.io/closures)
+#### My Solution
+```javascript
+// CHALLENGE 5
+function after(count, func) {
+  let times = count; 
+  
+  function afterTimes(){
+    times--;
+    if(times === 0)console.log('hello');
+  }
+return afterTimes; 
+}
+
+// /*** Uncomment these to check your work! ***/
+const called = function() { console.log('hello') };
+const afterCalled = after(3, called);
+afterCalled(); // => nothing is printed
+afterCalled(); // => nothing is printed
+afterCalled(); // => 'hello' is printed
 ```  
