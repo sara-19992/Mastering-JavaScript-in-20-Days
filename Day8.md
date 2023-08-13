@@ -15,21 +15,21 @@ to run code of a function when call it by name & ().
 JS tracking a function running by call stack (global stack), push the run function to stack and when finish execute this function pop it from stack (delete it), the top of stack represent the function running now.
 
 ### Function
-- when function execute create a new local memory (variable enviroment/state) and when finish execute it deleted.
-- make function reusable.
-- genrlization the function.
-- function in JS is object (what do in object doing with function, assign it tovarible, return it from function).
-- arrow functtion is shorthand way to save funtion added in ES6 (make code pretty, egibility)
-
+- when function execute create a new local memory (variable environment/state).
+- when finish execute delete the local memory.
+- make function reusable generalization (don't repeat yourself).
+- function in JS is object (what do in object doing with function, assign it to variable, return it from function).
+- arrow function is shorthand way to save function added in ES6 (make code pretty, legibility).
+  
 ### Heigher Order Function
-heigher order function means function take in a function
-callback fuction means the function we insert it
+- higher order function means function take in a function.
+- callback function means the function we insert it.
 
 ### Nested function scope
-- if we not find valrable in function local memory go to outer function and search on it.
+if can't find variable in function local memory go to outer function and search on it.
 
 ### CLousre
-cloure (backpack) pring the data with the function gose, ull the data around the function and push it
-where my function saved  
+closure (backpack) pring the data with the function goes, pull the data around the function and push it
+where my function saved.  
 
   
