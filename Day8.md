@@ -26,16 +26,21 @@ JS tracking a function running by call stack (global stack), push the run functi
 - callback function means the function we insert it.
   ### Coding Examples
 ```javascript
-//higher order function 
-function printInput(){
+//higher order function is printInput
+//callback function is print
+function printInput(print){
 
-//callback function
-  function print(input){
-    console.log(input);
-  }
-
-return print;
+ for(let i = 1; i <= 5 ; i++){
+  print('hello '+i)
+ }
 }
+
+function print(input){
+    console.log(input);
+}
+
+printInput(print);
+
 ```
 
 ### Nested function scope
