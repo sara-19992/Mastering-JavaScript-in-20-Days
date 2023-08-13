@@ -181,12 +181,21 @@ const delay5 = delay(() => console.log('hello'), 2000);
 ### 140.[Challenge 7](http://csbin.io/closures)
 #### My Solution
 ```javascript
-// CHALLENGE 6
-function delay(func, wait) {
+// CHALLENGE 7
+function rollCall(names) {
   
-  return setTimeout(func,wait);
+  let index = 0;
+  
+  return function (){
+    index < names.length ? console.log(names[index++]) : console.log('Everyone accounted for');
+  }
 
 }
 
-const delay5 = delay(() => console.log('hello'), 2000);
+// /*** Uncomment these to check your work! ***/
+const rollCaller = rollCall(['Victoria', 'Juan', 'Ruth'])
+rollCaller() // => should log 'Victoria'
+rollCaller() // => should log 'Juan'
+rollCaller() // => should log 'Ruth'
+rollCaller() // => should log 'Everyone accounted for'
 ```  
