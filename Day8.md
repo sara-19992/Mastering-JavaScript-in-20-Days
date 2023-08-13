@@ -29,10 +29,9 @@ JS tracking a function running by call stack (global stack), push the run functi
 //higher order function is printInput
 //callback function is print
 function printInput(print){
-
- for(let i = 1; i <= 5 ; i++){
-  print('hello '+i)
- }
+   for(let i = 1; i <= 5 ; i++){
+      print('hello '+i);
+   }
 }
 
 function print(input){
@@ -40,7 +39,6 @@ function print(input){
 }
 
 printInput(print);
-
 ```
 
 ### Nested function scope
