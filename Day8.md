@@ -245,7 +245,25 @@ console.log(getDay()); // => should log 'Fri'
 ### 143.[Challenge 10](http://csbin.io/closures)
 #### My Solution
 ```javascript
+// CHALLENGE 10
+function defineFirstArg(func, arg) {
 
+  return function(...inputs){
+    let sum = 0; 
+    for(let input of inputs){
+      sum += input;
+    }
+   return func(arg, sum);
+  }
+}  
+
+
+
+// /*** Uncomment these to check your work! ***/
+const subtract = function(big, small) { return big - small; };
+const subFrom20 = defineFirstArg(subtract, 20);
+console.log(subFrom20(5)); // => should log 15
+console.log(subFrom20(5,2,3)) // => should log 10
 ```
 ### 144.[Challenge 11](http://csbin.io/closures)
 #### My Solution
