@@ -32,7 +32,7 @@ const squareList = arr => {
 const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);
 console.log(squaredIntegers);
 ```
-### 146.[]()
+### 146.[Apply Functional Programming to Convert Strings to URL Slugs]()
 #### My Solution
 ```javascript
 
