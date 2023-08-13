@@ -17,4 +17,18 @@ if a setTimeOut function in the code nothing to do in JS go to web browser featu
 2. do Event Loop means keep checking if the global call stack is empty (no function running), if queue is not empty,delete function from queue and push it to stack.
 3. all regular code executed first, after that start execute what deque from callback queue.
 
-   
+## Coding Exercises
+### 145.[Use Higher-Order Functions map, filter, or reduce to Solve a Complex Problem](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-higher-order-functions-map-filter-or-reduce-to-solve-a-complex-problem)
+#### My Solution
+```javascript
+const squareList = arr => {
+  // Only change code below this line
+  const positveInteger =arr.filter(x => x > 0 && Math.floor(x) === x);
+  const sqList =positveInteger.map(x => x*x);
+  return sqList;
+  // Only change code above this line
+};
+
+const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);
+console.log(squaredIntegers);
+```  
