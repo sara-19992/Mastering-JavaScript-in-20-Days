@@ -120,31 +120,28 @@ addByFour(5); // => should return 9
 ### 137.[Challenge 4](http://csbin.io/closures)
 #### My Solution
 ```javascript
-// CHALLENGE 3
-function addByX(X) {
+// CHALLENGE 4
+function once(func) {
   
-  const addBy = X;
+ let output;
   
-  function add (x){
-    console.log(addBy + x);
-    return addBy + x ;
-  }
+   function onceReturn(arg){
+
+     output = output ? output : func(arg) 
+     return output;
+   } 
+
   
-  return add;
+ return onceReturn;
 
 }
 
-/*** Uncomment these to check your work! ***/
-const addByTwo = addByX(2);
-addByTwo(1); // => should return 3
-addByTwo(2); // => should return 4
-addByTwo(3); // => should return 5
+const addByTwo = (x) => x + 2;
 
-const addByThree = addByX(3);
-addByThree(1); // => should return 4
-addByThree(2); // => should return 5
 
-const addByFour = addByX(4);
-addByFour(4); // => should return 8
-addByFour(5); // => should return 9
+// /*** Uncomment these to check your work! ***/
+const onceFunc = once(addByTwo);
+console.log(onceFunc(4));  // => should log 6
+console.log(onceFunc(10));  // => should log 6
+console.log(onceFunc(9001));  // => should log 6
 ```  
