@@ -1,16 +1,17 @@
 ## Promise
 - ES6
-- return a promise object immediatly and set value after completeion
-- after propmise completeion set the value to response object
+- return a promise object immediately and set value after web browser completion
+- after promise completion set the value automatically to response object 
 - can use it to error handling on Rejection
 
-  ### Microstack queue & Callback queue
-  web browser features after completion functions put it on: 
-  1. microstack queue for promise functions 
-  2. callback queue for other callback functions
-      
-  when global code finsh running go to eventloop and check the callback queue and
-microstak queue
+### .then
+code that run on data when returnans the promise object save this code (function) to hidden property onFulfilment and run automatically when data return.
 
-event loop check microstak queue then go to callback queue
+### Microtask queue & Callback queue
+web browser features after completion functions put it on: 
+1. microtask queue for promise functions. 
+2. callback queue for other callback functions.
+    
+when global code finish running go to Event loop and first check microtask queue then callback queue.
+
   
