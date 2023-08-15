@@ -14,33 +14,23 @@ after web browser features completion, functions put it on:
     
 when global code finish running go to Event loop and first check microtask queue then callback queue.
 
-const task1 = (cb) => setTimeout(() => {
-  const message = "Task 1 has executed successfully!";
-  cb(message);
-}, 3000)
+## Coding Exercises
+### 154.[]()
+#### My Solution
+```javascript
+```
+### 155.[]()
+#### My Solution
+```javascript
+```
+### 156.[]()
+#### My Solution
+```javascript
+```
+### 157.[]()
+#### My Solution
+```javascript
+```
 
-const task2 = (cb) => setTimeout(() => {
-  const message = "Task 2 has executed successfully!";
-  cb(message);
-}, 0)
-
-const task3 = (cb) => setTimeout(() => {
-  const message = "Task 3 has executed successfully!";
-  cb(message);
-}, 1000)
-
-const task4 = (cb) => setTimeout(() => {
-  const message = "Task 4 has executed successfully!";
-  cb(message);
-}, 2000)
-
-const task5 = (cb) => setTimeout(() => {
-  const message = "Task 5 has executed successfully!";
-  cb(message);
-}, 4000)
-
-const asyncTasks = [task1, task2, task3, task4, task5];
-
-const executeInSequenceWithCBs = (tasks, callback) => {}
 
   
