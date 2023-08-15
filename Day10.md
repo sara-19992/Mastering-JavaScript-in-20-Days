@@ -1,5 +1,5 @@
 ## Promise
-- ES6
+- in ES6
 - return a promise object immediately and set value after web browser completion
 - after promise completion set the value automatically to response object 
 - can use it to error handling on Rejection
