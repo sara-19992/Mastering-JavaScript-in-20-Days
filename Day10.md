@@ -44,13 +44,19 @@ const task5 = (cb) => setTimeout(() => {
 }, 4000)
 
 const asyncTasks = [task1, task2, task3, task4, task5];
+const arr = [];
+const addMessage = (messg) => arr.push(messg);
 
 const executeInSequenceWithCBs = (tasks, callback) => {
-    for(let task of tasks){
-       task();
+    return async function{
+       for(let task of tasks){
+        await task(callback);
      }
-
+      console.log(arr);
+    }
+    
 }
+executeInSequenceWithCBs(asyncTasks,addMessage);
 ```
 ### 155.[]()
 #### My Solution
