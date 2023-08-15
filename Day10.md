@@ -4,7 +4,7 @@
 - after promise completion set the value automatically to response object 
 - can use it to error handling on Rejection
 
-### .then ()
+### .then ( )
 code that run on data when returnans the promise object save this code (function) to hidden property onFulfilment and run automatically when data return.
 
 ### Microtask queue & Callback queue
