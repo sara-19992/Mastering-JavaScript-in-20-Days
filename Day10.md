@@ -15,7 +15,7 @@ after web browser features completion, functions put it on:
 when global code finish running go to Event loop and first check microtask queue then callback queue.
 
 ## Coding Exercises
-### 154.[Question 1](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%203/tasks.md#question-1)
+### 153.[Question 1](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%203/tasks.md#question-1)
 #### My Solution
 ```javascript
 const task1 = (cb) =>
@@ -72,7 +72,7 @@ const print = (arr) => {
 
 executeInSequenceWithCBs(asyncTasks, print);
 ```
-### 155.[Question 2](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%203/tasks.md#question-1)
+### 154.[Question 2](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%203/tasks.md#question-1)
 #### My Solution
 ```javascript
 const apis = [
@@ -110,7 +110,7 @@ const executeInParallelWithPromises = (apis) => {
 
 executeInParallelWithPromises(apis);
 ```
-### 156.[Question 3](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%203/tasks.md#question-1)
+### 155.[Question 3](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week2%20-%20javaScript-the-hard-parts-v2/day%203/tasks.md#question-1)
 #### My Solution
 ```javascript
 const apis = [
