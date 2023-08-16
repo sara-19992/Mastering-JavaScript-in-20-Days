@@ -227,10 +227,19 @@ let beagle = new Dog("Snoopy");
 // Only change code below this line
 Dog.prototype.isPrototypeOf(beagle);
 ```
-### 171.[]()
+### 171.[Understand the Prototype Chain](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/understand-the-prototype-chain)
 #### My Solution
 ```javascript
+function Dog(name) {
+  this.name = name;
+}
 
+let beagle = new Dog("Snoopy");
+
+Dog.prototype.isPrototypeOf(beagle);  // yields true
+
+// Fix the code below so that it evaluates to true
+Object.prototype.isPrototypeOf(Dog.prototype);
 ```
 ### 172.[]()
 #### My Solution
