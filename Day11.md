@@ -100,10 +100,22 @@ const myHouse = new House(10);
 
 console.log(myHouse instanceof House);
 ```
-### 164.[]()
+### 164.[Understand Own Properties](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/understand-own-properties)
 #### My Solution
 ```javascript
+function Bird(name) {
+  this.name = name;
+  this.numLegs = 2;
+}
 
+let canary = new Bird("Tweety");
+let ownProps = [];
+// Only change code below this line
+for(let prop in canary){
+  if(canary.hasOwnProperty(prop))ownProps.push(prop);
+}
+
+console.log(ownProps);
 ```
 ### 165.[]()
 #### My Solution
