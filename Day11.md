@@ -581,10 +581,41 @@ const createPromise = promised('wait for it...');
 createPromise.then((val) => console.log(val)); 
 // will log "wait for it..." to the console after 2 seconds
 ```
-### 190.[](http://csbin.io/async)
+### 190.[CHALLENGE 9](http://csbin.io/async)
 #### My Solution
 ```javascript
+/* CHALLENGE 9 */
 
+class SecondClock {
+  constructor(cb) {
+    // ADD CODE HERE
+    this.cb = cb;
+    this.s = 0;
+    this.myInterval = null;
+  }
+  // ADD METHODS HERE
+  start() {
+    this.myInterval = setInterval(() => {
+    this.s++;    
+    this.cb(this.s);
+    }, 1000);
+    
+  }
+  
+  reset() {
+   this.s = 0; 
+   clearInterval(this.myInterval); 
+  }
+}
+
+// UNCOMMENT THESE TO TEST YOUR WORK!
+const clock = new SecondClock((val) => { console.log(val) });
+console.log("Started Clock.");
+clock.start();
+setTimeout(() => {
+    clock.reset();
+    console.log("Stopped Clock after 6 seconds.");
+}, 6000);
 ```
 ### 191.[](http://csbin.io/async)
 #### My Solution
