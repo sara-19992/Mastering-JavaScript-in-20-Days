@@ -35,7 +35,6 @@ instanceof use to check a kind of object, not effect of manually setting the pro
 
 ### (IIFE) 
 Immediately Invoked Function Expression (IIFE)
-#### My Solution
 ```javascript
 (function() {
   console.log("Immediately");
@@ -415,10 +414,34 @@ function Bird() {
   console.log("A cozy nest is ready");
 })();
 ```
-### 181.[]()
+### 181.[Use an IIFE to Create a Module](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/use-an-iife-to-create-a-module)
 #### My Solution
 ```javascript
+let isCuteMixin = function(obj) {
+  obj.isCute = function() {
+    return true;
+  };
+};
+let singMixin = function(obj) {
+  obj.sing = function() {
+    console.log("Singing to an awesome tune");
+  };
+};
 
+const funModule = (function(){
+  return {
+    isCuteMixin: function(obj) {
+       obj.isCute = function() {
+        return true;
+    };
+  },
+  singMixin: function(obj) {
+    obj.sing = function() {
+      console.log("Singing to an awesome tune");
+    };
+  }
+ }
+})();
 ```
 ### 182.[]()
 #### My Solution
