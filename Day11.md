@@ -17,7 +17,9 @@ when assign object create a link to functions stored and store in hidden propert
 ### Properties
 two kinds of properties:
 1. properties own properties are defined directly on the object instance itself.
-2. prototype properties are defined on the prototype. 
+2. prototype properties are defined on the prototype.
+
+constructor property to find out what kind of object it is.
 
 ## Coding Exercises
 ### 156.[Create a Basic JavaScript Object](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/create-a-basic-javascript-object)
@@ -135,15 +137,39 @@ Dog.prototype.numLegs = 2;
 let beagle = new Dog("Snoopy");
 
 ```
-### 166.[]()
+### 166.[Iterate Over All Properties](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/iterate-over-all-properties)
 #### My Solution
 ```javascript
+function Dog(name) {
+  this.name = name;
+}
 
+Dog.prototype.numLegs = 4;
+
+let beagle = new Dog("Snoopy");
+
+let ownProps = [];
+let prototypeProps = [];
+
+// Only change code below this line
+for(let prop in beagle){
+  beagle.hasOwnProperty(prop) ? ownProps.push(prop) : prototypeProps.push(prop);
+}
+
+console.log('own property:' + ownProps);
+console.log('prototype property:' + prototypeProps);
 ```
-### 167.[]()
+### 167.[Understand the Constructor Property](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/understand-the-constructor-property)
 #### My Solution
 ```javascript
+function Dog(name) {
+  this.name = name;
+}
 
+// Only change code below this line
+function joinDogFraternity(candidate) {
+  return candidate.constructor === Dog ? true : false;
+}
 ```
 ### 168.[]()
 #### My Solution
