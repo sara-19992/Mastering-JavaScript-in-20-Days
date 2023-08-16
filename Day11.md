@@ -462,14 +462,32 @@ testMe(); // what order should these log out? Howdy or Partnah first?
 //log Partnah
 //log Howdy
 ```
-### 183.[]()
+### 183.[CHALLENGE 2](http://csbin.io/async)
 #### My Solution
 ```javascript
+/* CHALLENGE 2 */
 
+function delayedGreet() {
+  // ADD CODE HERE
+  setTimeout(() => console.log('welcome'), 3000);
+}
+// Uncomment the following line to check your work!
+delayedGreet(); // should log (after 3 seconds): welcome
 ```
-### 184.[]()
+### 184.[CHALLENGE 3]()
 #### My Solution
 ```javascript
+/* CHALLENGE 3 */
+
+function helloGoodbye() {
+  // ADD CODE HERE
+  console.log('hello');
+  
+  setTimeout(() => console.log('good bye'), 2000);
+}
+// Uncomment the following line to check your work!
+helloGoodbye(); // should log: hello // should also log (after 3 seconds): good bye
+
 
 ```
 ### 185.[]()
