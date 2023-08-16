@@ -515,9 +515,30 @@ function limitedRepeat() {
 // Uncomment the following line to check your work!
 limitedRepeat(); // should log (every second, for 5 seconds): hi for now
 ```
-### 187.[](http://csbin.io/async)
+### 187.[CHALLENGE 6](http://csbin.io/async)
 #### My Solution
 ```javascript
+/* CHALLENGE 6 */
+
+function everyXsecsForYsecs(func, interval, duration) {
+  // ADD CODE HERE
+  let i = duration;
+  const myInterval = setInterval(func, interval);
+  //i === 0 ? clearInterval(myInterval) : i -= interval;
+   setTimeout(() => {
+     clearInterval(myInterval);
+   }, duration);
+}
+// Uncomment the following lines to check your work!
+function theEnd() {
+  console.log('This is the end!');
+}
+
+function sayHi() {
+  console.log('Hi!');
+}
+//everyXsecsForYsecs(theEnd, 2000, 4000); // should invoke theEnd function every 2 seconds, for 20 seconds): This is the end!
+everyXsecsForYsecs(sayHi, 1000, 5000);
 
 ```
 ### 188.[](http://csbin.io/async)
