@@ -1,11 +1,10 @@
 ## Classes & Prototypes
-
-
 1. generate object using a function (copies of object, don't repeat yourself, can't add new functionality).
 2. Prototype chain
 3. classes
 
-Prototype chain 
+### Prototype chain 
+
 when assign object create a link to functions stored and store in hidden property proto, when call function search on the object if can't find it go to link and search. 
 
 When creating a function, a property object called prototype is being created automatically (you didn't create it yourself) and is being attached to the function object. 
