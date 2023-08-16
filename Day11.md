@@ -1,7 +1,8 @@
 ## Classes & Prototypes
 1. generate object using a function (copies of object, don't repeat yourself, can't add new functionality).
-2. Prototype chain
-3. classes
+2. Prototype chain.
+3. new keyword.
+4. classes.
 
 ### Prototype chain 
 
