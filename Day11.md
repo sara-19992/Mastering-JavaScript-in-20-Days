@@ -15,20 +15,36 @@ when assign object create a link to functions stored and store in hidden propert
 5. when creating a function, a property object called prototype is being created automatically and is being attached to the function object.  
 
 ## Coding Exercises
-### 156.[]()
+### 156.[Create a Basic JavaScript Object](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/create-a-basic-javascript-object)
 #### My Solution
 ```javascript
-
+let dog = {
+  name: "sds",
+  numLegs: 4
+};
 ```
-### 157.[]()
+### 157.[Use Dot Notation to Access the Properties of an Object](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/use-dot-notation-to-access-the-properties-of-an-object)
 #### My Solution
 ```javascript
-
+let dog = {
+  name: "Spot",
+  numLegs: 4
+};
+// Only change code below this line
+console.log(dog.name, dog.numLegs);
 ```
-### 158.[]()
+### 158.[Create a Method on an Object](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/create-a-method-on-an-object)
 #### My Solution
 ```javascript
+let dog = {
+  name: "Spot",
+  numLegs: 4,
 
+  sayLegs: () => `This dog has ${dog.numLegs} legs.`
+
+};
+
+dog.sayLegs();
 ```
 ### 159.[]()
 #### My Solution
