@@ -443,6 +443,7 @@ const funModule = (function(){
  }
 })();
 ```
+## Asynchronicity Exercises
 ### 182.[CHALLENGE 1](http://csbin.io/async)
 #### My Solution
 ```javascript
@@ -467,6 +468,41 @@ testMe(); // what order should these log out? Howdy or Partnah first?
 
 ```
 ### 184.[]()
+#### My Solution
+```javascript
+
+```
+### 185.[]()
+#### My Solution
+```javascript
+
+```
+### 186.[]()
+#### My Solution
+```javascript
+
+```
+### 187.[]()
+#### My Solution
+```javascript
+
+```
+### 188.[]()
+#### My Solution
+```javascript
+
+```
+### 189.[]()
+#### My Solution
+```javascript
+
+```
+### 190.[]()
+#### My Solution
+```javascript
+
+```
+### 191.[]()
 #### My Solution
 ```javascript
 
