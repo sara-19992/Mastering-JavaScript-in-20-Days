@@ -14,7 +14,7 @@ when assign object create a link to functions stored and store in hidden propert
 4. Object.prototype is big object which proto link to Null.
 5. when creating a function, a property object called prototype is being created automatically and is being attached to the function object.
 
-### Kinds of Properties
+### Properties
 two kinds of properties:
 1. properties own properties are defined directly on the object instance itself.
 2. prototype properties are defined on the prototype. 
