@@ -88,10 +88,17 @@ function Dog(name, color) {
 
 const terrier = new Dog('terr','brown');
 ```
-### 163.[]()
+### 163.[Verify an Object's Constructor with instanceof](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/verify-an-objects-constructor-with-instanceof)
 #### My Solution
 ```javascript
+function House(numBedrooms) {
+  this.numBedrooms = numBedrooms;
+}
 
+// Only change code below this line
+const myHouse = new House(10);
+
+console.log(myHouse instanceof House);
 ```
 ### 164.[]()
 #### My Solution
