@@ -25,9 +25,9 @@ constructor property to find out what kind of object it is.there is one crucial 
 instanceof use to check a kind of object, not effect of manually setting the prototype to a new object like constructor
 
 ### Object Inherits
-1. object inherits its prototype directly from the constructor function that created it.
-2. When an object inherits its prototype from another object, it also inherits the supertype's constructor property.
-3. Override Inherited Methods
+- object inherits its prototype directly from the constructor function that created it.
+-  When an object inherits its prototype from another object, it also inherits the supertype's constructor property.
+- Override Inherited Methods
 
 ## Coding Exercises
 ### 156.[Create a Basic JavaScript Object](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/create-a-basic-javascript-object)
