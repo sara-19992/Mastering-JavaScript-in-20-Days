@@ -46,10 +46,16 @@ let dog = {
 
 dog.sayLegs();
 ```
-### 159.[]()
+### 159.[Make Code More Reusable with the this Keyword](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/make-code-more-reusable-with-the-this-keyword)
 #### My Solution
 ```javascript
+let dog = {
+  name: "Spot",
+  numLegs: 4,
+  sayLegs: function() {return "This dog has " + this.numLegs + " legs.";}
+};
 
+dog.sayLegs();
 ```
 ### 160.[]()
 #### My Solution
