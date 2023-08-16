@@ -344,13 +344,40 @@ Dog.prototype.bark = () => {
 
 let beagle = new Dog();
 ```
-### 177.[Override Inherited Methods]()
+### 177.[Override Inherited Methods](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/override-inherited-methods)
+#### My Solution
+```javascript
+function Bird() { }
+
+Bird.prototype.fly = function() { return "I am flying!"; };
+
+function Penguin() { }
+Penguin.prototype = Object.create(Bird.prototype);
+Penguin.prototype.constructor = Penguin;
+
+// Only change code below this line
+Penguin.prototype.fly = () => 'Alas, this is a flightless bird.';
+
+
+// Only change code above this line
+
+let penguin = new Penguin();
+console.log(penguin.fly());
+```
+### 178.[]()
 #### My Solution
 ```javascript
 
 ```
-### 78.[]()
+### 179.[]()
 #### My Solution
 ```javascript
 
 ```
+### 180.[]()
+#### My Solution
+```javascript
+
+```
+
+
