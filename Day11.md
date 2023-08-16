@@ -14,3 +14,29 @@ when assign object create a link to functions stored and store in hidden propert
 4. Object.prototype is big object which proto link to Null.
 5. when creating a function, a property object called prototype is being created automatically and is being attached to the function object.  
 
+## Coding Exercises
+### 156.[]()
+#### My Solution
+```javascript
+
+```
+### 157.[]()
+#### My Solution
+```javascript
+
+```
+### 158.[]()
+#### My Solution
+```javascript
+
+```
+### 159.[]()
+#### My Solution
+```javascript
+
+```
+### 160.[]()
+#### My Solution
+```javascript
+
+```
