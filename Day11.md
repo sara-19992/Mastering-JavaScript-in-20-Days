@@ -443,10 +443,23 @@ const funModule = (function(){
  }
 })();
 ```
-### 182.[]()
+### 182.[CHALLENGE 1](http://csbin.io/async)
 #### My Solution
 ```javascript
+/* CHALLENGE 1 */
 
+function sayHowdy() {
+  console.log('Howdy');
+}
+
+function testMe() {
+  setTimeout(sayHowdy, 0);
+  console.log('Partnah');
+}
+// After thinking it through, uncomment the following line to check your guess!
+testMe(); // what order should these log out? Howdy or Partnah first?
+//log Partnah
+//log Howdy
 ```
 ### 183.[]()
 #### My Solution
