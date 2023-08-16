@@ -19,7 +19,10 @@ two kinds of properties:
 1. properties own properties are defined directly on the object instance itself.
 2. prototype properties are defined on the prototype.
 
-constructor property to find out what kind of object it is.
+### Constructor property & instanceof
+constructor property to find out what kind of object it is.there is one crucial side effect of manually setting the prototype to a new object. It erases the constructor property! This property can be used to check which constructor function created the instance, but since the property has been overwritten, it now gives false results and to fix it  set the Constructor Property manually in prototype object.
+
+instanceof use to check a kind of object, not effect of manually setting the prototype to a new object like constructor
 
 ## Coding Exercises
 ### 156.[Create a Basic JavaScript Object](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/create-a-basic-javascript-object)
@@ -171,15 +174,45 @@ function joinDogFraternity(candidate) {
   return candidate.constructor === Dog ? true : false;
 }
 ```
-### 168.[]()
+### 168.[Change the Prototype to a New Object](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/change-the-prototype-to-a-new-object)
 #### My Solution
 ```javascript
+function Dog(name) {
+  this.name = name;
+}
 
+Dog.prototype = {
+  // Only change code below this line
+  numLegs: 2,
+  eat: () => {
+    console.log(`eat function`); 
+  },
+  describe: () => {
+    console.log(`name is ${this.name}`);
+  }
+};
 ```
-### 169.[]()
+### 169.[Remember to Set the Constructor Property when Changing the Prototype](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/remember-to-set-the-constructor-property-when-changing-the-prototype)
 #### My Solution
 ```javascript
+function Dog(name) {
+  this.name = name;
+}
 
+// Only change code below this line
+Dog.prototype = {
+  constructor: Dog,
+  numLegs: 4,
+  eat: function() {
+    console.log("nom nom nom");
+  },
+  describe: function() {
+    console.log("My name is " + this.name);
+  }
+};
+
+const d = new Dog('sd');
+console.log(d.constructor === Dog);
 ```
 ### 170.[]()
 #### My Solution
