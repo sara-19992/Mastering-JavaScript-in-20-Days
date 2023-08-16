@@ -13,6 +13,7 @@ when assign object create a link to functions stored and store in hidden propert
 3. all object in JS has proto property link to Object.prototype as default (proto link to object stored function).
 4. Object.prototype is big object which proto link to Null.
 5. when creating a function, a property object called prototype is being created automatically and is being attached to the function object.
+6. object inherits its prototype directly from the constructor function that created it.
 
 ### Properties
 two kinds of properties:
@@ -20,7 +21,7 @@ two kinds of properties:
 2. prototype properties are defined on the prototype.
 
 ### Constructor property & instanceof
-constructor property to find out what kind of object it is.there is one crucial side effect of manually setting the prototype to a new object. It erases the constructor property! This property can be used to check which constructor function created the instance, but since the property has been overwritten, it now gives false results and to fix it  set the Constructor Property manually in prototype object.
+constructor property to find out what kind of object it is.there is one crucial side effect of manually setting the prototype to a new object. It erases the constructor property!, but since the property has been overwritten, it now gives false results, fix it by set the Constructor Property manually in prototype object.
 
 instanceof use to check a kind of object, not effect of manually setting the prototype to a new object like constructor
 
@@ -214,10 +215,17 @@ Dog.prototype = {
 const d = new Dog('sd');
 console.log(d.constructor === Dog);
 ```
-### 170.[]()
+### 170.[Understand Where an Object’s Prototype Comes From](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/understand-where-an-objects-prototype-comes-from)
 #### My Solution
 ```javascript
+function Dog(name) {
+  this.name = name;
+}
 
+let beagle = new Dog("Snoopy");
+
+// Only change code below this line
+Dog.prototype.isPrototypeOf(beagle);
 ```
 ### 171.[]()
 #### My Solution
