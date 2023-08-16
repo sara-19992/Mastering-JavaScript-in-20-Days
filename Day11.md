@@ -14,6 +14,7 @@ when assign object create a link to functions stored and store in hidden propert
 4. Object.prototype is big object which proto link to Null.
 5. when creating a function, a property object called prototype is being created automatically and is being attached to the function object.
 6. object inherits its prototype directly from the constructor function that created it.
+7. When an object inherits its prototype from another object, it also inherits the supertype's constructor property.
 
 ### Properties
 two kinds of properties:
@@ -299,15 +300,46 @@ Dog.prototype = Object.create(Animal.prototype);
 
 let beagle = new Dog();
 ```
-### 175.[]()
+### 175.[Reset an Inherited Constructor Property](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/reset-an-inherited-constructor-property)
 #### My Solution
 ```javascript
+function Animal() { }
+function Bird() { }
+function Dog() { }
 
+Bird.prototype = Object.create(Animal.prototype);
+Dog.prototype = Object.create(Animal.prototype);
+
+// Only change code below this line
+Bird.prototype.constructor = Bird;
+Dog.prototype.constructor = Dog;
+
+
+let duck = new Bird();
+let beagle = new Dog();
+
+console.log(duck.constructor, beagle.constructor);
 ```
-### 176.[]()
+### 176.[Add Methods After Inheritance](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/add-methods-after-inheritance)
 #### My Solution
 ```javascript
+function Animal() { }
+Animal.prototype.eat = function() { console.log("nom nom nom"); };
 
+function Dog() { }
+
+// Only change code below this line
+Dog.prototype = Object.create(Animal.prototype);
+
+Dog.prototype.constructor = Dog;
+
+Dog.prototype.bark = () => {
+  console.log('Woof!');
+}
+
+// Only change code above this line
+
+let beagle = new Dog();
 ```
 ### 177.[]()
 #### My Solution
