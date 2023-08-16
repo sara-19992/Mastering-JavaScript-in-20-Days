@@ -24,10 +24,14 @@ constructor property to find out what kind of object it is.there is one crucial 
 
 instanceof use to check a kind of object, not effect of manually setting the prototype to a new object like constructor
 
-### Object Inherits
+### Object Inherits & Mixin
+#### Inherits
 - object inherits its prototype directly from the constructor function that created it.
--  When an object inherits its prototype from another object, it also inherits the supertype's constructor property.
-- Override Inherited Methods
+- when an object inherits its prototype from another object, it also inherits the supertype's constructor property.
+- override Inherited Methods.
+#### Mixin  
+- there are cases when inheritance is not the best solution. Inheritance does not work well for unrelated objects.
+- for unrelated objects, it's better to use mixins. A mixin allows other objects to use a collection of functions.
 
 ## Coding Exercises
 ### 156.[Create a Basic JavaScript Object](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/create-a-basic-javascript-object)
@@ -364,10 +368,26 @@ Penguin.prototype.fly = () => 'Alas, this is a flightless bird.';
 let penguin = new Penguin();
 console.log(penguin.fly());
 ```
-### 178.[]()
+### 178.[Use a Mixin to Add Common Behavior Between Unrelated Objects](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/use-a-mixin-to-add-common-behavior-between-unrelated-objects)
 #### My Solution
 ```javascript
+let bird = {
+  name: "Donald",
+  numLegs: 2
+};
 
+let boat = {
+  name: "Warrior",
+  type: "race-boat"
+};
+
+// Only change code below this line
+const glideMixin = (obj) => {
+ obj.glide =  () => console.log('glide');
+}
+
+glideMixin(bird);
+glideMixin(boat);
 ```
 ### 179.[]()
 #### My Solution
