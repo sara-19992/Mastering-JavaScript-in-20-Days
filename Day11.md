@@ -57,7 +57,101 @@ let dog = {
 
 dog.sayLegs();
 ```
-### 160.[]()
+### 160.[Define a Constructor Function](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/define-a-constructor-function)
+#### My Solution
+```javascript
+function Dog(){
+  this.name = 'dfg';
+  this.color = 'red';
+  this.numLegs = 4;
+}
+```
+### 161.[]()
+#### My Solution
+```javascript
+
+```
+### 162.[]()
+#### My Solution
+```javascript
+
+```
+### 163.[]()
+#### My Solution
+```javascript
+
+```
+### 164.[]()
+#### My Solution
+```javascript
+
+```
+### 165.[]()
+#### My Solution
+```javascript
+
+```
+### 166.[]()
+#### My Solution
+```javascript
+
+```
+### 167.[]()
+#### My Solution
+```javascript
+
+```
+### 168.[]()
+#### My Solution
+```javascript
+
+```
+### 169.[]()
+#### My Solution
+```javascript
+
+```
+### 170.[]()
+#### My Solution
+```javascript
+
+```
+### 171.[]()
+#### My Solution
+```javascript
+
+```
+### 172.[]()
+#### My Solution
+```javascript
+
+```
+### 173.[]()
+#### My Solution
+```javascript
+
+```
+### 174.[]()
+#### My Solution
+```javascript
+
+```
+### 175.[]()
+#### My Solution
+```javascript
+
+```
+### 176.[]()
+#### My Solution
+```javascript
+
+```
+### 177.[]()
+#### My Solution
+```javascript
+
+```
+### 78.[]()
 #### My Solution
 ```javascript
 
