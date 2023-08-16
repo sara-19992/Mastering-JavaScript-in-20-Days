@@ -13,8 +13,6 @@ when assign object create a link to functions stored and store in hidden propert
 3. all object in JS has proto property link to Object.prototype as default (proto link to object stored function).
 4. Object.prototype is big object which proto link to Null.
 5. when creating a function, a property object called prototype is being created automatically and is being attached to the function object.
-6. object inherits its prototype directly from the constructor function that created it.
-7. When an object inherits its prototype from another object, it also inherits the supertype's constructor property.
 
 ### Properties
 two kinds of properties:
@@ -26,6 +24,11 @@ constructor property to find out what kind of object it is.there is one crucial 
 
 instanceof use to check a kind of object, not effect of manually setting the prototype to a new object like constructor
 
+### Object Inherits
+1. object inherits its prototype directly from the constructor function that created it.
+2. When an object inherits its prototype from another object, it also inherits the supertype's constructor property.
+3. Override Inherited Methods
+   
 ## Coding Exercises
 ### 156.[Create a Basic JavaScript Object](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/create-a-basic-javascript-object)
 #### My Solution
@@ -341,7 +344,7 @@ Dog.prototype.bark = () => {
 
 let beagle = new Dog();
 ```
-### 177.[]()
+### 177.[Override Inherited Methods]()
 #### My Solution
 ```javascript
 
