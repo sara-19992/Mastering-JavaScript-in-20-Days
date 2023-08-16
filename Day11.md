@@ -487,25 +487,40 @@ function helloGoodbye() {
 }
 // Uncomment the following line to check your work!
 helloGoodbye(); // should log: hello // should also log (after 3 seconds): good bye
-
-
 ```
-### 185.[]()
+### 185.[CHALLENGE 4](http://csbin.io/async)
+#### My Solution
+```javascript
+/* CHALLENGE 4 */
+
+function brokenRecord() {
+  // ADD CODE HERE
+  setInterval(() => console.log('hi again'), 1000);
+}
+// Uncomment the following line to check your work!
+brokenRecord(); // should log (every second): hi again
+```
+### 186.[CHALLENGE 5](http://csbin.io/async)
+#### My Solution
+```javascript
+/* CHALLENGE 5 */
+
+function limitedRepeat() {
+  // ADD CODE HERE
+  let i = 0;
+  const interval = setInterval(() => {
+    i++ === 5 ? clearInterval(interval) : console.log('hi for now');
+  }, 1000);
+}
+// Uncomment the following line to check your work!
+limitedRepeat(); // should log (every second, for 5 seconds): hi for now
+```
+### 187.[](http://csbin.io/async)
 #### My Solution
 ```javascript
 
 ```
-### 186.[]()
-#### My Solution
-```javascript
-
-```
-### 187.[]()
-#### My Solution
-```javascript
-
-```
-### 188.[]()
+### 188.[](http://csbin.io/async)
 #### My Solution
 ```javascript
 
