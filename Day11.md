@@ -35,7 +35,6 @@ instanceof use to check a kind of object, not effect of manually setting the pro
 
 ### (IIFE) 
 Immediately Invoked Function Expression (IIFE)
-## Coding Example
 #### My Solution
 ```javascript
 (function() {
