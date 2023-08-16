@@ -28,7 +28,7 @@ instanceof use to check a kind of object, not effect of manually setting the pro
 1. object inherits its prototype directly from the constructor function that created it.
 2. When an object inherits its prototype from another object, it also inherits the supertype's constructor property.
 3. Override Inherited Methods
-   
+
 ## Coding Exercises
 ### 156.[Create a Basic JavaScript Object](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/create-a-basic-javascript-object)
 #### My Solution
