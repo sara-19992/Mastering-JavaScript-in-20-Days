@@ -541,22 +541,40 @@ function sayHi() {
 everyXsecsForYsecs(sayHi, 1000, 5000);
 
 ```
-### 188.[](http://csbin.io/async)
+### 188.[CHALLENGE 7](http://csbin.io/async)
+#### My Solution
+```javascript
+/* CHALLENGE 7 */
+
+function delayCounter(target, wait) {
+  let i = 1;
+  return function (){
+    const myInterval = setInterval(() => {
+     i > target ? clearInterval(myInterval) : console.log(i);
+     i++; 
+    }, wait);
+  }  
+
+}
+
+// UNCOMMENT THESE TO TEST YOUR WORK!
+const countLogger = delayCounter(3, 1000);
+countLogger();
+// After 1 second, log 1
+// After 2 seconds, log 2
+// After 3 seconds, log 3
+```
+### 189.[](http://csbin.io/async)
 #### My Solution
 ```javascript
 
 ```
-### 189.[]()
+### 190.[](http://csbin.io/async)
 #### My Solution
 ```javascript
 
 ```
-### 190.[]()
-#### My Solution
-```javascript
-
-```
-### 191.[]()
+### 191.[](http://csbin.io/async)
 #### My Solution
 ```javascript
 
