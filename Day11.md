@@ -117,9 +117,17 @@ for(let prop in canary){
 
 console.log(ownProps);
 ```
-### 165.[]()
+### 165.[Use Prototype Properties to Reduce Duplicate Code](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/use-prototype-properties-to-reduce-duplicate-code)
 #### My Solution
 ```javascript
+function Dog(name) {
+  this.name = name;
+}
+
+Dog.prototype.numLegs = 2;
+
+// Only change code above this line
+let beagle = new Dog("Snoopy");
 
 ```
 ### 166.[]()
