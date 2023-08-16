@@ -617,9 +617,49 @@ setTimeout(() => {
     console.log("Stopped Clock after 6 seconds.");
 }, 6000);
 ```
-### 191.[](http://csbin.io/async)
+### 191.[CHALLENGE 10](http://csbin.io/async)
 #### My Solution
 ```javascript
+/* CHALLENGE 10 */
+
+function debounce(callback, interval) {
+  // ADD CODE 
+  let int = 0;
+  let isRun = false;
+    
+  return function(){
+    let myInterval;
+    
+    const clear = () => {
+        int = 0;
+    		clearInterval(myInterval);
+        myInterval = setInterval(() => int++, 1);
+    }
+    
+    if(!isRun){
+      isRun = true;
+     	myInterval = setInterval(() => int++, 1);  
+    	return callback();
+    } else{
+     if(int < interval){
+       clear();
+       return undefined;
+     }
+     else {
+       clear();
+       return callback();
+     }
+   }
+  }
+}
+
+// UNCOMMENT THESE TO TEST YOUR WORK!
+function giveHi() { return 'hi'; }
+const giveHiSometimes = debounce(giveHi, 2000);
+console.log(giveHiSometimes()); // -> 'hi'
+setTimeout(function() { console.log(giveHiSometimes()); }, 2000); // -> undefined
+setTimeout(function() { console.log(giveHiSometimes()); }, 4000); // -> undefined
+setTimeout(function() { console.log(giveHiSometimes()); }, 8000); // -> 'hi'
 
 ```
 
