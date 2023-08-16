@@ -12,7 +12,11 @@ when assign object create a link to functions stored and store in hidden propert
 2. when create object using Object.create() method return empty object.
 3. all object in JS has proto property link to Object.prototype as default (proto link to object stored function).
 4. Object.prototype is big object which proto link to Null.
-5. when creating a function, a property object called prototype is being created automatically and is being attached to the function object.  
+5. when creating a function, a property object called prototype is being created automatically and is being attached to the function object.
+
+two kinds of properties:
+1. properties own properties are defined directly on the object instance itself.
+2. prototype properties are defined on the prototype. 
 
 ## Coding Exercises
 ### 156.[Create a Basic JavaScript Object](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/create-a-basic-javascript-object)
