@@ -66,15 +66,27 @@ function Dog(){
   this.numLegs = 4;
 }
 ```
-### 161.[]()
+### 161.[Use a Constructor to Create Objects](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/use-a-constructor-to-create-objects)
 #### My Solution
 ```javascript
-
+function Dog() {
+  this.name = "Rupert";
+  this.color = "brown";
+  this.numLegs = 4;
+}
+// Only change code below this line
+const hound = new Dog();
 ```
-### 162.[]()
+### 162.[Extend Constructors to Receive Arguments](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/extend-constructors-to-receive-arguments)
 #### My Solution
 ```javascript
+function Dog(name, color) {
+  this.name = name;
+  this.color = color;
+  this.numLegs = 4;
+}
 
+const terrier = new Dog('terr','brown');
 ```
 ### 163.[]()
 #### My Solution
