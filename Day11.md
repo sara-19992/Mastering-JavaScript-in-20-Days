@@ -564,10 +564,22 @@ countLogger();
 // After 2 seconds, log 2
 // After 3 seconds, log 3
 ```
-### 189.[](http://csbin.io/async)
+### 189.[CHALLENGE 8](http://csbin.io/async)
 #### My Solution
 ```javascript
+/* CHALLENGE 8 */
 
+function promised (val) {
+  // ADD CODE HERE
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(val), 1000);
+  });
+}
+
+// UNCOMMENT THESE TO TEST YOUR WORK!
+const createPromise = promised('wait for it...');
+createPromise.then((val) => console.log(val)); 
+// will log "wait for it..." to the console after 2 seconds
 ```
 ### 190.[](http://csbin.io/async)
 #### My Solution
