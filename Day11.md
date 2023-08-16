@@ -33,6 +33,15 @@ instanceof use to check a kind of object, not effect of manually setting the pro
 - there are cases when inheritance is not the best solution. Inheritance does not work well for unrelated objects.
 - for unrelated objects, it's better to use mixins. A mixin allows other objects to use a collection of functions.
 
+### (IIFE) 
+Immediately Invoked Function Expression (IIFE)
+## Coding Example
+#### My Solution
+```javascript
+(function() {
+  console.log("Immediately");
+})();
+```
 ## Coding Exercises
 ### 156.[Create a Basic JavaScript Object](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/create-a-basic-javascript-object)
 #### My Solution
@@ -389,15 +398,42 @@ const glideMixin = (obj) => {
 glideMixin(bird);
 glideMixin(boat);
 ```
-### 179.[]()
+### 179.[Use Closure to Protect Properties Within an Object from Being Modified Externally](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/use-closure-to-protect-properties-within-an-object-from-being-modified-externally)
+#### My Solution
+```javascript
+function Bird() {
+  let weight = 15;
+  
+  this.getWeight = () => weight;
+
+}
+
+```
+### 180.[Understand the Immediately Invoked Function Expression (IIFE)](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/understand-the-immediately-invoked-function-expression-iife)
+#### My Solution
+```javascript
+(function() {
+  console.log("A cozy nest is ready");
+})();
+```
+### 181.[]()
 #### My Solution
 ```javascript
 
 ```
-### 180.[]()
+### 182.[]()
 #### My Solution
 ```javascript
 
 ```
+### 183.[]()
+#### My Solution
+```javascript
 
+```
+### 184.[]()
+#### My Solution
+```javascript
+
+```
 
