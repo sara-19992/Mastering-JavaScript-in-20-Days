@@ -241,10 +241,26 @@ Dog.prototype.isPrototypeOf(beagle);  // yields true
 // Fix the code below so that it evaluates to true
 Object.prototype.isPrototypeOf(Dog.prototype);
 ```
-### 172.[]()
+### 172.[Use Inheritance So You Don't Repeat Yourself](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/use-inheritance-so-you-dont-repeat-yourself)
 #### My Solution
 ```javascript
+function Cat(name) {
+  this.name = name;
+}
 
+function Bear(name) {
+  this.name = name;
+}
+
+function Animal() { }
+
+Animal.prototype = {
+  constructor: Animal,
+   eat: function() {
+    console.log("nom nom nom");
+  }
+
+};
 ```
 ### 173.[]()
 #### My Solution
