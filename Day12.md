@@ -160,10 +160,8 @@ function remove(bookList, bookName) {
     // Change code above this line
     }
 }
-
-
 ```
-### 196.[Implement map on a Prototype](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/implement-map-on-a-prototype)
+### 197.[Implement map on a Prototype](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/implement-map-on-a-prototype)
 #### My Solution
 ```javascript
 Array.prototype.myMap = function(callback) {
@@ -173,11 +171,6 @@ Array.prototype.myMap = function(callback) {
   // Only change code above this line
   return newArray;
 };
-```
-### 197.[]()
-#### My Solution
-```javascript
-
 ```
 ### 198.[]()
 #### My Solution
