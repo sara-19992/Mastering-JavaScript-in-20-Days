@@ -107,10 +107,19 @@ const finalTabs = socialWindow
   .join(workWindow.tabClose(1).tabOpen());
 console.log(finalTabs.tabs);
 ```
-### 194.[]()
+### 194.[Avoid Mutations and Side Effects Using Functional Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/avoid-mutations-and-side-effects-using-functional-programming)
 #### My Solution
 ```javascript
+// The global variable
+let fixedValue = 4;
 
+function incrementer() {
+  // Only change code below this line
+  let v = fixedValue;
+  return ++v;
+
+  // Only change code above this line
+}
 ```
 ### 195.[]()
 #### My Solution
