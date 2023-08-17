@@ -172,10 +172,20 @@ Array.prototype.myMap = function(callback) {
   return newArray;
 };
 ```
-### 198.[]()
+### 198.[Implement the filter Method on a Prototype](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/implement-the-filter-method-on-a-prototype)
 #### My Solution
 ```javascript
-
+Array.prototype.myFilter = function(callback) {
+  const newArray = [];
+  // Only change code below this line
+   this.forEach((element, index, array) => {
+     if(callback(element, index, array)) newArray.push(element);
+     }
+     );
+   console.log(newArray);  
+  // Only change code above this line
+  return newArray;
+};
 ```
 ### 199.[]()
 #### My Solution
