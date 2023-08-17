@@ -409,10 +409,17 @@ function splitify(str) {
 
 splitify("Hello World,I-am code");
 ```
-### 207.[]()
+### 207.[Combine an Array into a String Using the join Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/combine-an-array-into-a-string-using-the-join-method)
 #### My Solution
 ```javascript
+function sentensify(str) {
+  // Only change code below this line
+   return str.split(/[ .-]/).join(' ');
 
+  // Only change code above this line
+}
+
+sentensify("May-the-force-be-with-you");
 ```
 ### 208.[]()
 #### My Solution
