@@ -433,7 +433,24 @@ function checkPositive(arr) {
 
 checkPositive([1, 2, 3, -4, 5]);
 ```
-### 209.[]()
+### 209.[Use the some Method to Check that Any Elements in an Array Meet a Criteria](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-the-some-method-to-check-that-any-elements-in-an-array-meet-a-criteria)
+#### My Solution
+```javascript
+function checkPositive(arr) {
+  // Only change code below this line
+  return arr.some((value) => value > 0); 
+
+  // Only change code above this line
+}
+
+checkPositive([1, 2, 3, -4, 5]);
+```
+### 210.[]()
+#### My Solution
+```javascript
+
+```
+### 211.[]()
 #### My Solution
 ```javascript
 
