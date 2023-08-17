@@ -461,8 +461,3 @@ function add(x) {
 
 add(10)(20)(30);
 ```
-### 211.[]()
-#### My Solution
-```javascript
-
-```
