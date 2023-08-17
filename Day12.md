@@ -369,10 +369,17 @@ function getRating(watchList) {
 
 console.log(getRating(watchList));
 ```
-### 204.[]()
+### 204.[Sort an Array Alphabetically using the sort Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/sort-an-array-alphabetically-using-the-sort-method)
 #### My Solution
 ```javascript
+function alphabeticalOrder(arr) {
+  // Only change code below this line
 
+  return arr.sort();
+  // Only change code above this line
+}
+
+alphabeticalOrder(["a", "d", "c", "a", "z", "g"]);
 ```
 ### 205.[]()
 #### My Solution
