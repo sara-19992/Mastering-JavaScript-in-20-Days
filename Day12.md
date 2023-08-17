@@ -187,10 +187,18 @@ Array.prototype.myFilter = function(callback) {
   return newArray;
 };
 ```
-### 199.[]()
+### 199.[Return Part of an Array Using the slice Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/return-part-of-an-array-using-the-slice-method)
 #### My Solution
 ```javascript
+function sliceArray(anim, beginSlice, endSlice) {
+  // Only change code below this line
+  return anim.slice(beginSlice, endSlice);
 
+  // Only change code above this line
+}
+
+const inputAnim = ["Cat", "Dog", "Tiger", "Zebra", "Ant"];
+sliceArray(inputAnim, 1, 3);
 ```
 ### 200.[]()
 #### My Solution
