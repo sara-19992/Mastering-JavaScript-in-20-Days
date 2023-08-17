@@ -207,15 +207,33 @@ function nonMutatingSplice(cities) {
   return [...cities].slice(0, 3);
 }
 ```
-### 201.[]()
+### 201.[Combine Two Arrays Using the concat Method](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/combine-two-arrays-using-the-concat-method)
 #### My Solution
 ```javascript
+function nonMutatingConcat(original, attach) {
+  // Only change code below this line
+   return [...original].concat(attach);
 
+  // Only change code above this line
+}
+
+const first = [1, 2, 3];
+const second = [4, 5];
+nonMutatingConcat(first, second);
 ```
-### 202.[]()
+### 202.[Add Elements to the End of an Array Using concat Instead of push](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/add-elements-to-the-end-of-an-array-using-concat-instead-of-push)
 #### My Solution
 ```javascript
+function nonMutatingPush(original, newItem) {
+  // Only change code below this line
+  return [...original].concat(newItem);
 
+  // Only change code above this line
+}
+
+const first = [1, 2, 3];
+const second = [4, 5];
+nonMutatingPush(first, second);
 ```
 ### 203.[]()
 #### My Solution
