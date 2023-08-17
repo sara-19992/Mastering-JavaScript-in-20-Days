@@ -421,10 +421,17 @@ function sentensify(str) {
 
 sentensify("May-the-force-be-with-you");
 ```
-### 208.[]()
+### 208.[Use the every Method to Check that Every Element in an Array Meets a Criteria](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-the-every-method-to-check-that-every-element-in-an-array-meets-a-criteria)
 #### My Solution
 ```javascript
+function checkPositive(arr) {
+  // Only change code below this line
+  return arr.every((value) => value > 0);
 
+  // Only change code above this line
+}
+
+checkPositive([1, 2, 3, -4, 5]);
 ```
 ### 209.[]()
 #### My Solution
