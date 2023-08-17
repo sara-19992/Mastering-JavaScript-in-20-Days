@@ -133,9 +133,34 @@ function incrementer(value) {
   // Only change code above this line
 }
 ```
-### 196.[]()
+### 196.[Refactor Global Variables Out of Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/refactor-global-variables-out-of-functions)
 #### My Solution
 ```javascript
+// The global variable
+const bookList = ["The Hound of the Baskervilles", "On The Electrodynamics of Moving Bodies", "Philosophiæ Naturalis Principia Mathematica", "Disquisitiones Arithmeticae"];
+
+// Change code below this line
+function add(bookList, bookName) {
+  const book = [...bookList];
+  book.push(bookName);
+  return book;
+  
+  // Change code above this line
+}
+
+// Change code below this line
+function remove(bookList, bookName) {
+  const book = [...bookList];
+  const book_index = book.indexOf(bookName);
+  if (book_index >= 0) {
+
+    book.splice(book_index, 1);
+    return book;
+
+    // Change code above this line
+    }
+}
+
 
 ```
 ### 197.[]()
