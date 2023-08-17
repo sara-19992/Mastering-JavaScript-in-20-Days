@@ -445,10 +445,21 @@ function checkPositive(arr) {
 
 checkPositive([1, 2, 3, -4, 5]);
 ```
-### 210.[]()
+### 210.[Introduction to Currying and Partial Application](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/introduction-to-currying-and-partial-application)
 #### My Solution
 ```javascript
+function add(x) {
+  // Only change code below this line
+   return function(y) {
+      return function(z) {
+      return x + y + z;
+    }
+  }
+ 
+  // Only change code above this line
+}
 
+add(10)(20)(30);
 ```
 ### 211.[]()
 #### My Solution
