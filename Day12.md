@@ -200,10 +200,12 @@ function sliceArray(anim, beginSlice, endSlice) {
 const inputAnim = ["Cat", "Dog", "Tiger", "Zebra", "Ant"];
 sliceArray(inputAnim, 1, 3);
 ```
-### 200.[]()
+### 200.[Remove Elements from an Array Using slice Instead of splice](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/remove-elements-from-an-array-using-slice-instead-of-splice)
 #### My Solution
 ```javascript
-
+function nonMutatingSplice(cities) {
+  return [...cities].slice(0, 3);
+}
 ```
 ### 201.[]()
 #### My Solution
