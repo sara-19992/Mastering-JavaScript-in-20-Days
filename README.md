@@ -20,7 +20,7 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
  - [ES6](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/compare-scopes-of-the-var-and-let-keywords) - 29 challenge
  - [Debugging](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/debugging/use-the-javascript-console-to-check-the-value-of-a-variable) - 12 challenge
  - [Object Oriented Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/create-a-basic-javascript-object) - 26 challenge
- - [Functional Programming]() 
+ - [Functional Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/learn-about-functional-programming) - 24 challenge
  - [Asynchronous JavaScript](http://csbin.io/async) - 10 challenge
  - [Closures](http://csbin.io/closures) - 11 challenge
 
