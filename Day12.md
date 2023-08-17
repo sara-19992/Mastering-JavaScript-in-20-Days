@@ -163,6 +163,17 @@ function remove(bookList, bookName) {
 
 
 ```
+### 196.[Implement map on a Prototype](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/implement-map-on-a-prototype)
+#### My Solution
+```javascript
+Array.prototype.myMap = function(callback) {
+  const newArray = [];
+  // Only change code below this line
+  this.forEach((element, index, array) => newArray.push(callback(element, index, array)))
+  // Only change code above this line
+  return newArray;
+};
+```
 ### 197.[]()
 #### My Solution
 ```javascript
