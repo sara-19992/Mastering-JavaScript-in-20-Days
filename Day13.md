@@ -39,13 +39,21 @@ console.log(typeof null);
 - NaN with any operation, output always NaN.
 - NaN its only value that is not equal to itself (not have identity property).
 - isNaN use to check if NaN or not.
+- isNaN() converts the value to a number before testing it but Number.isNaN() not convert it.
+  
 ### Coding Examples
 ```javascript
 console.log(typeof NaN);
 //log 'number'
 
-console.log(typeof null);
-//log 'object'
+console.log(isNaN("ahmade"));
+//log true
+
+console.log(Number.isNaN("ahmade"));
+//log false
+
+console.log(NaN === NaN);
+//log false
 ```
 
 
