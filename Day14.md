@@ -56,17 +56,17 @@ false     //false
 [1,3]     //true
 ```
 ## Coding Exercises
-### 145.[]()
+### 211.[]()
 #### My Solution
 ```javascript
 
 ```
-### 145.[]()
+### 212.[]()
 #### My Solution
 ```javascript
 
 ```
-### 145.[]()
+### 213.[]()
 #### My Solution
 ```javascript
 
