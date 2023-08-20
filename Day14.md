@@ -55,3 +55,19 @@ false     //false
 "30.12"   //true
 [1,3]     //true
 ```
+## Coding Exercises
+### 145.[]()
+#### My Solution
+```javascript
+
+```
+### 145.[]()
+#### My Solution
+```javascript
+
+```
+### 145.[]()
+#### My Solution
+```javascript
+
+```
