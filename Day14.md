@@ -83,3 +83,43 @@ function mixedNumbers(arr) {
 
 console.log(mixedNumbers(['IV', 5, 'six']));
 ```
+### 213.[]()
+#### My Solution
+```javascript
+
+```
+### 214.[]()
+#### My Solution
+```javascript
+
+```
+### 215.[]()
+#### My Solution
+```javascript
+
+```
+### 216.[]()
+#### My Solution
+```javascript
+
+```
+### 217.[]()
+#### My Solution
+```javascript
+
+```
+### 218.[]()
+#### My Solution
+```javascript
+
+```
+### 219.[]()
+#### My Solution
+```javascript
+
+```
+### 220.[]()
+#### My Solution
+```javascript
+
+```
