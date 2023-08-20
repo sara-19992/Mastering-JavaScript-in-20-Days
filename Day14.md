@@ -3,6 +3,7 @@
 ### ToString
 ### Coding Examples
 ```javascript
+
 null      //"null"
 undefined //"undifined"
 true      //"true"
@@ -15,4 +16,17 @@ false     //"false"
 {}        //[object Object] 
 ```
 ### ToNumber
+```javascript
+null      //0
+undefined //NaN
+true      //1
+false     //0
+"0"       //0
+"-0"      //-0
+"0."      //0
+"003"     //3
+"30.12"   //30.12
+[]        //0
+[1,3]     //NaN
+```
 ### ToBoolean
