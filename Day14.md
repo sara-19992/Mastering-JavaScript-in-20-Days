@@ -61,10 +61,14 @@ false     //false
 ```javascript
 let yourArray = [10, "add", true, 20, 12]; // Change this line
 ```
-### 212.[]()
+### 212.[Access an Array's Contents Using Bracket Notation](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/access-an-arrays-contents-using-bracket-notation)
 #### My Solution
 ```javascript
-
+let myArray = ["a", "b", "c", "d"];
+// Only change code below this line
+myArray[1] = 'q';
+// Only change code above this line
+console.log(myArray);
 ```
 ### 213.[]()
 #### My Solution
