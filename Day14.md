@@ -1,7 +1,6 @@
 ## Abstract Operations (ToPremitive)
 
-### ToString
-### Coding Examples
+#### ToString
 ```javascript
 
 null      //"null"
@@ -15,7 +14,7 @@ false     //"false"
 [1,3]     //"1,3"
 {}        //[object Object] 
 ```
-### ToNumber
+#### ToNumber
 ```javascript
 null      //0
 undefined //NaN
