@@ -34,12 +34,19 @@ console.log(typeof null);
 3. uninitialized means have a variable never be initialized (not allow to touch these variable).
 
 ### NaN  
-NaN is a invalid number
+- NaN is a invalid number.
+- typeof NaN is anumber
+- NaN with any operation, output always NaN.
+- NaN its only value that is not equal to itself (not have identity property).
+- isNaN use to check if NaN or not.
+### Coding Examples
+```javascript
+console.log(typeof NaN);
+//log 'number'
 
-so we use isNaN to check if not anumbr 
+console.log(typeof null);
+//log 'object'
+```
 
-NaN with any operation, output always NaN
 
-NaN its only value that is not equal to itself (not have identity property)
 
-triple equal (===) in NaN and negative zero its lies
