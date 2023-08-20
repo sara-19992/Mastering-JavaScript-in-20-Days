@@ -142,10 +142,22 @@ function quickCheck(arr, elem) {
 
 console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
 ```
-### 219.[]()
+### 219.[Iterate Through All an Array's Items Using For Loops](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/iterate-through-all-an-arrays-items-using-for-loops)
 #### My Solution
 ```javascript
+function filteredArray(arr, elem) {
+  let newArr = [];
+  // Only change code below this line
+   for(let a of arr){
+     if(a.indexOf(elem) === -1){
+        newArr.push(a);
+     }
+   }
+  // Only change code above this line
+  return newArr;
+}
 
+console.log(filteredArray([[3, 2, 3], [1, 6, 3], [3, 13, 26], [19, 3, 9]], 3));
 ```
 ### 220.[]()
 #### My Solution
