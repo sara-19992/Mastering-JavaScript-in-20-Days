@@ -152,3 +152,49 @@ console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
 ```javascript
 
 ```
+### 221.[]()
+#### My Solution
+```javascript
+
+```
+### 222.[]()
+#### My Solution
+```javascript
+
+```
+### 223.[]()
+#### My Solution
+```javascript
+
+```
+### 224.[]()
+#### My Solution
+```javascript
+
+```
+### 225.[]()
+#### My Solution
+```javascript
+
+```
+### 226.[]()
+#### My Solution
+```javascript
+
+```
+### 227.[]()
+#### My Solution
+```javascript
+
+```
+### 228.[]()
+#### My Solution
+```javascript
+
+```
+### 229.[]()
+#### My Solution
+```javascript
+
+```
+
