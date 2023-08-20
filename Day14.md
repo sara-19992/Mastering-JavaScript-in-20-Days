@@ -39,5 +39,4 @@ false     //false
 20        //true 
 "30.12"   //true
 [1,3]     //true
-{n: "gf}  //true
 ```
