@@ -131,10 +131,16 @@ function copyMachine(arr, num) {
 
 console.log(copyMachine([true, false, true], 2));
 ```
-### 218.[Check For The Presence of an Element With indexOf()]()
+### 218.[Check For The Presence of an Element With indexOf()](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/check-for-the-presence-of-an-element-with-indexof)
 #### My Solution
 ```javascript
+function quickCheck(arr, elem) {
+  // Only change code below this line
+   return arr.indexOf(elem) !== -1 ? true : false;
+  // Only change code above this line
+}
 
+console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
 ```
 ### 219.[]()
 #### My Solution
