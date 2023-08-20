@@ -17,6 +17,7 @@ in JS variables don't have types, value do.
   
 #### typeof  
 typeof operator return string that indicate the type 
+
 null in typeof operator return 'object' is a bug 
 ### Coding Examples
 ```javascript
