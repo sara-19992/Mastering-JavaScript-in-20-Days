@@ -35,7 +35,7 @@ console.log(typeof null);
 
 ### NaN  
 - NaN is a invalid number.
-- typeof NaN is anumber
+- typeof NaN is a number
 - NaN with any operation, output always NaN.
 - NaN its only value that is not equal to itself (not have identity property).
 - isNaN use to check if NaN or not.
