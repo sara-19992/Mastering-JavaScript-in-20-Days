@@ -83,15 +83,16 @@ function mixedNumbers(arr) {
 
 console.log(mixedNumbers(['IV', 5, 'six']));
 ```
-### 213.[]()
+### 214.[Remove Items from an Array with pop() and shift()](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/remove-items-from-an-array-with-pop-and-shift)
 #### My Solution
 ```javascript
+function popShift(arr) {
+  let popped = arr.pop(); // Change this line
+  let shifted = arr.shift(); // Change this line
+  return [shifted, popped];
+}
 
-```
-### 214.[]()
-#### My Solution
-```javascript
-
+console.log(popShift(['challenge', 'is', 'not', 'complete']));
 ```
 ### 215.[]()
 #### My Solution
