@@ -1,6 +1,7 @@
 ## Types
-1. in JS everything is object is false, the true is in JS most things are object.
-2. in JS variables don't have types, value do 
+in JS everything is object is false, the true is in JS most things are object.
+in JS variables don't have types, value do.
+
 #### Primitive Type
 - null
 - undefined
@@ -17,6 +18,14 @@
 #### typeof  
 typeof operator return string that indicate the type 
 null in typeof operator return 'object' is a bug 
+### Coding Examples
+```javascript
+console.log(typeof "ahmade");
+//log 'string'
+
+console.log(typeof null);
+//log 'object'
+```
 
 ### undefined vs undeclared vs uninitialized
 1. undefined means there is a variable but at the moment  has no value.
