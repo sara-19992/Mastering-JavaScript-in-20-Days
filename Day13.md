@@ -53,6 +53,7 @@ console.log(Number.isNaN("ahmade"));
 //log false
 ```
 
+
 triple equal in NaN and negative zero its lies
 ### Coding Examples
 ```javascript
