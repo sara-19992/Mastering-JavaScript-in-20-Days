@@ -56,10 +56,10 @@ false     //false
 [1,3]     //true
 ```
 ## Coding Exercises
-### 211.[]()
+### 211.[Use an Array to Store a Collection of Data](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/use-an-array-to-store-a-collection-of-data)
 #### My Solution
 ```javascript
-
+let yourArray = [10, "add", true, 20, 12]; // Change this line
 ```
 ### 212.[]()
 #### My Solution
