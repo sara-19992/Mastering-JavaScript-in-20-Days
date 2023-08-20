@@ -2,6 +2,10 @@
 converts of values from one data type to another
 ### Coding Examples
 ```javascript
+var x = 10 + '20';
+console.log(x);
+//log 1020
+
 console.log("ahmade" + 25)
 //log ahmade25
 
