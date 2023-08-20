@@ -115,10 +115,21 @@ function htmlColorNames(arr) {
 
 console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurquoise', 'FireBrick']));
 ```
-### 217.[]()
+### 217.[Copy an Array with the Spread Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/copy-an-array-with-the-spread-operator)
 #### My Solution
 ```javascript
+function copyMachine(arr, num) {
+  let newArr = [];
+  while (num >= 1) {
+    // Only change code below this line
+    newArr.push([...arr]);
+    // Only change code above this line
+    num--;
+  }
+  return newArr;
+}
 
+console.log(copyMachine([true, false, true], 2));
 ```
 ### 218.[]()
 #### My Solution
