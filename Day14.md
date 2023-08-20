@@ -4,7 +4,7 @@ converts of values from one data type to another
 ```javascript
 var x = 10 + '30';
 console.log(x);
-//log 1020
+//log 1030
 
 console.log("ahmade" + 25)
 //log ahmade25
