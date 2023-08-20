@@ -2,10 +2,22 @@
 in JS everything is object is false, the true is in JS most things are object. 
 
 in JS variables don't have types, value do 
-
+### Primitive Type
+- null
+- undefined
+- boolean
+- string
+- number
+- symbol
+- bigint
+- object
+### Subtype of a object type
+- array
+- functions
+  
+### typeof  
 typeof operator return string that indicate the type 
-
-null in typeof operator return 'object' is bug 
+null in typeof operator return 'object' is a bug 
 
 ### undefined vs undeclared vs uninitialized
 1. undefined means there is a variable but at the moment  has no value.
@@ -19,3 +31,5 @@ so we use isNaN to check if not anumbr
 NaN with any operation, output always NaN
 
 NaN its only value that is not equal to itself (not have identity property)
+
+triple equal (===) in NaN and negative zero its lies
