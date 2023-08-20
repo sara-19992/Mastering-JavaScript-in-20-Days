@@ -2,7 +2,7 @@
 
 ### Coercion
 converts of values from one data type to another
-### Coding Examples
+#### Coding Examples
 ```javascript
 var x = 10 + '30';
 console.log(x);
