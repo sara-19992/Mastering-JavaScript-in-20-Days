@@ -1,5 +1,15 @@
-## Abstract Operations (ToPremitive)
+### Coercion
+converts of values from one data type to another
+### Coding Examples
+```javascript
+console.log("ahmade" + 25)
+//log ahmade25
 
+console.log("ahmade" + true)
+//log ahmadetrue
+```
+
+### Abstract Operations (ToPremitive)
 #### ToString
 ```javascript
 
