@@ -1,7 +1,6 @@
 ## Types
-in JS everything is object is false, the true is in JS most things are object. 
-
-in JS variables don't have types, value do 
+1. in JS everything is object is false, the true is in JS most things are object.
+2. in JS variables don't have types, value do 
 #### Primitive Type
 - null
 - undefined
