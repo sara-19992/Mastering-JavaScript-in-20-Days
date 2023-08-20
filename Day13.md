@@ -2,7 +2,7 @@
 in JS everything is object is false, the true is in JS most things are object. 
 
 in JS variables don't have types, value do 
-### Primitive Type
+#### Primitive Type
 - null
 - undefined
 - boolean
@@ -11,11 +11,11 @@ in JS variables don't have types, value do
 - symbol
 - bigint
 - object
-### Subtype of a object type
+#### Subtype of a object type
 - array
 - functions
   
-### typeof  
+#### typeof  
 typeof operator return string that indicate the type 
 null in typeof operator return 'object' is a bug 
 
