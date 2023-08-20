@@ -131,7 +131,7 @@ function copyMachine(arr, num) {
 
 console.log(copyMachine([true, false, true], 2));
 ```
-### 218.[]()
+### 218.[Check For The Presence of an Element With indexOf()]()
 #### My Solution
 ```javascript
 
