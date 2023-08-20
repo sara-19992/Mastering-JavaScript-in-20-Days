@@ -28,7 +28,7 @@ console.log(typeof null);
 //log 'object'
 ```
 
-### undefined vs undeclared vs uninitialized
+#### undefined vs undeclared vs uninitialized
 1. undefined means there is a variable but at the moment  has no value.
 2. undeclared means never been created.
 3. uninitialized means have a variable never be initialized (not allow to touch these variable).
