@@ -4,7 +4,7 @@
 ### Coding Examples
 ```javascript
 null      //"null"
-undifined //"undifined"
+undefined //"undifined"
 true      //"true"
 false     //"false"
 0         //"0"
