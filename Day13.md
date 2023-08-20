@@ -54,6 +54,8 @@ console.log(Number.isNaN("ahmade"));
 ```
 
 
+
+
 triple equal in NaN and negative zero its lies
 ### Coding Examples
 ```javascript
