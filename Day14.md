@@ -28,4 +28,16 @@ false     //0
 []        //0
 [1,3]     //NaN
 ```
-### ToBoolean
+#### ToBoolean
+```javascript
+null      //false
+undefined //false
+true      //true
+false     //false
+0         //false
+-0        //false
+20        //true 
+"30.12"   //true
+[1,3]     //true
+{n: "gf}  //true
+```
