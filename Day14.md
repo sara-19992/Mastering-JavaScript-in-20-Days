@@ -103,10 +103,17 @@ let a  = arr.splice(1,4);
 // Only change code above this line
 console.log(arr);
 ```
-### 216.[]()
+### 216.[Add Items Using splice()](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/add-items-using-splice)
 #### My Solution
 ```javascript
+function htmlColorNames(arr) {
+  // Only change code below this line
+  arr.splice(0,2,'DarkSalmon','BlanchedAlmond');
+  // Only change code above this line
+  return arr;
+}
 
+console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurquoise', 'FireBrick']));
 ```
 ### 217.[]()
 #### My Solution
