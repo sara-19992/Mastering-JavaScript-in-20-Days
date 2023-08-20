@@ -12,3 +12,10 @@ null in typeof operator return 'object' is bug
 2. undeclared means never been created.
 3. uninitialized means have a variable never be initialized (not allow to touch these variable).
    
+NaN not a number (invalid number)
+
+so we use isNaN to check if not anumbr 
+
+NaN with any operation, output always NaN
+
+NaN its only value that is not equal to itself (not have identity property)
