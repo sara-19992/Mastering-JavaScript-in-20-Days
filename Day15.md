@@ -40,13 +40,13 @@ triple equal (===):
 #### The Case of Double equal
 not knowing a types means not fully understand the code
 
-  => if the same types prefer use == over === (== faster).
+  * if the same types prefer use == over === (== faster).
   
-  => if types are different use === be broken, prefer use == or not compare.
+  * if types are different use === be broken, prefer use == or not compare.
   
-  => if know the types whether it's match or not, == is more sensible choice.
+  * if know the types whether it's match or not, == is more sensible choice.
   
-  => if don't know the types, === is the reasonable choice (not knowing types should be obvious to reader).
+  * if don't know the types, === is the reasonable choice (not knowing types should be obvious to reader).
 
 
 ### Static Typing
