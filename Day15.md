@@ -69,4 +69,3 @@ Cons
 2. require a build process.
 3. their sophisticated can be intimidating without formal types experience.
 4. focus on static types (variable, parameters, returns, properties) than value types.
-5. 
