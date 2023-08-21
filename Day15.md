@@ -12,7 +12,7 @@ triple equal (===):
 1. check value and type
 2. disallows coercion (same types)
 
-
+== prefer to numeric comparison (ToNumber)
 #### Coding Examples
 ```javascript
 
