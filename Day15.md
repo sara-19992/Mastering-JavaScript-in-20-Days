@@ -97,10 +97,16 @@ function factorialize(num) {
 
 factorialize(5);
 ```
-### 232.[]()
+### 232.[Find the Longest Word in a String](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/find-the-longest-word-in-a-string)
 #### My Solution
 ```javascript
+function findLongestWordLength(str) {
+  let arr = str.split(' ');
+  let leg = arr.map((s) => s.length);
+  return Math.max(...leg);
+}
 
+findLongestWordLength("The quick brown fox jumped over the lazy dog");
 ```
 ### 233.[]()
 #### My Solution
