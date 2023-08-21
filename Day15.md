@@ -50,5 +50,11 @@ not knowing a types means not fully understand the code
 
 
 ### Static Typing
+benefits:
+1. catch types mistakes 
+2. communicate type intent
+3. provide IDE feedback
+4. define custom types
+5. validating operands types
 
 
