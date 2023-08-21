@@ -77,10 +77,15 @@ function convertCtoF(celsius) {
 
 convertCtoF(30);
 ```
-### 230.[]()
+### 230.[Reverse a String](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/reverse-a-string)
 #### My Solution
 ```javascript
+function reverseString(str) {
+  str = [...str].reverse().join(""); 
+  return str;
+}
 
+reverseString("hello");
 ```
 ### 231.[]()
 #### My Solution
