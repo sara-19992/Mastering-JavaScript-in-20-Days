@@ -275,21 +275,21 @@ const checkNaN = (value) => {
   //write your own code here
   return value !== value;
 };
-
-console.log(checkNaN(12)); //log false
-console.log(checkNaN(NaN)); //log true
 ```
-### 247.[Question 3]()
+### 247.[Question 3](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%201/tasks.md)
+#### My Solution
+```javascript
+function isEmptyValue(value) {
+  //write your own code here
+  return !value;
+}
+```
+### 248.[Question 4](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%201/tasks.md)
 #### My Solution
 ```javascript
 
 ```
-### 248.[Question 4]()
-#### My Solution
-```javascript
-
-```
-### 249.[Question 5]()
+### 249.[Question 5](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%201/tasks.md)
 #### My Solution
 ```javascript
 
