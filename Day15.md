@@ -16,8 +16,8 @@ console.log(null == undefined);
 //log true
 
 console.log(42 == [42]); 
-convert [42] ToPrimitive to "42"
-prefer numeric and convert string to 42
+//convert [42] ToPrimitive to "42"
+//prefer numeric and convert string to 42
 //log true
 
 console.log([] == ![]); 
@@ -26,9 +26,6 @@ console.log([] == ![]);
 //0 == false
 //0 == 0 
 //log true
-
-//log true
-
 ```
 
    
