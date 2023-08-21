@@ -118,10 +118,15 @@ function largestOfFour(arr) {
 
 largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
 ```
-### 234.[]()
+### 234.[Confirm the Ending](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/confirm-the-ending)
 #### My Solution
 ```javascript
+function confirmEnding(str, target) {
+  let l = target.length;
+  return str.slice(str.length - l, str.length) == target;
+}
 
+confirmEnding("Bastian", "n");
 ```
 ### 235.[]()
 #### My Solution
