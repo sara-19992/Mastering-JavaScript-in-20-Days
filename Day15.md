@@ -39,13 +39,9 @@ triple equal (===):
 
 #### The Case of Double equal
 not knowing a types means not fully understand the code
-
   * if the same types prefer use == over === (== faster).
-  
   * if types are different use === be broken, prefer use == or not compare.
-  
   * if know the types whether it's match or not, == is more sensible choice.
-  
   * if don't know the types, === is the reasonable choice (not knowing types should be obvious to reader).
 
 
@@ -59,13 +55,13 @@ benefits:
 
 #### TypeScript & Flow 
 Pros
-- make types more obvious.
-- look like other language types (java, c++).
-- popular.
-- very sophisticated.
+1. make types more obvious.
+2. look like other language types (java, c++).
+3. popular.
+4. very sophisticated.
    
 Cons
-- non JS standard.
-- require a build process.
-- their sophisticated can be intimidating without formal types experience.
-- focus on static types (variable, parameters, returns, properties) than value types.
+1. non JS standard.
+2. require a build process.
+3. their sophisticated can be intimidating without formal types experience.
+4. focus on static types (variable, parameters, returns, properties) than value types.
