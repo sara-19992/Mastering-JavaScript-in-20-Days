@@ -188,10 +188,19 @@ let a = arr.map((s) => s[0].toUpperCase() + s.slice(1, s.length).toLowerCase());
 
 titleCase("I'm a little tea pot");
 ```
-### 240.[]()
+### 240.[Slice and Splice](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/slice-and-splice)
 #### My Solution
 ```javascript
+function frankenSplice(arr1, arr2, n) {
+  // for(let i = 0; i < arr2.length; i++){
+  //   arr2
+  // }
+  let a = [...arr2.slice(0,n),...arr1,...arr2.slice(n, arr2.length)];
+  console.log(a);
+  return a;
+}
 
+frankenSplice([1, 2, 3], [4, 5, 6], 1);
 ```
 ### 241.[]()
 #### My Solution
