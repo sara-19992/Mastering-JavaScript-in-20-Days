@@ -155,22 +155,58 @@ function truncateString(str, num) {
 
 truncateString("A-tisket a-tasket A green and yellow basket", 8);
 ```
-### 237.[Finders Keepers]()
+### 237.[Finders Keepers](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/finders-keepers)
 #### My Solution
 ```javascript
+function findElement(arr, func) {
+  let num = 0;
+  console.log(arr.some(func));
+  let a = arr.filter((x) => func(x) == true);
+  return a ? a[0] : undefined;
+}
 
+findElement([1, 2, 3, 4], num => num % 2 === 0);
 ```
-### 238.[]()
+### 238.[Boo who](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/boo-who)
 #### My Solution
 ```javascript
+function booWho(bool) {
+  return bool === true || bool === false;
+}
 
+booWho(null);
 ```
-### 239.[]()
+### 239.[Title Case a Sentence]()
 #### My Solution
 ```javascript
 
 ```
 ### 240.[]()
+#### My Solution
+```javascript
+
+```
+### 241.[]()
+#### My Solution
+```javascript
+
+```
+### 242.[]()
+#### My Solution
+```javascript
+
+```
+### 243.[]()
+#### My Solution
+```javascript
+
+```
+### 244.[]()
+#### My Solution
+```javascript
+
+```
+### 245.[]()
 #### My Solution
 ```javascript
 
