@@ -27,6 +27,7 @@ console.log([] == ![]);
 //0 == 0 
 //log true
 ```
+#### Avoid in Loose equal
 
    
 #### Strict Equality 
