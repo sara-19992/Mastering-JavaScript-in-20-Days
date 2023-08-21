@@ -67,10 +67,15 @@ Cons
 4. focus on static types (variable, parameters, returns, properties) than value types.
 
 ## Coding Exercises
-### 229.[]()
+### 229.[Convert Celsius to Fahrenheit](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/convert-celsius-to-fahrenheit)
 #### My Solution
 ```javascript
+function convertCtoF(celsius) {
+  let fahrenheit = celsius * (9/5) + 32;
+  return fahrenheit;
+}
 
+convertCtoF(30);
 ```
 ### 230.[]()
 #### My Solution
