@@ -59,13 +59,13 @@ benefits:
 
 #### TypeScript & Flow 
 Pros
-1. make types more obvious.
-2. look like other language types (java, c++).
-3. popular.
-4. very sophisticated.
+- make types more obvious.
+- look like other language types (java, c++).
+- popular.
+- very sophisticated.
    
 Cons
-1. non JS standard.
-2. require a build process.
-3. their sophisticated can be intimidating without formal types experience.
-4. focus on static types (variable, parameters, returns, properties) than value types.
+- non JS standard.
+- require a build process.
+- their sophisticated can be intimidating without formal types experience.
+- focus on static types (variable, parameters, returns, properties) than value types.
