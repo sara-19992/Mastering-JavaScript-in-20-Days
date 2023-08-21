@@ -155,7 +155,7 @@ function truncateString(str, num) {
 
 truncateString("A-tisket a-tasket A green and yellow basket", 8);
 ```
-### 237.[]()
+### 237.[Finders Keepers]()
 #### My Solution
 ```javascript
 
