@@ -26,7 +26,10 @@ console.log([] == ![]);
 //0 == 0 
 //log true
 ```
-#### Avoid in Loose equal
+#### Avoid loose equal 
+1. with non-primitive
+2. with true and false
+3. with 0 or ""
 
    
 #### Strict Equality 
