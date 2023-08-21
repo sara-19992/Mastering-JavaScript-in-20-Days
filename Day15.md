@@ -202,12 +202,16 @@ function frankenSplice(arr1, arr2, n) {
 
 frankenSplice([1, 2, 3], [4, 5, 6], 1);
 ```
-### 241.[]()
+### 241.[Falsy Bouncer](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/falsy-bouncer)
 #### My Solution
 ```javascript
+function bouncer(arr) {
+  return arr.filter((x) => !!x);
+}
 
+bouncer([7, "ate", "", false, 9]);
 ```
-### 242.[]()
+### 242.[Where do I Belong]()
 #### My Solution
 ```javascript
 
