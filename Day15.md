@@ -5,12 +5,12 @@
 #### Loose Equality 
 double equal (==):
 1. check value
-2. allows coerison (diffrent types)
+2. allows coercion (different types)
    
 #### Strict Equality 
 triple equal (===):
 1. check value and type
-2. disallows coerison (same types)
+2. disallows coercion (same types)
 
 
 #### Coding Examples
