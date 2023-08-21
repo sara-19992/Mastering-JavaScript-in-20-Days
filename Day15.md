@@ -226,10 +226,18 @@ function getIndexToIns(arr, num) {
 
 getIndexToIns([40, 60], 50);
 ```
-### 243.[]()
+### 243.[Mutations](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/mutations)
 #### My Solution
 ```javascript
+function mutation(arr) {
+  let bool = true;
+  for(let c of arr[1].toLowerCase()){
+    if(!arr[0].toLowerCase().includes(c))bool = false;
+  } 
+  return bool;
+}
 
+mutation(["hello", "hey"]);
 ```
 ### 244.[]()
 #### My Solution
