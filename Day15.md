@@ -65,3 +65,65 @@ Cons
 2. require a build process.
 3. their sophisticated can be intimidating without formal types experience.
 4. focus on static types (variable, parameters, returns, properties) than value types.
+
+## Coding Exercises
+### 229.[]()
+#### My Solution
+```javascript
+
+```
+### 230.[]()
+#### My Solution
+```javascript
+
+```
+### 231.[]()
+#### My Solution
+```javascript
+
+```
+### 232.[]()
+#### My Solution
+```javascript
+
+```
+### 233.[]()
+#### My Solution
+```javascript
+
+```
+### 234.[]()
+#### My Solution
+```javascript
+
+```
+### 235.[]()
+#### My Solution
+```javascript
+
+```
+### 236.[]()
+#### My Solution
+```javascript
+
+```
+### 237.[]()
+#### My Solution
+```javascript
+
+```
+### 238.[]()
+#### My Solution
+```javascript
+
+```
+### 239.[]()
+#### My Solution
+```javascript
+
+```
+### 240.[]()
+#### My Solution
+```javascript
+
+```
