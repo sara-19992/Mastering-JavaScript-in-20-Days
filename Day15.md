@@ -268,10 +268,16 @@ console.log(convertStringToNumber("1")); //log 1
 console.log(convertStringToNumber("1dfd")); //log NaN
 console.log(convertStringToNumber(true)); //log {value: true, type: 'boolean'}
 ```
-### 246.[Question 2]()
+### 246.[Question 2](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%201/tasks.md)
 #### My Solution
 ```javascript
+const checkNaN = (value) => {
+  //write your own code here
+  return value !== value;
+};
 
+console.log(checkNaN(12)); //log false
+console.log(checkNaN(NaN)); //log true
 ```
 ### 247.[Question 3]()
 #### My Solution
