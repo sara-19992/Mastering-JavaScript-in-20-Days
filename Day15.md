@@ -87,10 +87,15 @@ function reverseString(str) {
 
 reverseString("hello");
 ```
-### 231.[]()
+### 231.[Factorialize a Number](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/factorialize-a-number)
 #### My Solution
 ```javascript
+function factorialize(num) {
+  if(num == 0)return 1;
+  return num * factorialize(num - 1);
+}
 
+factorialize(5);
 ```
 ### 232.[]()
 #### My Solution
