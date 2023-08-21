@@ -32,20 +32,19 @@ console.log([] == ![]);
 2. with true and false.
 3. with 0 or "".
 
-### The Case of Double equal
-not knowing a types means not fully understand the code
-=> if the same types prefer use == over === (== faster).
-=> if types are different use === be broken, prefer use == or not compare.
-=> if know the types whether it's match or not, == is more sensible choice.
-=> if don't know the types, === is the reasonable choice (not knowing types should be obvious to reader)
-
-
-
-
-
 #### Strict Equality 
 triple equal (===):
 1. check value and type
 2. disallows coercion (same types)
+
+### The Case of Double equal
+not knowing a types means not fully understand the code
+=> if the same types prefer use == over === (== faster).
+
+=> if types are different use === be broken, prefer use == or not compare.
+
+=> if know the types whether it's match or not, == is more sensible choice.
+
+=> if don't know the types, === is the reasonable choice (not knowing types should be obvious to reader)
 
 
