@@ -211,10 +211,20 @@ function bouncer(arr) {
 
 bouncer([7, "ate", "", false, 9]);
 ```
-### 242.[Where do I Belong]()
+### 242.[Where do I Belong](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/where-do-i-belong)
 #### My Solution
 ```javascript
+function getIndexToIns(arr, num) {
+  let a = arr.sort((a, b) => a - b);
+  console.log(a);
+  let i = 0;
+  for( ; i < a.length; i++){
+    if(num <= a[i]) break;
+  }
+  return i;
+}
 
+getIndexToIns([40, 60], 50);
 ```
 ### 243.[]()
 #### My Solution
