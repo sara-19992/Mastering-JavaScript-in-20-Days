@@ -253,7 +253,37 @@ function chunkArrayInGroups(arr, size) {
 
 chunkArrayInGroups(["a", "b", "c", "d"], 2);
 ```
-### 245.[]()
+### 245.[Question 1](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%201/tasks.md)
+#### My Solution
+```javascript
+function convertStringToNumber(input) {
+  //write your own code here
+  if (typeof input != "string") {
+    return { value: input, type: typeof input };
+  } else {
+    return +input;
+  }
+}
+console.log(convertStringToNumber("1")); //log 1
+console.log(convertStringToNumber("1dfd")); //log NaN
+console.log(convertStringToNumber(true)); //log {value: true, type: 'boolean'}
+```
+### 246.[Question 2]()
+#### My Solution
+```javascript
+
+```
+### 247.[Question 3]()
+#### My Solution
+```javascript
+
+```
+### 248.[Question 4]()
+#### My Solution
+```javascript
+
+```
+### 249.[Question 5]()
 #### My Solution
 ```javascript
 
