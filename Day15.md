@@ -176,10 +176,17 @@ function booWho(bool) {
 
 booWho(null);
 ```
-### 239.[Title Case a Sentence]()
+### 239.[Title Case a Sentence](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/title-case-a-sentence)
 #### My Solution
 ```javascript
+function titleCase(str) {
+let arr = str.split(" ");
+let a = arr.map((s) => s[0].toUpperCase() + s.slice(1, s.length).toLowerCase());
+  console.log(a.join(' '));
+  return a.join(' ');
+}
 
+titleCase("I'm a little tea pot");
 ```
 ### 240.[]()
 #### My Solution
