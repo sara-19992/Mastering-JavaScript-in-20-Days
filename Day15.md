@@ -239,10 +239,19 @@ function mutation(arr) {
 
 mutation(["hello", "hey"]);
 ```
-### 244.[]()
+### 244.[Chunky Monkey](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/chunky-monkey)
 #### My Solution
 ```javascript
+function chunkArrayInGroups(arr, size) {
+  let newArr = [];
+  for(let i = 0; i < arr.length; i += size){
+    newArr.push(arr.slice(i, i + size));
+  }
+  console.log(newArr);
+  return newArr;
+}
 
+chunkArrayInGroups(["a", "b", "c", "d"], 2);
 ```
 ### 245.[]()
 #### My Solution
