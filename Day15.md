@@ -2,8 +2,7 @@
 
 ### Loose Equality vs Strict Equality 
 
-#### Loose Equality 
-double equal (==):
+#### Loose Equality (==)
 1. check value
 2. allows coercion (different types)
 3. prefer to numeric comparison (ToNumber)
