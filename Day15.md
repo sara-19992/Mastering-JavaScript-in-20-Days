@@ -37,7 +37,7 @@ triple equal (===):
 1. check value and type
 2. disallows coercion (same types)
 
-### The Case of Double equal
+#### The Case of Double equal
 not knowing a types means not fully understand the code
 
   => if the same types prefer use == over === (== faster).
@@ -46,6 +46,9 @@ not knowing a types means not fully understand the code
   
   => if know the types whether it's match or not, == is more sensible choice.
   
-  => if don't know the types, === is the reasonable choice (not knowing types should be obvious to reader)
+  => if don't know the types, === is the reasonable choice (not knowing types should be obvious to reader).
+
+
+### Static Typing
 
 
