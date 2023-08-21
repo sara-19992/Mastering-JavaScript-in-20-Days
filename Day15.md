@@ -145,10 +145,15 @@ function repeatStringNumTimes(str, num) {
 
 repeatStringNumTimes("abc", 3);
 ```
-### 236.[]()
+### 236.[Truncate a String](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/truncate-a-string)
 #### My Solution
 ```javascript
+function truncateString(str, num) {
+  if(str.length <= num){return str;}
+  else { return str.slice(0, num) + '...';}
+}
 
+truncateString("A-tisket a-tasket A green and yellow basket", 8);
 ```
 ### 237.[]()
 #### My Solution
