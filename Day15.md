@@ -128,10 +128,22 @@ function confirmEnding(str, target) {
 
 confirmEnding("Bastian", "n");
 ```
-### 235.[]()
+### 235.[Repeat a String Repeat a String](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/repeat-a-string-repeat-a-string)
 #### My Solution
 ```javascript
+function repeatStringNumTimes(str, num) {
+  let s = '';
+  if(num > 0){
+     for(let i = 0; i < num; i++){
+       s += str;
+     }
+     return s;
+  } else {
+    return '';
+  }
+}
 
+repeatStringNumTimes("abc", 3);
 ```
 ### 236.[]()
 #### My Solution
