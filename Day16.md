@@ -38,17 +38,50 @@ function X(){
 
 
 ## Question Exercises
-### 1.[Question 1]()
+### 1.[Question 1](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%203/tasks.md)
+#### My Solution
+```javascript
+const exampleNormalFunc1 = (a, b, c) => {
+  return a * (b + c);
+};
+
+const exampleNormalFunc2 = (x, y) => {
+  return x * y;
+};
+
+const exampleNormalFunc3 = (string) => {
+  return string + " " + string + " " + string + "!";
+};
+
+const arrowHOF = (normalFunc) => {
+  // write your code here;
+
+  return (...args) => {
+    return (x) => {
+      let results = "";
+      const result = normalFunc(...args) + " ";
+      for (let i = 0; i < x; i++) {
+        results += result;
+      }
+      return results || result;
+    };
+  };
+};
+
+const hofNormalFunc1 = arrowHOF(exampleNormalFunc1);
+const hofNormalFunc2 = arrowHOF(exampleNormalFunc2);
+const hofNormalFunc3 = arrowHOF(exampleNormalFunc3);
+
+console.log(hofNormalFunc1(3, 4, 5)(2)); // logs 27 twice
+console.log(hofNormalFunc2(20, 35)(4)); // logs 700 four times
+console.log(hofNormalFunc3("Meow")()); // logs "Meow Meow Meow!" once
+```
+### 2.[Question 2](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%203/tasks.md)
 #### My Solution
 ```javascript
 
 ```
-### 2.[Question 2]()
-#### My Solution
-```javascript
-
-```
-### 3.[Question 3]()
+### 3.[Question 3](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%203/tasks.md)
 #### My Solution
 **Example 1**
 ```javascript
