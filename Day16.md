@@ -1,20 +1,26 @@
 ## Scope
 JS organizes scopes with functions and blocks
 
-#### Coding Examples.
+### Dynamic global variables & Strict mdoe
+#### Dynamic global variables
+if assign variable that never declared in functional scope, in executing ask the global scope about this variable and doesn't find it, then the global scope create a dynamic variable.
+#### Coding Examples
 ```javascript
-console.log(null == undefined);
-//log true
+function names(){
+  n = 'non';
+  console.log(n);
+}
 
-console.log(42 == [42]); 
-//convert [42] ToPrimitive to "42"
-//prefer numeric and convert string to 42
-//log true
+names(); //log 'non'
+```
+#### Strict mode
+in strict mode can't create dynamic global variable , should declare variable before use it.
+#### Coding Examples
+```javascript
+"use strict";
+ X();
 
-console.log([] == ![]); 
-//[] == false 
-//"" == false
-//0 == false
-//0 == 0 
-//log true
+function X(){
+  x = 20;
+}
 ```
