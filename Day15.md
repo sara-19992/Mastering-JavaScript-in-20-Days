@@ -154,8 +154,8 @@ function testScope1() {
 
 testScope1();
 
-//choice D
-//log 1, ReferenceError 
+//D) 1, ReferenceError
+
 //var can't have a block scope, can accesses outside the block scope if
 //let and const has a block scope, can't accesses outside block scope if (ReferenceError)
 //first log 1 then reference error and stop executing
@@ -176,8 +176,8 @@ function testScope2() {
 
 testScope2();
 
-//choice A
-//log undefined, ReferenceError
+//A) undefined, ReferenceError
+
 //JS declarations are hoisting (move declaration to the top of the current scope, so can variable before declare it)  
 //var can be used before it has been declared
 //let and const can't use before declared
@@ -186,6 +186,37 @@ testScope2();
 ### 4.[Question 4](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%202/tasks.md)
 #### My Solution
 ```javascript
+function testScope3() {
+  var a = 36;
+  let b = 100;
+  const c = 45;
+
+  console.log([a, b, c]);
+
+  if (true) {
+    var a = 1;
+    let b = 2;
+    const c = 3;
+
+    console.log([a, b, c]);
+  }
+
+  console.log([a, b, c]);
+}
+
+testScope3();
+
+//C) [ 36, 100, 45 ] | [ 1, 2, 3 ] | [ 1,100, 45 ]
+
+//create 3 new variable a, b, c in function testScope3 and assign them 
+//log [36, 100, 45]
+
+//in block scope create 2 new variable b, c and assign them
+//reassign the var a in functional scope and not create new variable with name a (var not have block scope)
+//log [1, 2, 3]
+
+//only variable a change 
+//log [1, 100, 45]
 
 ```
 ## Coding Exercises
