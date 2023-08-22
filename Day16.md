@@ -63,6 +63,10 @@ function outer1() {
 }
 
 outer1(); // Output: 10
+
+//first search on variable x at the current scope, can't found it so search in the outer scope of the current scope and can find it
+//inner scope can access variable in outer scope
+
 ```
 **Example 2**
 ```javascript
@@ -78,6 +82,10 @@ function outer2() {
 }
 
 outer2(); // Output: 20
+
+//var keyword has different scoping role 
+//declare variable use var with same name variable in outer scope reassign the variable in outer scope and not create new variable
+//the new value for x variable is 20
 ```
 
 
