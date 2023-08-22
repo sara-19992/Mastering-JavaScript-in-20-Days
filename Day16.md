@@ -2,8 +2,7 @@
 JS organizes scopes with functions and blocks
 
 ### Dynamic global variables & Strict mdoe
-**Dynamic global variables**
-
+**Dynamic global variables**<br/>
 if assign variable that never declared in functional scope, in executing ask the global scope about this variable and doesn't find it, then the global scope create a dynamic variable.
 **Coding Examples**
 ```javascript
@@ -14,7 +13,7 @@ function names(){
 
 names(); //log 'non'
 ```
-**Strict mode**
+**Strict mode**<br/>
 in strict mode can't create dynamic global variable , should declare variable before use it.
 **Coding Examples**
 ```javascript
