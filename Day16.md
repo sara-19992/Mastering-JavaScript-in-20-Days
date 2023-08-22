@@ -79,6 +79,25 @@ console.log(hofNormalFunc3("Meow")()); // logs "Meow Meow Meow!" once
 ### 2.[Question 2](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%203/tasks.md)
 #### My Solution
 ```javascript
+// Example object
+const obj = {
+  name: "John",
+  greet: (greeting) => {
+    console.log(`${greeting}, ${this.name}!`);
+  },
+};
+
+const preserveThis = (func) => {
+  return (...args) => {
+    return func.apply(this, args);
+  };
+};
+
+// Wrap the greet function using preserveThis
+const preservedGreet = preserveThis(obj.greet);
+
+// Call the wrapped function as a method of the object
+preservedGreet("Hello"); // Output: "Hello, John!"
 
 ```
 ### 3.[Question 3](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%203/tasks.md)
