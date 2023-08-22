@@ -26,12 +26,12 @@ function X(){
 ```
 
 ### Function Expression
-function type hierarchy (on more benefits):
+Function type hierarchy (on more benefits):
 1. Named function declaration.
 2. Named function expression.
 3. Anonymous function expression.
    
-Named function expression benefits:
+**Named function expression benefits:**
 1. recurison.
 2. more debuggable.
 3. more self-documanting code.
