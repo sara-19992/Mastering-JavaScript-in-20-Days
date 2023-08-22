@@ -66,6 +66,72 @@ Cons
 3. their sophisticated can be intimidating without formal types experience.
 4. focus on static types (variable, parameters, returns, properties) than value types.
 
+
+## Question Exercises
+### 1.[Question 1](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%201/tasks.md)
+#### My Solution
+```javascript
+function convertStringToNumber(input) {
+  //write your own code here
+  if (typeof input != "string") {
+    return { value: input, type: typeof input };
+  } else {
+    return +input;
+  }
+}
+console.log(convertStringToNumber("1")); //log 1
+console.log(convertStringToNumber("1dfd")); //log NaN
+console.log(convertStringToNumber(true)); //log {value: true, type: 'boolean'}
+```
+### 2.[Question 2](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%201/tasks.md)
+#### My Solution
+```javascript
+const checkNaN = (value) => {
+  //write your own code here
+  return value !== value;
+};
+```
+### 3.[Question 3](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%201/tasks.md)
+#### My Solution
+```javascript
+function isEmptyValue(value) {
+  //write your own code here
+  return !value;
+}
+```
+### 4.[Question 4](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%201/tasks.md)
+#### My Solution
+```javascript
+function compareObjects(input1, input2) {
+  //write your own code here
+  if (
+    typeof input1 == "object" &&
+    typeof input2 == "object" &&
+    !!input1 &&
+    !!input2
+  ) {
+    return JSON.stringify(input1) === JSON.stringify(input2);
+  } else {
+    return [input1, input2];
+  }
+}
+
+console.log(compareObjects({ a: [1], b: 5 }, { a: [1] })); //log false
+console.log(compareObjects(5, null)); //log [5, null]
+```
+### 5.[Question 5](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%201/tasks.md)
+#### My Solution
+```javascript
+const complexCoercion = (input) => {
+  //write your own code here
+  if (typeof input == "object" && input != null) {
+    return input;
+  } else {
+    if (typeof input == "number") return !!input.toString();
+    else return !!input;
+  }
+};
+```
 ## Coding Exercises
 ### 229.[Convert Celsius to Fahrenheit](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/convert-celsius-to-fahrenheit)
 #### My Solution
@@ -253,67 +319,4 @@ function chunkArrayInGroups(arr, size) {
 
 chunkArrayInGroups(["a", "b", "c", "d"], 2);
 ```
-### 245.[Question 1](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%201/tasks.md)
-#### My Solution
-```javascript
-function convertStringToNumber(input) {
-  //write your own code here
-  if (typeof input != "string") {
-    return { value: input, type: typeof input };
-  } else {
-    return +input;
-  }
-}
-console.log(convertStringToNumber("1")); //log 1
-console.log(convertStringToNumber("1dfd")); //log NaN
-console.log(convertStringToNumber(true)); //log {value: true, type: 'boolean'}
-```
-### 246.[Question 2](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%201/tasks.md)
-#### My Solution
-```javascript
-const checkNaN = (value) => {
-  //write your own code here
-  return value !== value;
-};
-```
-### 247.[Question 3](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%201/tasks.md)
-#### My Solution
-```javascript
-function isEmptyValue(value) {
-  //write your own code here
-  return !value;
-}
-```
-### 248.[Question 4](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%201/tasks.md)
-#### My Solution
-```javascript
-function compareObjects(input1, input2) {
-  //write your own code here
-  if (
-    typeof input1 == "object" &&
-    typeof input2 == "object" &&
-    !!input1 &&
-    !!input2
-  ) {
-    return JSON.stringify(input1) === JSON.stringify(input2);
-  } else {
-    return [input1, input2];
-  }
-}
 
-console.log(compareObjects({ a: [1], b: 5 }, { a: [1] })); //log false
-console.log(compareObjects(5, null)); //log [5, null]
-```
-### 249.[Question 5](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%201/tasks.md)
-#### My Solution
-```javascript
-const complexCoercion = (input) => {
-  //write your own code here
-  if (typeof input == "object" && input != null) {
-    return input;
-  } else {
-    if (typeof input == "number") return !!input.toString();
-    else return !!input;
-  }
-};
-```
