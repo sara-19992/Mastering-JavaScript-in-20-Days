@@ -141,7 +141,23 @@ const complexCoercion = (input) => {
 ### 2.[Question 2](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%202/tasks.md)
 #### My Solution
 ```javascript
+function testScope1() {
+  if (true) {
+    var a = 1;
+    let b = 2;
+    const c = 3;
+  }
+  console.log(a);
+  console.log(b);
+  console.log(c);
+}
 
+testScope1();
+
+//log 1, ReferenceError (choice D)
+//var can't have a block scope, can accesses outside the block scope if
+//let and const has a block scope, can't accesses outside block scope if (ReferenceError)
+//first log 1 then reference error and stop executing
 ```
 ### 3.[Question 3](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%202/tasks.md)
 #### My Solution
