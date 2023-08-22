@@ -2,7 +2,7 @@
 JS organizes scopes with functions and blocks
 
 ### Dynamic global variables & Strict mdoe
-**Dynamic global variables**<br/>
+**Dynamic global variables**<br/><br/>
 if assign variable that never declared in functional scope, in executing ask the global scope about this variable and doesn't find it, then the global scope create a dynamic variable.
 **Coding Examples**
 ```javascript
