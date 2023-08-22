@@ -4,7 +4,7 @@ JS organizes scopes with functions and blocks
 ### Dynamic global variables & Strict mdoe
 **Dynamic global variables**<br/>
 if assign variable that never declared in functional scope, in executing ask the global scope about this variable and doesn't find it, then the global scope create a dynamic variable.
-**Coding Examples**
+#### Coding Examples
 ```javascript
 function names(){
   n = 'non';
@@ -15,7 +15,7 @@ names(); //log 'non'
 ```
 **Strict mode**<br/>
 in strict mode can't create dynamic global variable , should declare variable before use it.
-**Coding Examples**
+#### Coding Examples
 ```javascript
 "use strict";
  X(); //error x is not defined
@@ -26,11 +26,12 @@ function X(){
 ```
 
 ### Function Expression
-**Function type hierarchy (on more benefits):**
+**Function type hierarchy (on more benefits):**<br/>
 1. Named function declaration.
 2. Named function expression.
 3. Anonymous function expression.
-**Named function expression benefits:**
+   
+**Named function expression benefits:**<br/>
 1. recurison.
 2. more debuggable.
 3. more self-documanting code.
