@@ -18,7 +18,7 @@ in strict mode can't create dynamic global variable , should declare variable be
 #### Coding Examples
 ```javascript
 "use strict";
- X();
+ X(); //error x is not defined
 
 function X(){
   x = 20;
