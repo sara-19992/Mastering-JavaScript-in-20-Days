@@ -6,3 +6,7 @@
 
 ### Blcok scope
 scope done with blocks by curly braces
+
+### Hoisting
+JS move variable and function declaration to the top of scope before executing.
+
