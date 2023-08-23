@@ -31,8 +31,8 @@ for (var i = 0; i < 5; i++) {
     }, 100);
 }
 //log value of [i] is:  5 five times
-//setTimeout function is async and take time to execute, JS put it into browser feather and continue execute loop and increment the variable i
-//then variable i become 5 then execute setTimeout 5 times with value of i (5).
+//setTimeout function is async and take time to execute, JS put it into browser feather and continue execute loop and increment
+// the variable i, then variable i become 5 then execute setTimeout 5 times with value of i (5).
 
 for (var i = 0; i < 5; i++) {
   (function (i) {
@@ -55,7 +55,8 @@ for (let i = 0; i < 5; i++) {
    console.log("Current array is: ", array)
 }
 //log Current array is: [ 0 ], Current array is: [ 1 ], Current array is: [ 2 ], Current array is: [ 3 ], Current array is: [ 4 ]
-//in each iteration a new array is created in the loop and the iteration index is pushed and then move to the next iteration and create a new array //again and so on
+//in each iteration a new array is created in the loop and the iteration index is pushed and then move to the next iteration and
+//create a new array again and so on
 
 let array = [];
 for (let i = 0; i < 5; i++) {
