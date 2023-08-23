@@ -17,6 +17,8 @@ JS move variable and function declaration to the top of scope before executing. 
    
 **variable hoisting**   
 1. variable hoisting can use them before declare
-2. var, const are hoisted and assigned to undefined.
-7. let is hoist and not initialize, can't touch it like var and const.
+2. var are hoisted and assigned to undefined.
+3. let is hoist and not initialize, can't touch it like var and const.
+4. const is not hoisted.
+
 
