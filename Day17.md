@@ -31,8 +31,8 @@ for (var i = 0; i < 5; i++) {
     }, 100);
 }
 //log value of [i] is:  5 five times
-//setTimeout function is async and take time to execute, JS put it into browser feather and continue execute loop and increment
-// the variable i, then variable i become 5 then execute setTimeout 5 times with value of i (5).
+//setTimeout function is async and take time to execute, JS put it into browser feather and continue execute loop and
+//increment the variable i, then variable i become 5 then execute setTimeout 5 times with value of i (5).
 
 for (var i = 0; i < 5; i++) {
   (function (i) {
@@ -42,8 +42,8 @@ for (var i = 0; i < 5; i++) {
   })(i);
 }
 //log value of [i] is:  0, value of [i] is:  1, value of [i] is:  2, value of [i] is:  3, value of [i] is:  4  
-//solution using closure by create new function scope for each iteration in the loop and pass the variable i to the function
-//use IFEE (Immediately Invoked Function Expression) or can create function then call it.
+//solution using closure by create new function scope for each iteration in the loop and pass the variable i to the
+//function, use IFEE (Immediately Invoked Function Expression) or can create function then call it.
 
 ```
 ### 2.[Question 2](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%204/tasks.md)
@@ -56,14 +56,14 @@ for (let i = 0; i < 5; i++) {
 }
 //log Current array is: [ 0 ], Current array is: [ 1 ], Current array is: [ 2 ], Current array is: [ 3 ], Current array is: [ 4 ]
 //in each iteration a new array is created in the loop and the iteration index is pushed and then move to the next iteration and
-//create a new array again and so on
+//create a new array again and so on.
 
 let array = [];
 for (let i = 0; i < 5; i++) {
    array.push(i);
 }
 console.log("Current array is: ", array);
-//solution declare the array outside the block scope for 
+//solution declare the array outside the block scope for. 
 ```
 ### 3.[Question 3](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%204/tasks.md)
 #### My Solution
@@ -77,8 +77,8 @@ for (var i = 0; i < 5; i++) {
 }
 
 functions.forEach((func) => func());
-//the var has functional scope ,not block scope and in each iteration doesn't create new variable, same variable for all iteration
-//(the value of i is same in all iteration after ending loop)
+//the var has functional scope ,not block scope and in each iteration doesn't create new variable, same variable for all
+//iteration (the value of i is same in all iteration after ending loop).
 
 let functions = [];
 
