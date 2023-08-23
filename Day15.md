@@ -179,8 +179,8 @@ testScope2();
 //A) undefined, ReferenceError
 
 //JS declarations are hoisting (move declaration to the top of the current scope, so can variable before declare it)  
-//var can be used before it has been declared
-//let and const can't use before declared
+//var can be used before it has been declared hoisted and assign to undefined
+//let and const can't use before declared, let hoisted and uninitialized and const can't hoisted
 //first log undefined then hen reference error and stop executing
 ```
 ### 4.[Question 4](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%202/tasks.md)
