@@ -21,4 +21,6 @@ JS move variable and function declaration to the top of scope before executing. 
 3. let is hoist and not initialize, can't touch it like var and const.
 4. const is not hoisted.
 
+## ADVANCED SCOPE
+
 
