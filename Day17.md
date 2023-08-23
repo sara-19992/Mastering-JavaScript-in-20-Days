@@ -67,7 +67,28 @@ console.log("Current array is: ", array);
 ### 3.[Question 3](https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week3%20-%20deep-javascript-foundations-v3/day%204/tasks.md)
 #### My Solution
 ```javascript
+let functions = [];
 
+for (var i = 0; i < 5; i++) {
+  functions.push(() => {
+    console.log("Current value of i is:", i);
+  });
+}
+
+functions.forEach((func) => func());
+//the var has functional scope ,not block scope and in each iteration doesn't create new variable, same variable for all iteration
+//(the value of i is same in all iteration after ending loop)
+
+let functions = [];
+
+for (let i = 0; i < 5; i++) {
+  functions.push(() => {
+    console.log("Current value of i is:", i);
+  });
+}
+
+functions.forEach((func) => func());
+//solution use let that has a block scope and in each iteration create new variable i.
 ```
 
 
