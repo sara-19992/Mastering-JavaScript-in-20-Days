@@ -60,5 +60,6 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
 -  [**Day 15 🔥**](https://github.com/sara-19992/Mastering-JavaScript-in-20-Days/blob/main/Day15.md)
 -  [**Day 16 🔥**](https://github.com/sara-19992/Mastering-JavaScript-in-20-Days/blob/main/Day16.md)
 -  [**Day 17 🔥**](https://github.com/sara-19992/Mastering-JavaScript-in-20-Days/blob/main/Day17.md)
+-  [**Day 18 🔥**](https://github.com/sara-19992/Mastering-JavaScript-in-20-Days/blob/main/Day18.md)
 
 
